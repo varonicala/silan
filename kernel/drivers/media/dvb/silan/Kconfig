@@ -1,0 +1,11 @@
+config DVB_XPU
+	tristate "SILAN XPU DVB"
+	depends on DVB_CORE && I2C
+	help
+	  Support for DVB receivers from Tuner
+	  
+	  These devices don't have an MPEG decoder built in,
+	  so you need an external software decoder to watch TV.
+
+	  To compile this driver as a module, say M here:
+	  the module will be called XPU DVB.

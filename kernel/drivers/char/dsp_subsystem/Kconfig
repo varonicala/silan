@@ -1,0 +1,2 @@
+config SILAN_DSP_SUBSYSTEM
+	tristate "SILAN_DSP_SUBSYSTEM"

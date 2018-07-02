@@ -1,0 +1,2 @@
+config SILAN_DSP_DLNA
+	tristate "SILAN_DSP"

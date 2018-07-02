@@ -1,0 +1,16 @@
+# arch/csky/ck6408evb/Kconfig
+#
+# Copyright (C) 2009, C-SKY Microsystems Co., Ltd. (www.c-sky.com) 
+#
+# Licensed under GPLv2
+
+if CK6408EVB
+
+config PLAT_TRILOBITE_V9
+        bool "Platform trilobite v9-1"
+        default n
+        ---help---
+           the platform trilobite v9-1 use new mac(stmmac) and new usbhost.
+           if unsure, say N.
+
+endif

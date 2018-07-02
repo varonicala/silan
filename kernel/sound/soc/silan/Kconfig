@@ -1,0 +1,77 @@
+config SND_SUV_SOC_SILAN
+	tristate
+
+config SND_SUV_SOC_I2S_DLNA
+	tristate
+
+menu "IIS DAC CODEC"
+config I2S_DLNA_DAC_INTRA
+	bool "IIS DAC intra codec"
+	select SND_SOC_SILAN_CODEC
+choice
+	prompt "Inner CODEC MODE"
+	depends on I2S_DLNA_DAC_INTRA
+config SILAN_INNER_CODEC_LINEOUT
+	bool "SILAN_INNER_CODEC LINEOUT"
+config SILAN_INNER_CODEC_HEADPHONE
+	bool "SILAN_INNER_CODEC HEADPHONE"
+endchoice
+
+config I2S_DLNA_DAC_EXTRA
+	bool "IIS DAC extra codec"
+choice 
+	prompt "I2S DAC CLOCK MODE"
+	depends on I2S_DLNA_DAC_EXTRA
+	
+config I2S_DLNA_DAC_MASTER
+	bool "IIS DAC master mode"
+	
+config I2S_DLNA_DAC_SLAVE
+	bool "IIS DAC slave mode"
+endchoice
+endmenu
+
+menu "IIS ADC CODEC"
+config I2S_DLNA_ADC_INTRA
+	bool "IIS ADC intra codec"
+	select SND_SOC_SILAN_CODEC
+
+config I2S_DLNA_ADC_EXTRA
+	bool "IIS ADC extra codec"
+
+choice 
+	prompt "I2S ADC CLOCK MODE"
+	depends on I2S_DLNA_ADC_EXTRA
+
+config I2S_DLNA_ADC_MASTER
+	bool "IIS DAC master mode"
+	
+config I2S_DLNA_ADC_SLAVE
+	bool "IIS DAC slave mode"
+
+endchoice
+endmenu
+
+config SND_SOC_SILAN_CODEC
+	tristate "SILAN_INNER_CODEC"
+	depends on I2S_DLNA_ADC_INTRA || I2S_DLNA_DAC_INTRA
+
+config SND_SUV_SOC_SPDIF_IN
+	tristate "SILAN SPDIF IN Drivers"
+
+config SND_SUV_SOC_SPDIF_OUT
+	tristate "SILAN SPDIF OUT Drivers"
+
+config SND_SUV_SOC_PCM
+	tristate
+
+config SND_SILAN_SOC
+	tristate "SoC Audio for the Silan SUV chips"
+	depends on MIPS_SILAN_DLNA || SILAN_DLNA
+	select SND_SOC_SILAN
+	select SND_SUV_SOC_I2S_DLNA
+	select SND_SUV_SOC_PCM
+#select SND_SUV_SOC_SPDIF
+	help
+	  Say Y or M if you want to add support for codecs attached to
+	  the I2S interface.

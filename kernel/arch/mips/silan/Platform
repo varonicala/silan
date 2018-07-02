@@ -1,0 +1,9 @@
+#
+# SILAN SUV board
+#
+# DLNA
+platform-$(CONFIG_MIPS_SILAN_DLNA)	+= silan/dlna/
+cflags-$(CONFIG_MIPS_SILAN_DLNA)	+= -I$(srctree)/arch/mips/include/asm/mach-silan/dlna/
+load-$(CONFIG_MIPS_SILAN_DLNA)		+= 0xffffffff80100000
+all-$(CONFIG_MIPS_SILAN_DLNA)		:= $(COMPRESSION_FNAME).bin
+

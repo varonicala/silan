@@ -1,0 +1,5 @@
+
+config SILAN_BLUETOOTH
+	tristate "SILAN_BLUETOOTH"
+
+

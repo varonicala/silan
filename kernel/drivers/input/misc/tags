@@ -1,0 +1,1751 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACPI_ATLAS_CLASS	atlas_btns.c	35;"	d	file:
+ACPI_ATLAS_NAME	atlas_btns.c	34;"	d	file:
+ACTIVE	ad714x.c	/^enum ad714x_device_state { IDLE, JITTER, ACTIVE, SPACE };$/;"	e	enum:ad714x_device_state	file:
+ACTIVITY	adxl34x.c	67;"	d	file:
+ACT_ACDC	adxl34x.c	74;"	d	file:
+ACT_INACT_CTL	adxl34x.c	34;"	d	file:
+ACT_TAP_STATUS	adxl34x.c	39;"	d	file:
+ACT_X_EN	adxl34x.c	75;"	d	file:
+ACT_X_SRC	adxl34x.c	90;"	d	file:
+ACT_Y_EN	adxl34x.c	76;"	d	file:
+ACT_Y_SRC	adxl34x.c	91;"	d	file:
+ACT_Z_EN	adxl34x.c	77;"	d	file:
+ACT_Z_SRC	adxl34x.c	92;"	d	file:
+AC_READ	adxl34x.c	181;"	d	file:
+AC_WRITE	adxl34x.c	182;"	d	file:
+AD7142_PARTID	ad714x.c	21;"	d	file:
+AD7143_PARTID	ad714x.c	22;"	d	file:
+AD7147_PARTID	ad714x.c	23;"	d	file:
+AD7148_PARTID	ad714x.c	24;"	d	file:
+AD714X_AMB_COMP_CTRL0_REG	ad714x.c	19;"	d	file:
+AD714X_PARTID_REG	ad714x.c	20;"	d	file:
+AD714X_PWR_CTRL	ad714x.c	17;"	d	file:
+AD714X_STAGECFG_REG	ad714x.c	25;"	d	file:
+AD714X_STG_CAL_EN_REG	ad714x.c	18;"	d	file:
+AD714X_SYSCFG_REG	ad714x.c	26;"	d	file:
+AD714x_SPI_CMD_PREFIX	ad714x-spi.c	16;"	d	file:
+AD714x_SPI_READ	ad714x-spi.c	17;"	d	file:
+ADXL346_2D_LANDSCAPE_NEG	adxl34x.c	166;"	d	file:
+ADXL346_2D_LANDSCAPE_POS	adxl34x.c	165;"	d	file:
+ADXL346_2D_ORIENT	adxl34x.c	160;"	d	file:
+ADXL346_2D_PORTRAIT_NEG	adxl34x.c	164;"	d	file:
+ADXL346_2D_PORTRAIT_POS	adxl34x.c	163;"	d	file:
+ADXL346_2D_VALID	adxl34x.c	159;"	d	file:
+ADXL346_3D_BACK	adxl34x.c	169;"	d	file:
+ADXL346_3D_BOTTOM	adxl34x.c	173;"	d	file:
+ADXL346_3D_FRONT	adxl34x.c	168;"	d	file:
+ADXL346_3D_LEFT	adxl34x.c	171;"	d	file:
+ADXL346_3D_ORIENT	adxl34x.c	162;"	d	file:
+ADXL346_3D_RIGHT	adxl34x.c	170;"	d	file:
+ADXL346_3D_TOP	adxl34x.c	172;"	d	file:
+ADXL346_3D_VALID	adxl34x.c	161;"	d	file:
+ADXL34X_CMD_MULTB	adxl34x-spi.c	19;"	d	file:
+ADXL34X_CMD_READ	adxl34x-spi.c	20;"	d	file:
+ADXL34X_READCMD	adxl34x-spi.c	22;"	d	file:
+ADXL34X_READMB_CMD	adxl34x-spi.c	23;"	d	file:
+ADXL34X_WRITECMD	adxl34x-spi.c	21;"	d	file:
+ADXL_DEBUG	adxl34x.c	175;"	d	file:
+ADXL_FIXEDRES_MAX_VAL	adxl34x.c	131;"	d	file:
+ADXL_FULLRES_MAX_VAL	adxl34x.c	125;"	d	file:
+ADXL_X_AXIS	adxl34x.c	177;"	d	file:
+ADXL_Y_AXIS	adxl34x.c	178;"	d	file:
+ADXL_Z_AXIS	adxl34x.c	179;"	d	file:
+APANEL	apanel.c	30;"	d	file:
+APANEL_DEV_APPBTN	apanel.c	/^	APANEL_DEV_APPBTN = 1,$/;"	e	enum:apanel_devid	file:
+APANEL_DEV_CDBTN	apanel.c	/^	APANEL_DEV_CDBTN  = 2,$/;"	e	enum:apanel_devid	file:
+APANEL_DEV_LCD	apanel.c	/^	APANEL_DEV_LCD	  = 3,$/;"	e	enum:apanel_devid	file:
+APANEL_DEV_LED	apanel.c	/^	APANEL_DEV_LED	  = 4,$/;"	e	enum:apanel_devid	file:
+APANEL_DEV_MAX	apanel.c	/^	APANEL_DEV_MAX,$/;"	e	enum:apanel_devid	file:
+APANEL_DEV_NONE	apanel.c	/^	APANEL_DEV_NONE	  = 0,$/;"	e	enum:apanel_devid	file:
+APANEL_NAME	apanel.c	28;"	d	file:
+APANEL_VERSION	apanel.c	/^MODULE_VERSION(APANEL_VERSION);$/;"	v
+APANEL_VERSION	apanel.c	29;"	d	file:
+ASLEEP	adxl34x.c	93;"	d	file:
+ATI_REMOTE2_AUX1	ati_remote2.c	/^	ATI_REMOTE2_AUX1,$/;"	e	enum:__anon3	file:
+ATI_REMOTE2_AUX2	ati_remote2.c	/^	ATI_REMOTE2_AUX2,$/;"	e	enum:__anon3	file:
+ATI_REMOTE2_AUX3	ati_remote2.c	/^	ATI_REMOTE2_AUX3,$/;"	e	enum:__anon3	file:
+ATI_REMOTE2_AUX4	ati_remote2.c	/^	ATI_REMOTE2_AUX4,$/;"	e	enum:__anon3	file:
+ATI_REMOTE2_MAX_CHANNEL_MASK	ati_remote2.c	/^	ATI_REMOTE2_MAX_CHANNEL_MASK = 0xFFFF,$/;"	e	enum:__anon1	file:
+ATI_REMOTE2_MAX_MODE_MASK	ati_remote2.c	/^	ATI_REMOTE2_MAX_MODE_MASK = 0x1F,$/;"	e	enum:__anon1	file:
+ATI_REMOTE2_MODES	ati_remote2.c	/^	ATI_REMOTE2_MODES,$/;"	e	enum:__anon3	file:
+ATI_REMOTE2_OPENED	ati_remote2.c	/^	ATI_REMOTE2_OPENED = 0x1,$/;"	e	enum:__anon2	file:
+ATI_REMOTE2_PC	ati_remote2.c	/^	ATI_REMOTE2_PC,$/;"	e	enum:__anon3	file:
+ATI_REMOTE2_SUSPENDED	ati_remote2.c	/^	ATI_REMOTE2_SUSPENDED = 0x2,$/;"	e	enum:__anon2	file:
+ATI_REMOTE_PRODUCT_ID	ati_remote.c	104;"	d	file:
+ATI_REMOTE_VENDOR_ID	ati_remote.c	101;"	d	file:
+BIT_TO_2G	cma3000_d0x.c	62;"	d	file:
+BIT_TO_8G	cma3000_d0x.c	63;"	d	file:
+BLUETOOTH	wistron_btns.c	43;"	d	file:
+BOTTOM_END_POINT_DETECTION_LEVEL	ad714x.c	717;"	d	file:
+BUFFER_SIZE	keychord.c	29;"	d	file:
+BUTTONS_COUNT_THRESHOLD	cobalt_btns.c	28;"	d	file:
+BUTTONS_COUNT_THRESHOLD	sgi_btns.c	54;"	d	file:
+BUTTONS_POLL_INTERVAL	cobalt_btns.c	27;"	d	file:
+BUTTONS_POLL_INTERVAL	sgi_btns.c	53;"	d	file:
+BUTTONS_STATUS_MASK	cobalt_btns.c	29;"	d	file:
+BUZZER_ON	cm109.c	/^	BUZZER_ON = 1 << 5,$/;"	e	enum:__anon10	file:
+BW_RATE	adxl34x.c	40;"	d	file:
+CDC_RESULT_S0	ad714x.c	35;"	d	file:
+CDC_RESULT_S1	ad714x.c	36;"	d	file:
+CDC_RESULT_S10	ad714x.c	45;"	d	file:
+CDC_RESULT_S11	ad714x.c	46;"	d	file:
+CDC_RESULT_S2	ad714x.c	37;"	d	file:
+CDC_RESULT_S3	ad714x.c	38;"	d	file:
+CDC_RESULT_S4	ad714x.c	39;"	d	file:
+CDC_RESULT_S5	ad714x.c	40;"	d	file:
+CDC_RESULT_S6	ad714x.c	41;"	d	file:
+CDC_RESULT_S7	ad714x.c	42;"	d	file:
+CDC_RESULT_S8	ad714x.c	43;"	d	file:
+CDC_RESULT_S9	ad714x.c	44;"	d	file:
+CHIP_NONE	apanel.c	/^	CHIP_NONE    = 0,$/;"	e	enum:apanel_chip	file:
+CHIP_OZ163T	apanel.c	/^	CHIP_OZ163T  = 2,$/;"	e	enum:apanel_chip	file:
+CHIP_OZ711M3	apanel.c	/^	CHIP_OZ711M3 = 4,$/;"	e	enum:apanel_chip	file:
+CHIP_OZ992C	apanel.c	/^	CHIP_OZ992C  = 1,$/;"	e	enum:apanel_chip	file:
+CLK_DATA_0_MAX	ir_input.c	37;"	d	file:
+CLK_DATA_0_MIN	ir_input.c	36;"	d	file:
+CLK_DATA_1_MAX	ir_input.c	35;"	d	file:
+CLK_DATA_1_MIN	ir_input.c	34;"	d	file:
+CLK_LEADER_MAX	ir_input.c	33;"	d	file:
+CLK_LEADER_MIN	ir_input.c	32;"	d	file:
+CLK_REP_MAX	ir_input.c	40;"	d	file:
+CLK_REP_MIN	ir_input.c	39;"	d	file:
+CMA3000_BUSI2C	cma3000_d0x.c	44;"	d	file:
+CMA3000_BUSI2C	cma3000_d0x_i2c.c	52;"	d	file:
+CMA3000_CTRL	cma3000_d0x.c	31;"	d	file:
+CMA3000_DOUTX	cma3000_d0x.c	35;"	d	file:
+CMA3000_DOUTY	cma3000_d0x.c	36;"	d	file:
+CMA3000_DOUTZ	cma3000_d0x.c	37;"	d	file:
+CMA3000_FFTHR	cma3000_d0x.c	40;"	d	file:
+CMA3000_GRANGEMASK	cma3000_d0x.c	46;"	d	file:
+CMA3000_INTDELAY	cma3000_d0x.c	55;"	d	file:
+CMA3000_INTSTATUS	cma3000_d0x.c	34;"	d	file:
+CMA3000_INTSTATUS_FFDET	cma3000_d0x.c	49;"	d	file:
+CMA3000_MDFFTMR	cma3000_d0x.c	39;"	d	file:
+CMA3000_MDTHR	cma3000_d0x.c	38;"	d	file:
+CMA3000_MODEMASK	cma3000_d0x.c	45;"	d	file:
+CMA3000_RANGE2G	cma3000_d0x.c	42;"	d	file:
+CMA3000_RANGE8G	cma3000_d0x.c	43;"	d	file:
+CMA3000_READ	cma3000_d0x.c	83;"	d	file:
+CMA3000_REVID	cma3000_d0x.c	30;"	d	file:
+CMA3000_RSTR	cma3000_d0x.c	33;"	d	file:
+CMA3000_SET	cma3000_d0x.c	85;"	d	file:
+CMA3000_SETDELAY	cma3000_d0x.c	52;"	d	file:
+CMA3000_STATUS	cma3000_d0x.c	32;"	d	file:
+CMA3000_STATUS_PERR	cma3000_d0x.c	48;"	d	file:
+CMA3000_WHOAMI	cma3000_d0x.c	29;"	d	file:
+CMD_DIALTONE	yealink.h	120;"	d
+CMD_INIT	yealink.h	47;"	d
+CMD_KEYPRESS	yealink.h	57;"	d
+CMD_LCD	yealink.h	75;"	d
+CMD_LED	yealink.h	84;"	d
+CMD_RINGTONE	yealink.h	111;"	d
+CMD_RING_NOTE	yealink.h	102;"	d
+CMD_RING_VOLUME	yealink.h	93;"	d
+CMD_SCANCODE	yealink.h	66;"	d
+CODENUM	ir_input.c	44;"	d	file:
+CONTOUR_JOG	powermate.c	43;"	d	file:
+CONTOUR_VENDOR	powermate.c	42;"	d	file:
+DATAX0	adxl34x.c	46;"	d	file:
+DATAX1	adxl34x.c	47;"	d	file:
+DATAY0	adxl34x.c	48;"	d	file:
+DATAY1	adxl34x.c	49;"	d	file:
+DATAZ0	adxl34x.c	50;"	d	file:
+DATAZ1	adxl34x.c	51;"	d	file:
+DATA_0_MAX	ir_input.c	20;"	d	file:
+DATA_0_MIN	ir_input.c	19;"	d	file:
+DATA_1_MAX	ir_input.c	18;"	d	file:
+DATA_1_MIN	ir_input.c	17;"	d	file:
+DATA_BUFSIZE	ati_remote.c	113;"	d	file:
+DATA_FORMAT	adxl34x.c	45;"	d	file:
+DATA_READY	adxl34x.c	64;"	d	file:
+DEBOUNCE_NOTPRESSED	gpio_input.c	/^	DEBOUNCE_NOTPRESSED   = BIT(2),$/;"	e	enum:__anon6	file:
+DEBOUNCE_POLL	gpio_input.c	/^	DEBOUNCE_POLL         = BIT(4),	\/* Stable polling state *\/$/;"	e	enum:__anon6	file:
+DEBOUNCE_PRESSED	gpio_input.c	/^	DEBOUNCE_PRESSED      = BIT(1),$/;"	e	enum:__anon6	file:
+DEBOUNCE_UNKNOWN	gpio_input.c	/^	DEBOUNCE_UNKNOWN =$/;"	e	enum:__anon6	file:
+DEBOUNCE_UNSTABLE	gpio_input.c	/^	DEBOUNCE_UNSTABLE     = BIT(0),	\/* Got irq, while debouncing *\/$/;"	e	enum:__anon6	file:
+DEBOUNCE_WAIT_IRQ	gpio_input.c	/^	DEBOUNCE_WAIT_IRQ     = BIT(3),	\/* Stable irq state *\/$/;"	e	enum:__anon6	file:
+DEVID	adxl34x.c	23;"	d	file:
+DEVNUM	silan_button.c	14;"	d	file:
+DEVNUM	silan_keypad.c	14;"	d	file:
+DEVNUM	virtual_input.c	14;"	d	file:
+DOUBLE_TAP	adxl34x.c	66;"	d	file:
+DRIVER_AUTHOR	ati_remote.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	ati_remote.c	109;"	d	file:
+DRIVER_AUTHOR	cm109.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	cm109.c	40;"	d	file:
+DRIVER_AUTHOR	keyspan_remote.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	keyspan_remote.c	22;"	d	file:
+DRIVER_AUTHOR	yealink.c	/^MODULE_AUTHOR(DRIVER_AUTHOR);$/;"	v
+DRIVER_AUTHOR	yealink.c	60;"	d	file:
+DRIVER_DESC	ati_remote.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	ati_remote.c	110;"	d	file:
+DRIVER_DESC	ati_remote2.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	ati_remote2.c	15;"	d	file:
+DRIVER_DESC	cm109.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	cm109.c	41;"	d	file:
+DRIVER_DESC	keyspan_remote.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	keyspan_remote.c	23;"	d	file:
+DRIVER_DESC	yealink.c	/^MODULE_DESCRIPTION(DRIVER_DESC);$/;"	v
+DRIVER_DESC	yealink.c	61;"	d	file:
+DRIVER_LICENSE	keyspan_remote.c	/^MODULE_LICENSE(DRIVER_LICENSE);$/;"	v
+DRIVER_LICENSE	keyspan_remote.c	24;"	d	file:
+DRIVER_VERSION	ati_remote.c	108;"	d	file:
+DRIVER_VERSION	ati_remote2.c	/^MODULE_VERSION(DRIVER_VERSION);$/;"	v
+DRIVER_VERSION	ati_remote2.c	16;"	d	file:
+DRIVER_VERSION	cm109.c	39;"	d	file:
+DRIVER_VERSION	keyspan_remote.c	21;"	d	file:
+DRIVER_VERSION	yealink.c	59;"	d	file:
+DRV_NAME	pcf8574_keypad.c	17;"	d	file:
+DRV_NAME	rb532_button.c	14;"	d	file:
+DRV_NAME	rotary_encoder.c	28;"	d	file:
+DUR	adxl34x.c	28;"	d	file:
+EFFECT_DIR_180_DEG	twl4030-vibra.c	39;"	d	file:
+ENTRIES	adxl34x.c	144;"	d	file:
+FE_MAIL_LED	wistron_btns.c	232;"	d	file:
+FE_UNTESTED	wistron_btns.c	234;"	d	file:
+FE_WIFI_LED	wistron_btns.c	233;"	d	file:
+FIFO_BYPASS	adxl34x.c	135;"	d	file:
+FIFO_CTL	adxl34x.c	52;"	d	file:
+FIFO_FIFO	adxl34x.c	136;"	d	file:
+FIFO_MODE	adxl34x.c	134;"	d	file:
+FIFO_STATUS	adxl34x.c	53;"	d	file:
+FIFO_STREAM	adxl34x.c	137;"	d	file:
+FIFO_TRIG	adxl34x.c	143;"	d	file:
+FIFO_TRIGGER	adxl34x.c	138;"	d	file:
+FILTER_TIME	ati_remote.c	123;"	d	file:
+FREE_FALL	adxl34x.c	69;"	d	file:
+FULL_RES	adxl34x.c	113;"	d	file:
+GAP	keyspan_remote.c	44;"	d	file:
+HARDRESET_EN	max8925_onkey.c	31;"	d	file:
+HI	ati_remote.c	158;"	d	file:
+HID_IR0	cm109.c	/^	HID_IR0 = 0x00, \/* Record\/Playback-mute button, Volume up\/down  *\/$/;"	e	enum:__anon10	file:
+HID_IR1	cm109.c	/^	HID_IR1 = 0x01, \/* GPI, generic registers or EEPROM_DATA0       *\/$/;"	e	enum:__anon10	file:
+HID_IR2	cm109.c	/^	HID_IR2 = 0x02, \/* Generic registers or EEPROM_DATA1            *\/$/;"	e	enum:__anon10	file:
+HID_IR3	cm109.c	/^	HID_IR3 = 0x03, \/* Generic registers or EEPROM_CTRL             *\/$/;"	e	enum:__anon10	file:
+HID_OR0	cm109.c	/^	HID_OR0 = 0x00, \/* Mapping control, buzzer, SPDIF (offset 0x04) *\/$/;"	e	enum:__anon10	file:
+HID_OR1	cm109.c	/^	HID_OR1 = 0x01, \/* GPO - General Purpose Output                 *\/$/;"	e	enum:__anon10	file:
+HID_OR2	cm109.c	/^	HID_OR2 = 0x02, \/* Set GPIO to input\/output mode                *\/$/;"	e	enum:__anon10	file:
+HID_OR3	cm109.c	/^	HID_OR3 = 0x03, \/* SPDIF status channel or EEPROM_CTRL          *\/$/;"	e	enum:__anon10	file:
+HID_OR_GENERIC_HID_REG	cm109.c	/^	HID_OR_GENERIC_HID_REG = 1 << 6,$/;"	e	enum:__anon10	file:
+HID_OR_GPO_BUZ_SPDIF	cm109.c	/^	HID_OR_GPO_BUZ_SPDIF   = 0 << 6,$/;"	e	enum:__anon10	file:
+HID_OR_MAP_MCU_EEPROM	cm109.c	/^	HID_OR_MAP_MCU_EEPROM  = 2 << 6,$/;"	e	enum:__anon10	file:
+HZ_TO_NANOSECONDS	pwm-beeper.c	29;"	d	file:
+IDLE	ad714x.c	/^enum ad714x_device_state { IDLE, JITTER, ACTIVE, SPACE };$/;"	e	enum:ad714x_device_state	file:
+ID_ADXL345	adxl34x.c	60;"	d	file:
+ID_ADXL346	adxl34x.c	61;"	d	file:
+INACTIVITY	adxl34x.c	68;"	d	file:
+INACT_ACDC	adxl34x.c	78;"	d	file:
+INACT_X_EN	adxl34x.c	79;"	d	file:
+INACT_Y_EN	adxl34x.c	80;"	d	file:
+INACT_Z_EN	adxl34x.c	81;"	d	file:
+INPUT_YEALINK_H	yealink.h	22;"	d
+INT_ENABLE	adxl34x.c	42;"	d	file:
+INT_INVERT	adxl34x.c	112;"	d	file:
+INT_MAP	adxl34x.c	43;"	d	file:
+INT_SOURCE	adxl34x.c	44;"	d	file:
+IR_CUSTOM	ir_input.c	28;"	d	file:
+IR_IDLE	ir_input.c	25;"	d	file:
+IR_LEADER_HIGH	ir_input.c	27;"	d	file:
+IR_LEADER_LOW	ir_input.c	26;"	d	file:
+IR_REPEAT	ir_input.c	29;"	d	file:
+JITTER	ad714x.c	/^enum ad714x_device_state { IDLE, JITTER, ACTIVE, SPACE };$/;"	e	enum:ad714x_device_state	file:
+JUSTIFY	adxl34x.c	114;"	d	file:
+KEYCHORD_NAME	keychord.c	28;"	d	file:
+KEYDOWN_TIMEOUT	silan_keypad.c	15;"	d	file:
+KEYMAP_SIZE	cm109.c	/^	KEYMAP_SIZE = 256 + 16,$/;"	e	enum:__anon10	file:
+KE_BLUETOOTH	wistron_btns.c	230;"	d	file:
+KE_WIFI	wistron_btns.c	229;"	d	file:
+KIND_ACCEL	ati_remote.c	204;"	d	file:
+KIND_END	ati_remote.c	197;"	d	file:
+KIND_FILTERED	ati_remote.c	199;"	d	file:
+KIND_LD	ati_remote.c	202;"	d	file:
+KIND_LITERAL	ati_remote.c	198;"	d	file:
+KIND_LU	ati_remote.c	200;"	d	file:
+KIND_RD	ati_remote.c	203;"	d	file:
+KIND_RU	ati_remote.c	201;"	d	file:
+LATENT	adxl34x.c	29;"	d	file:
+LCD_LINE1_OFFSET	yealink.h	148;"	d
+LCD_LINE1_SIZE	yealink.h	149;"	d
+LCD_LINE2_OFFSET	yealink.h	175;"	d
+LCD_LINE2_SIZE	yealink.h	176;"	d
+LCD_LINE3_OFFSET	yealink.h	191;"	d
+LCD_LINE3_SIZE	yealink.h	192;"	d
+LCD_LINE4_OFFSET	yealink.h	212;"	d
+LEADER_MAX	ir_input.c	16;"	d	file:
+LEADER_MIN	ir_input.c	15;"	d	file:
+LEDEN	twl4030-vibra.c	36;"	d	file:
+LEFT_END_POINT_DETECTION_LEVEL	ad714x.c	713;"	d	file:
+LEFT_RIGHT_END_POINT_DEAVTIVALION_LEVEL	ad714x.c	715;"	d	file:
+LO	ati_remote.c	159;"	d	file:
+LOLA2_REMOTE_PRODUCT_ID	ati_remote.c	103;"	d	file:
+LOLA_REMOTE_PRODUCT_ID	ati_remote.c	102;"	d	file:
+LONG_ONKEY_EN	88pm860x_onkey.c	32;"	d	file:
+LOW_POWER	adxl34x.c	99;"	d	file:
+MAIL_LED	wistron_btns.c	44;"	d	file:
+MAX_DEVICE_NUM	ad714x.c	987;"	d	file:
+MAX_FREQ_NO_FIFODELAY	adxl34x-spi.c	18;"	d	file:
+MAX_PANEL_KEYS	apanel.c	56;"	d	file:
+MAX_SPI_FREQ_HZ	adxl34x-spi.c	17;"	d	file:
+MEDION_REMOTE_PRODUCT_ID	ati_remote.c	106;"	d	file:
+NAME_BUFSIZE	ati_remote.c	112;"	d	file:
+NEXT_KEYCHORD	keychord.c	36;"	d	file:
+NVIDIA_REMOTE_PRODUCT_ID	ati_remote.c	105;"	d	file:
+NY	hp_sdc_rtc.c	424;"	d	file:
+NY	hp_sdc_rtc.c	502;"	d	file:
+OFSX	adxl34x.c	25;"	d	file:
+OFSY	adxl34x.c	26;"	d	file:
+OFSZ	adxl34x.c	27;"	d	file:
+ONE	keyspan_remote.c	38;"	d	file:
+ONE_MASK	keyspan_remote.c	39;"	d	file:
+ONKEY_STATUS	88pm860x_onkey.c	33;"	d	file:
+ORIENT	adxl34x.c	57;"	d	file:
+ORIENT_CONF	adxl34x.c	56;"	d	file:
+ORIENT_DEADZONE	adxl34x.c	155;"	d	file:
+ORIENT_DIVISOR	adxl34x.c	156;"	d	file:
+OVERRUN	adxl34x.c	71;"	d	file:
+PCF50633_OOCSTAT_ONKEY	pcf50633-input.c	27;"	d	file:
+PCF50633_REG_OOCMODE	pcf50633-input.c	29;"	d	file:
+PCF50633_REG_OOCSTAT	pcf50633-input.c	28;"	d	file:
+PCTL_AUTO_SLEEP	adxl34x.c	104;"	d	file:
+PCTL_LINK	adxl34x.c	103;"	d	file:
+PCTL_MEASURE	adxl34x.c	105;"	d	file:
+PCTL_SLEEP	adxl34x.c	106;"	d	file:
+PCTL_WAKEUP	adxl34x.c	107;"	d	file:
+PER_STAGE_REG_NUM	ad714x.c	61;"	d	file:
+PLAYBACK_MUTE	cm109.c	/^	PLAYBACK_MUTE = 1 << 2,$/;"	e	enum:__anon10	file:
+PM8607_WAKEUP	88pm860x_onkey.c	30;"	d	file:
+POLL_INTERVAL_BURST	wistron_btns.c	39;"	d	file:
+POLL_INTERVAL_DEFAULT	apanel.c	33;"	d	file:
+POLL_INTERVAL_DEFAULT	wistron_btns.c	38;"	d	file:
+PON_CNTL_1	pmic8xxx-pwrkey.c	26;"	d	file:
+PON_CNTL_PULL_UP	pmic8xxx-pwrkey.c	27;"	d	file:
+PON_CNTL_TRIG_DELAY_MASK	pmic8xxx-pwrkey.c	28;"	d	file:
+POWERMATE_PAYLOAD_SIZE_MAX	powermate.c	60;"	d	file:
+POWERMATE_PAYLOAD_SIZE_MIN	powermate.c	61;"	d	file:
+POWERMATE_PRODUCT_NEW	powermate.c	39;"	d	file:
+POWERMATE_PRODUCT_OLD	powermate.c	40;"	d	file:
+POWERMATE_VENDOR	powermate.c	38;"	d	file:
+POWER_CTL	adxl34x.c	41;"	d	file:
+PRODUCT_ID_CM109	cm109.c	/^	PRODUCT_ID_CM109 = 0x000e, \/* CM109 defines range 0x0008 - 0x000f *\/$/;"	e	enum:__anon12	file:
+PWM_BEEPER_PM_OPS	pwm-beeper.c	169;"	d	file:
+PWM_BEEPER_PM_OPS	pwm-beeper.c	171;"	d	file:
+PWREN_EN	max8925_onkey.c	32;"	d	file:
+PWR_PWRON_IRQ	twl4030-pwrbutton.c	32;"	d	file:
+RANGE	adxl34x.c	115;"	d	file:
+RANGE_PM_16g	adxl34x.c	119;"	d	file:
+RANGE_PM_2g	adxl34x.c	116;"	d	file:
+RANGE_PM_4g	adxl34x.c	117;"	d	file:
+RANGE_PM_8g	adxl34x.c	118;"	d	file:
+RATE	adxl34x.c	100;"	d	file:
+RB532_BTN_KSYM	rb532_button.c	17;"	d	file:
+RB532_BTN_RATE	rb532_button.c	16;"	d	file:
+RECORD_MUTE	cm109.c	/^	RECORD_MUTE   = 1 << 3,$/;"	e	enum:__anon10	file:
+RECV_SIZE	keyspan_remote.c	46;"	d	file:
+REPEAT_DELAY	ati_remote.c	124;"	d	file:
+REPEAT_MAX	ir_input.c	23;"	d	file:
+REPEAT_MIN	ir_input.c	22;"	d	file:
+RIGHT_END_POINT_DETECTION_LEVEL	ad714x.c	714;"	d	file:
+RTC_VERSION	hp_sdc_rtc.c	53;"	d	file:
+SAMPLES	adxl34x.c	140;"	d	file:
+SELF_TEST	adxl34x.c	110;"	d	file:
+SEND_FLAG_COMPLETE	ati_remote.c	162;"	d	file:
+SEND_FLAG_IN_PROGRESS	ati_remote.c	161;"	d	file:
+SET_PULSE_ASLEEP	powermate.c	47;"	d	file:
+SET_PULSE_AWAKE	powermate.c	48;"	d	file:
+SET_PULSE_MODE	powermate.c	49;"	d	file:
+SET_STATIC_BRIGHTNESS	powermate.c	46;"	d	file:
+SINGLE_TAP	adxl34x.c	65;"	d	file:
+SPACE	ad714x.c	/^enum ad714x_device_state { IDLE, JITTER, ACTIVE, SPACE };$/;"	e	enum:ad714x_device_state	file:
+SPI	adxl34x.c	111;"	d	file:
+STAGE0_AMBIENT	ad714x.c	48;"	d	file:
+STAGE10_AMBIENT	ad714x.c	58;"	d	file:
+STAGE11_AMBIENT	ad714x.c	59;"	d	file:
+STAGE1_AMBIENT	ad714x.c	49;"	d	file:
+STAGE2_AMBIENT	ad714x.c	50;"	d	file:
+STAGE3_AMBIENT	ad714x.c	51;"	d	file:
+STAGE4_AMBIENT	ad714x.c	52;"	d	file:
+STAGE5_AMBIENT	ad714x.c	53;"	d	file:
+STAGE6_AMBIENT	ad714x.c	54;"	d	file:
+STAGE7_AMBIENT	ad714x.c	55;"	d	file:
+STAGE8_AMBIENT	ad714x.c	56;"	d	file:
+STAGE9_AMBIENT	ad714x.c	57;"	d	file:
+STAGE_CFGREG_NUM	ad714x.c	63;"	d	file:
+STAGE_NUM	ad714x.c	62;"	d	file:
+STG_COM_INT_EN_REG	ad714x.c	30;"	d	file:
+STG_COM_INT_STA_REG	ad714x.c	33;"	d	file:
+STG_HIGH_INT_EN_REG	ad714x.c	29;"	d	file:
+STG_HIGH_INT_STA_REG	ad714x.c	32;"	d	file:
+STG_LOW_INT_EN_REG	ad714x.c	28;"	d	file:
+STG_LOW_INT_STA_REG	ad714x.c	31;"	d	file:
+STOP	keyspan_remote.c	42;"	d	file:
+STOP_MASK	keyspan_remote.c	43;"	d	file:
+STS_HW_CONDITIONS	twl4030-pwrbutton.c	34;"	d	file:
+SUPPRESS	adxl34x.c	84;"	d	file:
+SW_INPUT	max8925_onkey.c	30;"	d	file:
+SYNC	keyspan_remote.c	40;"	d	file:
+SYNC_MASK	keyspan_remote.c	41;"	d	file:
+SYS_CFGREG_NUM	ad714x.c	64;"	d	file:
+TAP_AXES	adxl34x.c	38;"	d	file:
+TAP_SIGN	adxl34x.c	54;"	d	file:
+TAP_X_EN	adxl34x.c	85;"	d	file:
+TAP_X_SRC	adxl34x.c	94;"	d	file:
+TAP_Y_EN	adxl34x.c	86;"	d	file:
+TAP_Y_SRC	adxl34x.c	95;"	d	file:
+TAP_Z_EN	adxl34x.c	87;"	d	file:
+TAP_Z_SRC	adxl34x.c	96;"	d	file:
+THRESH_ACT	adxl34x.c	31;"	d	file:
+THRESH_FF	adxl34x.c	36;"	d	file:
+THRESH_INACT	adxl34x.c	32;"	d	file:
+THRESH_TAP	adxl34x.c	24;"	d	file:
+TIME_FF	adxl34x.c	37;"	d	file:
+TIME_INACT	adxl34x.c	33;"	d	file:
+TOP_BOTTOM_END_POINT_DEAVTIVALION_LEVEL	ad714x.c	718;"	d	file:
+TOP_END_POINT_DETECTION_LEVEL	ad714x.c	716;"	d	file:
+TRIGGER	adxl34x.c	139;"	d	file:
+UINPUT_MINOR	uinput.c	/^MODULE_ALIAS_MISCDEV(UINPUT_MINOR);$/;"	v
+UPDATE_PULSE_ASLEEP	powermate.c	53;"	d	file:
+UPDATE_PULSE_AWAKE	powermate.c	54;"	d	file:
+UPDATE_PULSE_MODE	powermate.c	55;"	d	file:
+UPDATE_STATIC_BRIGHTNESS	powermate.c	52;"	d	file:
+USB_KEYSPAN_PRODUCT_UIA11	keyspan_remote.c	33;"	d	file:
+USB_KEYSPAN_VENDOR_ID	keyspan_remote.c	32;"	d	file:
+USB_PKT_LEN	cm109.c	/^enum { USB_PKT_LEN = sizeof(struct cm109_ctl_packet) };$/;"	e	enum:__anon11	file:
+USB_PKT_LEN	yealink.h	36;"	d
+VENDOR_ID	cm109.c	/^	VENDOR_ID        = 0x0d8c, \/* C-Media Electronics *\/$/;"	e	enum:__anon12	file:
+VOLUME_DOWN	cm109.c	/^	VOLUME_DOWN   = 1 << 1,$/;"	e	enum:__anon10	file:
+VOLUME_UP	cm109.c	/^	VOLUME_UP     = 1 << 0,$/;"	e	enum:__anon10	file:
+WATERMARK	adxl34x.c	70;"	d	file:
+WIFI	wistron_btns.c	42;"	d	file:
+WINDOW	adxl34x.c	30;"	d	file:
+XSIGN	adxl34x.c	147;"	d	file:
+XTAP	adxl34x.c	150;"	d	file:
+YEALINK_POLLING_FREQUENCY	yealink.c	63;"	d	file:
+YN	hp_sdc_rtc.c	423;"	d	file:
+YN	hp_sdc_rtc.c	501;"	d	file:
+YSIGN	adxl34x.c	148;"	d	file:
+YTAP	adxl34x.c	151;"	d	file:
+ZERO	keyspan_remote.c	36;"	d	file:
+ZERO_MASK	keyspan_remote.c	37;"	d	file:
+ZSIGN	adxl34x.c	149;"	d	file:
+ZTAP	adxl34x.c	152;"	d	file:
+_AD714X_H_	ad714x.h	10;"	d
+_ADXL34X_H_	adxl34x.h	11;"	d
+_INPUT_CMA3000_H	cma3000_d0x.h	21;"	d
+_LOC	yealink.c	76;"	d	file:
+_M220	yealink.c	770;"	d	file:
+_M444	yealink.c	768;"	d	file:
+_M664	yealink.c	769;"	d	file:
+_PIC	yealink.c	82;"	d	file:
+_PIC	yealink.h	219;"	d
+_SEG	yealink.c	77;"	d	file:
+_SEG	yealink.h	218;"	d
+__adxl34x_disable	adxl34x.c	/^static void __adxl34x_disable(struct adxl34x *ac)$/;"	f	file:
+__adxl34x_enable	adxl34x.c	/^static void __adxl34x_enable(struct adxl34x *ac)$/;"	f	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_aspire_1500[] __initdata = {$/;"	v	typeref:struct:keymap_acer_aspire_1500	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_aspire_1600[] __initdata = {$/;"	v	typeref:struct:keymap_acer_aspire_1600	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_aspire_5020[] __initdata = {$/;"	v	typeref:struct:keymap_acer_aspire_5020	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_110[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_110	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_220[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_220	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_230[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_230	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_240[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_240	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_2410[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_2410	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_300[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_300	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_350[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_350	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_360[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_360	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_380[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_380	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_610[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_610	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_acer_travelmate_630[] __initdata = {$/;"	v	typeref:struct:keymap_acer_travelmate_630	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_aopen_1557[] __initdata = {$/;"	v	typeref:struct:keymap_aopen_1557	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_aopen_1559as[] __initdata = {$/;"	v	typeref:struct:keymap_aopen_1559as	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_empty[] __initdata = {$/;"	v	typeref:struct:keymap_empty	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_fs_amilo_d88x0[] __initdata = {$/;"	v	typeref:struct:keymap_fs_amilo_d88x0	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_fs_amilo_pro_v2000[] __initdata = {$/;"	v	typeref:struct:keymap_fs_amilo_pro_v2000	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_fs_amilo_pro_v3505[] __initdata = {$/;"	v	typeref:struct:keymap_fs_amilo_pro_v3505	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_fujitsu_n3510[] __initdata = {$/;"	v	typeref:struct:keymap_fujitsu_n3510	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_prestigio[] __initdata = {$/;"	v	typeref:struct:keymap_prestigio	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_wistron_generic[] __initdata = {$/;"	v	typeref:struct:keymap_wistron_generic	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_wistron_md2900[] __initdata = {$/;"	v	typeref:struct:keymap_wistron_md2900	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_wistron_md40100[] __initdata = {$/;"	v	typeref:struct:keymap_wistron_md40100	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_wistron_md96500[] __initdata = {$/;"	v	typeref:struct:keymap_wistron_md96500	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_wistron_ms2111[] __initdata = {$/;"	v	typeref:struct:keymap_wistron_ms2111	file:
+__initdata	wistron_btns.c	/^static struct key_entry keymap_wistron_ms2141[] __initdata = {$/;"	v	typeref:struct:keymap_wistron_ms2141	file:
+a	yealink.c	/^			u8	a,m;$/;"	m	struct:lcd_segment_map::__anon8::pictogram_map	file:
+a	yealink.c	/^			u8	a,m;$/;"	m	struct:lcd_segment_map::__anon8::segment_map	file:
+ab8500	ab8500-ponkey.c	/^	struct ab8500		*ab8500;$/;"	m	struct:ab8500_ponkey	typeref:struct:ab8500_ponkey::ab8500	file:
+ab8500_ponkey	ab8500-ponkey.c	/^struct ab8500_ponkey {$/;"	s	file:
+ab8500_ponkey_driver	ab8500-ponkey.c	/^static struct platform_driver ab8500_ponkey_driver = {$/;"	v	typeref:struct:platform_driver	file:
+ab8500_ponkey_exit	ab8500-ponkey.c	/^module_exit(ab8500_ponkey_exit);$/;"	v
+ab8500_ponkey_exit	ab8500-ponkey.c	/^static void __exit ab8500_ponkey_exit(void)$/;"	f	file:
+ab8500_ponkey_handler	ab8500-ponkey.c	/^static irqreturn_t ab8500_ponkey_handler(int irq, void *data)$/;"	f	file:
+ab8500_ponkey_init	ab8500-ponkey.c	/^module_init(ab8500_ponkey_init);$/;"	v
+ab8500_ponkey_init	ab8500-ponkey.c	/^static int __init ab8500_ponkey_init(void)$/;"	f	file:
+ab8500_ponkey_probe	ab8500-ponkey.c	/^static int __devinit ab8500_ponkey_probe(struct platform_device *pdev)$/;"	f	file:
+ab8500_ponkey_remove	ab8500-ponkey.c	/^static int __devexit ab8500_ponkey_remove(struct platform_device *pdev)$/;"	f	file:
+abs_pos	ad714x.c	/^	int abs_pos;$/;"	m	struct:ad714x_slider_drv	file:
+abs_pos	ad714x.c	/^	int abs_pos;$/;"	m	struct:ad714x_wheel_drv	file:
+acc_jiffies	ati_remote.c	/^	unsigned long acc_jiffies;  \/* handle acceleration *\/$/;"	m	struct:ati_remote	file:
+acpi_atlas_button_handler	atlas_btns.c	/^static acpi_status acpi_atlas_button_handler(u32 function,$/;"	f	file:
+acpi_atlas_button_setup	atlas_btns.c	/^static acpi_status acpi_atlas_button_setup(acpi_handle region_handle,$/;"	f	file:
+ad714x_button_drv	ad714x.c	/^struct ad714x_button_drv {$/;"	s	file:
+ad714x_button_state_machine	ad714x.c	/^static void ad714x_button_state_machine(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_cal_abs_pos	ad714x.c	/^static int ad714x_cal_abs_pos(struct ad714x_chip *ad714x,$/;"	f	file:
+ad714x_cal_highest_stage	ad714x.c	/^static int ad714x_cal_highest_stage(struct ad714x_chip *ad714x,$/;"	f	file:
+ad714x_chip	ad714x.c	/^struct ad714x_chip {$/;"	s	file:
+ad714x_device_state	ad714x.c	/^enum ad714x_device_state { IDLE, JITTER, ACTIVE, SPACE };$/;"	g	file:
+ad714x_disable	ad714x.c	/^EXPORT_SYMBOL(ad714x_disable);$/;"	v
+ad714x_disable	ad714x.c	/^int ad714x_disable(struct ad714x_chip *ad714x)$/;"	f
+ad714x_driver_data	ad714x.c	/^struct ad714x_driver_data {$/;"	s	file:
+ad714x_enable	ad714x.c	/^EXPORT_SYMBOL(ad714x_enable);$/;"	v
+ad714x_enable	ad714x.c	/^int ad714x_enable(struct ad714x_chip *ad714x)$/;"	f
+ad714x_hw_detect	ad714x.c	/^static int ad714x_hw_detect(struct ad714x_chip *ad714x)$/;"	f	file:
+ad714x_hw_init	ad714x.c	/^static void ad714x_hw_init(struct ad714x_chip *ad714x)$/;"	f	file:
+ad714x_i2c_driver	ad714x-i2c.c	/^static struct i2c_driver ad714x_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ad714x_i2c_exit	ad714x-i2c.c	/^module_exit(ad714x_i2c_exit);$/;"	v
+ad714x_i2c_exit	ad714x-i2c.c	/^static __exit void ad714x_i2c_exit(void)$/;"	f	file:
+ad714x_i2c_init	ad714x-i2c.c	/^module_init(ad714x_i2c_init);$/;"	v
+ad714x_i2c_init	ad714x-i2c.c	/^static __init int ad714x_i2c_init(void)$/;"	f	file:
+ad714x_i2c_probe	ad714x-i2c.c	/^static int __devinit ad714x_i2c_probe(struct i2c_client *client,$/;"	f	file:
+ad714x_i2c_read	ad714x-i2c.c	/^static int ad714x_i2c_read(struct device *dev, unsigned short reg,$/;"	f	file:
+ad714x_i2c_remove	ad714x-i2c.c	/^static int __devexit ad714x_i2c_remove(struct i2c_client *client)$/;"	f	file:
+ad714x_i2c_resume	ad714x-i2c.c	/^static int ad714x_i2c_resume(struct device *dev)$/;"	f	file:
+ad714x_i2c_suspend	ad714x-i2c.c	/^static int ad714x_i2c_suspend(struct device *dev)$/;"	f	file:
+ad714x_i2c_write	ad714x-i2c.c	/^static int ad714x_i2c_write(struct device *dev, unsigned short reg,$/;"	f	file:
+ad714x_id	ad714x-i2c.c	/^static const struct i2c_device_id ad714x_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+ad714x_interrupt_thread	ad714x.c	/^static irqreturn_t ad714x_interrupt_thread(int irq, void *data)$/;"	f	file:
+ad714x_probe	ad714x.c	/^EXPORT_SYMBOL(ad714x_probe);$/;"	v
+ad714x_probe	ad714x.c	/^struct ad714x_chip *ad714x_probe(struct device *dev, u16 bus_type, int irq,$/;"	f
+ad714x_read_t	ad714x.h	/^typedef int (*ad714x_read_t)(struct device *, unsigned short, unsigned short *);$/;"	t
+ad714x_remove	ad714x.c	/^EXPORT_SYMBOL(ad714x_remove);$/;"	v
+ad714x_remove	ad714x.c	/^void ad714x_remove(struct ad714x_chip *ad714x)$/;"	f
+ad714x_slider_cal_abs_pos	ad714x.c	/^static void ad714x_slider_cal_abs_pos(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_slider_cal_flt_pos	ad714x.c	/^static void ad714x_slider_cal_flt_pos(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_slider_cal_highest_stage	ad714x.c	/^static void ad714x_slider_cal_highest_stage(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_slider_cal_sensor_val	ad714x.c	/^static void ad714x_slider_cal_sensor_val(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_slider_drv	ad714x.c	/^struct ad714x_slider_drv {$/;"	s	file:
+ad714x_slider_state_machine	ad714x.c	/^static void ad714x_slider_state_machine(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_slider_use_com_int	ad714x.c	/^static void ad714x_slider_use_com_int(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_slider_use_thr_int	ad714x.c	/^static void ad714x_slider_use_thr_int(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_spi_driver	ad714x-spi.c	/^static struct spi_driver ad714x_spi_driver = {$/;"	v	typeref:struct:spi_driver	file:
+ad714x_spi_exit	ad714x-spi.c	/^module_exit(ad714x_spi_exit);$/;"	v
+ad714x_spi_exit	ad714x-spi.c	/^static __exit void ad714x_spi_exit(void)$/;"	f	file:
+ad714x_spi_init	ad714x-spi.c	/^module_init(ad714x_spi_init);$/;"	v
+ad714x_spi_init	ad714x-spi.c	/^static __init int ad714x_spi_init(void)$/;"	f	file:
+ad714x_spi_probe	ad714x-spi.c	/^static int __devinit ad714x_spi_probe(struct spi_device *spi)$/;"	f	file:
+ad714x_spi_read	ad714x-spi.c	/^static int ad714x_spi_read(struct device *dev, unsigned short reg,$/;"	f	file:
+ad714x_spi_remove	ad714x-spi.c	/^static int __devexit ad714x_spi_remove(struct spi_device *spi)$/;"	f	file:
+ad714x_spi_resume	ad714x-spi.c	/^static int ad714x_spi_resume(struct device *dev)$/;"	f	file:
+ad714x_spi_suspend	ad714x-spi.c	/^static int ad714x_spi_suspend(struct device *dev)$/;"	f	file:
+ad714x_spi_write	ad714x-spi.c	/^static int ad714x_spi_write(struct device *dev, unsigned short reg,$/;"	f	file:
+ad714x_touchpad_drv	ad714x.c	/^struct ad714x_touchpad_drv {$/;"	s	file:
+ad714x_touchpad_state_machine	ad714x.c	/^static void ad714x_touchpad_state_machine(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_use_com_int	ad714x.c	/^static void ad714x_use_com_int(struct ad714x_chip *ad714x,$/;"	f	file:
+ad714x_use_thr_int	ad714x.c	/^static void ad714x_use_thr_int(struct ad714x_chip *ad714x,$/;"	f	file:
+ad714x_wheel_cal_abs_pos	ad714x.c	/^static void ad714x_wheel_cal_abs_pos(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_wheel_cal_flt_pos	ad714x.c	/^static void ad714x_wheel_cal_flt_pos(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_wheel_cal_highest_stage	ad714x.c	/^static void ad714x_wheel_cal_highest_stage(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_wheel_cal_sensor_val	ad714x.c	/^static void ad714x_wheel_cal_sensor_val(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_wheel_drv	ad714x.c	/^struct ad714x_wheel_drv {$/;"	s	file:
+ad714x_wheel_state_machine	ad714x.c	/^static void ad714x_wheel_state_machine(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_wheel_use_com_int	ad714x.c	/^static void ad714x_wheel_use_com_int(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_wheel_use_thr_int	ad714x.c	/^static void ad714x_wheel_use_thr_int(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+ad714x_write_t	ad714x.h	/^typedef int (*ad714x_write_t)(struct device *, unsigned short, unsigned short);$/;"	t
+adc_reg	ad714x.c	/^	unsigned short adc_reg[STAGE_NUM];$/;"	m	struct:ad714x_chip	file:
+adxl34x	adxl34x.c	/^struct adxl34x {$/;"	s	file:
+adxl34x_attr_group	adxl34x.c	/^static const struct attribute_group adxl34x_attr_group = {$/;"	v	typeref:struct:attribute_group	file:
+adxl34x_attributes	adxl34x.c	/^static struct attribute *adxl34x_attributes[] = {$/;"	v	typeref:struct:attribute	file:
+adxl34x_autosleep_show	adxl34x.c	/^static ssize_t adxl34x_autosleep_show(struct device *dev,$/;"	f	file:
+adxl34x_autosleep_store	adxl34x.c	/^static ssize_t adxl34x_autosleep_store(struct device *dev,$/;"	f	file:
+adxl34x_bus_ops	adxl34x.h	/^struct adxl34x_bus_ops {$/;"	s
+adxl34x_calibrate_show	adxl34x.c	/^static ssize_t adxl34x_calibrate_show(struct device *dev,$/;"	f	file:
+adxl34x_calibrate_store	adxl34x.c	/^static ssize_t adxl34x_calibrate_store(struct device *dev,$/;"	f	file:
+adxl34x_default_init	adxl34x.c	/^static const struct adxl34x_platform_data adxl34x_default_init = {$/;"	v	typeref:struct:adxl34x_platform_data	file:
+adxl34x_disable_show	adxl34x.c	/^static ssize_t adxl34x_disable_show(struct device *dev,$/;"	f	file:
+adxl34x_disable_store	adxl34x.c	/^static ssize_t adxl34x_disable_store(struct device *dev,$/;"	f	file:
+adxl34x_do_tap	adxl34x.c	/^static void adxl34x_do_tap(struct adxl34x *ac,$/;"	f	file:
+adxl34x_driver	adxl34x-i2c.c	/^static struct i2c_driver adxl34x_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+adxl34x_driver	adxl34x-spi.c	/^static struct spi_driver adxl34x_driver = {$/;"	v	typeref:struct:spi_driver	file:
+adxl34x_get_triple	adxl34x.c	/^static void adxl34x_get_triple(struct adxl34x *ac, struct axis_triple *axis)$/;"	f	file:
+adxl34x_i2c_bops	adxl34x-i2c.c	/^static const struct adxl34x_bus_ops adxl34x_i2c_bops = {$/;"	v	typeref:struct:adxl34x_bus_ops	file:
+adxl34x_i2c_exit	adxl34x-i2c.c	/^module_exit(adxl34x_i2c_exit);$/;"	v
+adxl34x_i2c_exit	adxl34x-i2c.c	/^static void __exit adxl34x_i2c_exit(void)$/;"	f	file:
+adxl34x_i2c_init	adxl34x-i2c.c	/^module_init(adxl34x_i2c_init);$/;"	v
+adxl34x_i2c_init	adxl34x-i2c.c	/^static int __init adxl34x_i2c_init(void)$/;"	f	file:
+adxl34x_i2c_probe	adxl34x-i2c.c	/^static int __devinit adxl34x_i2c_probe(struct i2c_client *client,$/;"	f	file:
+adxl34x_i2c_read_block	adxl34x-i2c.c	/^static int adxl34x_i2c_read_block(struct device *dev,$/;"	f	file:
+adxl34x_i2c_remove	adxl34x-i2c.c	/^static int __devexit adxl34x_i2c_remove(struct i2c_client *client)$/;"	f	file:
+adxl34x_i2c_resume	adxl34x-i2c.c	/^static int adxl34x_i2c_resume(struct device *dev)$/;"	f	file:
+adxl34x_i2c_suspend	adxl34x-i2c.c	/^static int adxl34x_i2c_suspend(struct device *dev)$/;"	f	file:
+adxl34x_id	adxl34x-i2c.c	/^static const struct i2c_device_id adxl34x_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+adxl34x_input_close	adxl34x.c	/^static void adxl34x_input_close(struct input_dev *input)$/;"	f	file:
+adxl34x_input_open	adxl34x.c	/^static int adxl34x_input_open(struct input_dev *input)$/;"	f	file:
+adxl34x_irq	adxl34x.c	/^static irqreturn_t adxl34x_irq(int irq, void *handle)$/;"	f	file:
+adxl34x_position_show	adxl34x.c	/^static ssize_t adxl34x_position_show(struct device *dev,$/;"	f	file:
+adxl34x_probe	adxl34x.c	/^EXPORT_SYMBOL_GPL(adxl34x_probe);$/;"	v
+adxl34x_probe	adxl34x.c	/^struct adxl34x *adxl34x_probe(struct device *dev, int irq,$/;"	f
+adxl34x_rate_show	adxl34x.c	/^static ssize_t adxl34x_rate_show(struct device *dev,$/;"	f	file:
+adxl34x_rate_store	adxl34x.c	/^static ssize_t adxl34x_rate_store(struct device *dev,$/;"	f	file:
+adxl34x_remove	adxl34x.c	/^EXPORT_SYMBOL_GPL(adxl34x_remove);$/;"	v
+adxl34x_remove	adxl34x.c	/^int adxl34x_remove(struct adxl34x *ac)$/;"	f
+adxl34x_report_key_single	adxl34x.c	/^static void adxl34x_report_key_single(struct input_dev *input, int key)$/;"	f	file:
+adxl34x_resume	adxl34x.c	/^EXPORT_SYMBOL_GPL(adxl34x_resume);$/;"	v
+adxl34x_resume	adxl34x.c	/^void adxl34x_resume(struct adxl34x *ac)$/;"	f
+adxl34x_send_key_events	adxl34x.c	/^static void adxl34x_send_key_events(struct adxl34x *ac,$/;"	f	file:
+adxl34x_service_ev_fifo	adxl34x.c	/^static void adxl34x_service_ev_fifo(struct adxl34x *ac)$/;"	f	file:
+adxl34x_smbus_bops	adxl34x-i2c.c	/^static const struct adxl34x_bus_ops adxl34x_smbus_bops = {$/;"	v	typeref:struct:adxl34x_bus_ops	file:
+adxl34x_smbus_read	adxl34x-i2c.c	/^static int adxl34x_smbus_read(struct device *dev, unsigned char reg)$/;"	f	file:
+adxl34x_smbus_read_block	adxl34x-i2c.c	/^static int adxl34x_smbus_read_block(struct device *dev,$/;"	f	file:
+adxl34x_smbus_write	adxl34x-i2c.c	/^static int adxl34x_smbus_write(struct device *dev,$/;"	f	file:
+adxl34x_spi_bops	adxl34x-spi.c	/^static const struct adxl34x_bus_ops adxl34x_spi_bops = {$/;"	v	typeref:struct:adxl34x_bus_ops	file:
+adxl34x_spi_exit	adxl34x-spi.c	/^module_exit(adxl34x_spi_exit);$/;"	v
+adxl34x_spi_exit	adxl34x-spi.c	/^static void __exit adxl34x_spi_exit(void)$/;"	f	file:
+adxl34x_spi_init	adxl34x-spi.c	/^module_init(adxl34x_spi_init);$/;"	v
+adxl34x_spi_init	adxl34x-spi.c	/^static int __init adxl34x_spi_init(void)$/;"	f	file:
+adxl34x_spi_probe	adxl34x-spi.c	/^static int __devinit adxl34x_spi_probe(struct spi_device *spi)$/;"	f	file:
+adxl34x_spi_read	adxl34x-spi.c	/^static int adxl34x_spi_read(struct device *dev, unsigned char reg)$/;"	f	file:
+adxl34x_spi_read_block	adxl34x-spi.c	/^static int adxl34x_spi_read_block(struct device *dev,$/;"	f	file:
+adxl34x_spi_remove	adxl34x-spi.c	/^static int __devexit adxl34x_spi_remove(struct spi_device *spi)$/;"	f	file:
+adxl34x_spi_resume	adxl34x-spi.c	/^static int adxl34x_spi_resume(struct device *dev)$/;"	f	file:
+adxl34x_spi_suspend	adxl34x-spi.c	/^static int adxl34x_spi_suspend(struct device *dev)$/;"	f	file:
+adxl34x_spi_write	adxl34x-spi.c	/^static int adxl34x_spi_write(struct device *dev,$/;"	f	file:
+adxl34x_suspend	adxl34x.c	/^EXPORT_SYMBOL_GPL(adxl34x_suspend);$/;"	v
+adxl34x_suspend	adxl34x.c	/^void adxl34x_suspend(struct adxl34x *ac)$/;"	f
+adxl34x_write_store	adxl34x.c	/^static ssize_t adxl34x_write_store(struct device *dev,$/;"	f	file:
+amb_reg	ad714x.c	/^	unsigned short amb_reg[STAGE_NUM];$/;"	m	struct:ad714x_chip	file:
+apanel	apanel.c	/^static struct apanel apanel = {$/;"	v	typeref:struct:apanel	file:
+apanel	apanel.c	/^struct apanel {$/;"	s	file:
+apanel_chip	apanel.c	/^enum apanel_chip {$/;"	g	file:
+apanel_cleanup	apanel.c	/^module_exit(apanel_cleanup);$/;"	v
+apanel_cleanup	apanel.c	/^static void __exit apanel_cleanup(void)$/;"	f	file:
+apanel_devid	apanel.c	/^enum apanel_devid {$/;"	g	file:
+apanel_driver	apanel.c	/^static struct i2c_driver apanel_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+apanel_id	apanel.c	/^static const struct i2c_device_id apanel_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+apanel_init	apanel.c	/^module_init(apanel_init);$/;"	v
+apanel_init	apanel.c	/^static int __init apanel_init(void)$/;"	f	file:
+apanel_poll	apanel.c	/^static void apanel_poll(struct input_polled_dev *ipdev)$/;"	f	file:
+apanel_probe	apanel.c	/^static int apanel_probe(struct i2c_client *client,$/;"	f	file:
+apanel_remove	apanel.c	/^static int apanel_remove(struct i2c_client *client)$/;"	f	file:
+apanel_shutdown	apanel.c	/^static void apanel_shutdown(struct i2c_client *client)$/;"	f	file:
+apmode	silan_button.c	/^static int apmode  = 4*32+26;$/;"	v	file:
+apmode_isr	silan_button.c	/^static irqreturn_t apmode_isr(int irq, void *dev_id)$/;"	f	file:
+apmode_work	silan_button.c	/^struct delayed_work apmode_work;$/;"	v	typeref:struct:delayed_work
+apmode_work_fn	silan_button.c	/^static void apmode_work_fn(struct work_struct *work)$/;"	f	file:
+armed	rotary_encoder.c	/^	bool armed;$/;"	m	struct:rotary_encoder	file:
+ati_remote	ati_remote.c	/^struct ati_remote {$/;"	s	file:
+ati_remote2	ati_remote2.c	/^struct ati_remote2 {$/;"	s	file:
+ati_remote2_attr_group	ati_remote2.c	/^static struct attribute_group ati_remote2_attr_group = {$/;"	v	typeref:struct:attribute_group	file:
+ati_remote2_attrs	ati_remote2.c	/^static struct attribute *ati_remote2_attrs[] = {$/;"	v	typeref:struct:attribute	file:
+ati_remote2_close	ati_remote2.c	/^static void ati_remote2_close(struct input_dev *idev)$/;"	f	file:
+ati_remote2_complete_key	ati_remote2.c	/^static void ati_remote2_complete_key(struct urb *urb)$/;"	f	file:
+ati_remote2_complete_mouse	ati_remote2.c	/^static void ati_remote2_complete_mouse(struct urb *urb)$/;"	f	file:
+ati_remote2_disconnect	ati_remote2.c	/^static void ati_remote2_disconnect(struct usb_interface *interface)$/;"	f	file:
+ati_remote2_driver	ati_remote2.c	/^static struct usb_driver ati_remote2_driver = {$/;"	v	typeref:struct:usb_driver	file:
+ati_remote2_exit	ati_remote2.c	/^module_exit(ati_remote2_exit);$/;"	v
+ati_remote2_exit	ati_remote2.c	/^static void __exit ati_remote2_exit(void)$/;"	f	file:
+ati_remote2_get_channel_mask	ati_remote2.c	/^static int ati_remote2_get_channel_mask(char *buffer,$/;"	f	file:
+ati_remote2_get_mode_mask	ati_remote2.c	/^static int ati_remote2_get_mode_mask(char *buffer,$/;"	f	file:
+ati_remote2_getkeycode	ati_remote2.c	/^static int ati_remote2_getkeycode(struct input_dev *idev,$/;"	f	file:
+ati_remote2_id_table	ati_remote2.c	/^static struct usb_device_id ati_remote2_id_table[] = {$/;"	v	typeref:struct:usb_device_id	file:
+ati_remote2_init	ati_remote2.c	/^module_init(ati_remote2_init);$/;"	v
+ati_remote2_init	ati_remote2.c	/^static int __init ati_remote2_init(void)$/;"	f	file:
+ati_remote2_input_init	ati_remote2.c	/^static int ati_remote2_input_init(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote2_input_key	ati_remote2.c	/^static void ati_remote2_input_key(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote2_input_mouse	ati_remote2.c	/^static void ati_remote2_input_mouse(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote2_key_table	ati_remote2.c	/^} ati_remote2_key_table[] = {$/;"	v	typeref:struct:__anon4	file:
+ati_remote2_kill_urbs	ati_remote2.c	/^static void ati_remote2_kill_urbs(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote2_lookup	ati_remote2.c	/^static int ati_remote2_lookup(unsigned int hw_code)$/;"	f	file:
+ati_remote2_open	ati_remote2.c	/^static int ati_remote2_open(struct input_dev *idev)$/;"	f	file:
+ati_remote2_post_reset	ati_remote2.c	/^static int ati_remote2_post_reset(struct usb_interface *interface)$/;"	f	file:
+ati_remote2_pre_reset	ati_remote2.c	/^static int ati_remote2_pre_reset(struct usb_interface *interface)$/;"	f	file:
+ati_remote2_probe	ati_remote2.c	/^static int ati_remote2_probe(struct usb_interface *interface, const struct usb_device_id *id)$/;"	f	file:
+ati_remote2_reset_resume	ati_remote2.c	/^static int ati_remote2_reset_resume(struct usb_interface *interface)$/;"	f	file:
+ati_remote2_resume	ati_remote2.c	/^static int ati_remote2_resume(struct usb_interface *interface)$/;"	f	file:
+ati_remote2_set_channel_mask	ati_remote2.c	/^static int ati_remote2_set_channel_mask(const char *val,$/;"	f	file:
+ati_remote2_set_mask	ati_remote2.c	/^static int ati_remote2_set_mask(const char *val,$/;"	f	file:
+ati_remote2_set_mode_mask	ati_remote2.c	/^static int ati_remote2_set_mode_mask(const char *val,$/;"	f	file:
+ati_remote2_setkeycode	ati_remote2.c	/^static int ati_remote2_setkeycode(struct input_dev *idev,$/;"	f	file:
+ati_remote2_setup	ati_remote2.c	/^static int ati_remote2_setup(struct ati_remote2 *ar2, unsigned int ch_mask)$/;"	f	file:
+ati_remote2_show_channel_mask	ati_remote2.c	/^static ssize_t ati_remote2_show_channel_mask(struct device *dev,$/;"	f	file:
+ati_remote2_show_mode_mask	ati_remote2.c	/^static ssize_t ati_remote2_show_mode_mask(struct device *dev,$/;"	f	file:
+ati_remote2_store_channel_mask	ati_remote2.c	/^static ssize_t ati_remote2_store_channel_mask(struct device *dev,$/;"	f	file:
+ati_remote2_store_mode_mask	ati_remote2.c	/^static ssize_t ati_remote2_store_mode_mask(struct device *dev,$/;"	f	file:
+ati_remote2_submit_urbs	ati_remote2.c	/^static int ati_remote2_submit_urbs(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote2_suspend	ati_remote2.c	/^static int ati_remote2_suspend(struct usb_interface *interface,$/;"	f	file:
+ati_remote2_urb_cleanup	ati_remote2.c	/^static void ati_remote2_urb_cleanup(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote2_urb_init	ati_remote2.c	/^static int ati_remote2_urb_init(struct ati_remote2 *ar2)$/;"	f	file:
+ati_remote_alloc_buffers	ati_remote.c	/^static int ati_remote_alloc_buffers(struct usb_device *udev,$/;"	f	file:
+ati_remote_close	ati_remote.c	/^static void ati_remote_close(struct input_dev *inputdev)$/;"	f	file:
+ati_remote_compute_accel	ati_remote.c	/^static int ati_remote_compute_accel(struct ati_remote *ati_remote)$/;"	f	file:
+ati_remote_disconnect	ati_remote.c	/^static void ati_remote_disconnect(struct usb_interface *interface)$/;"	f	file:
+ati_remote_driver	ati_remote.c	/^static struct usb_driver ati_remote_driver = {$/;"	v	typeref:struct:usb_driver	file:
+ati_remote_dump	ati_remote.c	/^static void ati_remote_dump(struct device *dev, unsigned char *data,$/;"	f	file:
+ati_remote_event_lookup	ati_remote.c	/^static int ati_remote_event_lookup(int rem, unsigned char d1, unsigned char d2)$/;"	f	file:
+ati_remote_exit	ati_remote.c	/^module_exit(ati_remote_exit);$/;"	v
+ati_remote_exit	ati_remote.c	/^static void __exit ati_remote_exit(void)$/;"	f	file:
+ati_remote_free_buffers	ati_remote.c	/^static void ati_remote_free_buffers(struct ati_remote *ati_remote)$/;"	f	file:
+ati_remote_init	ati_remote.c	/^module_init(ati_remote_init);$/;"	v
+ati_remote_init	ati_remote.c	/^static int __init ati_remote_init(void)$/;"	f	file:
+ati_remote_initialize	ati_remote.c	/^static int ati_remote_initialize(struct ati_remote *ati_remote)$/;"	f	file:
+ati_remote_input_init	ati_remote.c	/^static void ati_remote_input_init(struct ati_remote *ati_remote)$/;"	f	file:
+ati_remote_input_report	ati_remote.c	/^static void ati_remote_input_report(struct urb *urb)$/;"	f	file:
+ati_remote_irq_in	ati_remote.c	/^static void ati_remote_irq_in(struct urb *urb)$/;"	f	file:
+ati_remote_irq_out	ati_remote.c	/^static void ati_remote_irq_out(struct urb *urb)$/;"	f	file:
+ati_remote_open	ati_remote.c	/^static int ati_remote_open(struct input_dev *inputdev)$/;"	f	file:
+ati_remote_probe	ati_remote.c	/^static int ati_remote_probe(struct usb_interface *interface, const struct usb_device_id *id)$/;"	f	file:
+ati_remote_sendpacket	ati_remote.c	/^static int ati_remote_sendpacket(struct ati_remote *ati_remote, u16 cmd, unsigned char *data)$/;"	f	file:
+ati_remote_table	ati_remote.c	/^static struct usb_device_id ati_remote_table[] = {$/;"	v	typeref:struct:usb_device_id	file:
+ati_remote_tbl	ati_remote.c	/^}  ati_remote_tbl[] = {$/;"	v	typeref:struct:__anon13	file:
+atlas_acpi_button_add	atlas_btns.c	/^static int atlas_acpi_button_add(struct acpi_device *device)$/;"	f	file:
+atlas_acpi_button_remove	atlas_btns.c	/^static int atlas_acpi_button_remove(struct acpi_device *device, int type)$/;"	f	file:
+atlas_acpi_driver	atlas_btns.c	/^static struct acpi_driver atlas_acpi_driver = {$/;"	v	typeref:struct:acpi_driver	file:
+atlas_acpi_exit	atlas_btns.c	/^module_exit(atlas_acpi_exit);$/;"	v
+atlas_acpi_exit	atlas_btns.c	/^static void __exit atlas_acpi_exit(void)$/;"	f	file:
+atlas_acpi_init	atlas_btns.c	/^module_init(atlas_acpi_init);$/;"	v
+atlas_acpi_init	atlas_btns.c	/^static int __init atlas_acpi_init(void)$/;"	f	file:
+atlas_device_ids	atlas_btns.c	/^static const struct acpi_device_id atlas_device_ids[] = {$/;"	v	typeref:struct:acpi_device_id	file:
+atlas_keymap	atlas_btns.c	/^static unsigned short atlas_keymap[16];$/;"	v	file:
+axis	rotary_encoder.c	/^	unsigned int axis;$/;"	m	struct:rotary_encoder	file:
+axis_triple	adxl34x.c	/^struct axis_triple {$/;"	s	file:
+b	yealink.c	/^		u8		  b[sizeof(struct yld_status)];$/;"	m	union:yealink_dev::__anon9	file:
+base_time	ir_input.c	/^    struct timeval     base_time;$/;"	m	struct:ir_private	typeref:struct:ir_private::timeval	file:
+bbc	sparcspkr.c	/^		struct bbc_beep_info bbc;$/;"	m	union:sparcspkr_state::__anon5	typeref:struct:sparcspkr_state::__anon5::bbc_beep_info	file:
+bbc_beep_driver	sparcspkr.c	/^static struct platform_driver bbc_beep_driver = {$/;"	v	typeref:struct:platform_driver	file:
+bbc_beep_info	sparcspkr.c	/^struct bbc_beep_info {$/;"	s	file:
+bbc_beep_match	sparcspkr.c	/^static const struct of_device_id bbc_beep_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+bbc_beep_probe	sparcspkr.c	/^static int __devinit bbc_beep_probe(struct platform_device *op)$/;"	f	file:
+bbc_count_to_reg	sparcspkr.c	/^static u32 bbc_count_to_reg(struct bbc_beep_info *info, unsigned int count)$/;"	f	file:
+bbc_remove	sparcspkr.c	/^static int __devexit bbc_remove(struct platform_device *op)$/;"	f	file:
+bbc_spkr_event	sparcspkr.c	/^static int bbc_spkr_event(struct input_dev *dev, unsigned int type, unsigned int code, int value)$/;"	f	file:
+bfin_rot	bfin_rotary.c	/^struct bfin_rot {$/;"	s	file:
+bfin_rotary_device_driver	bfin_rotary.c	/^static struct platform_driver bfin_rotary_device_driver = {$/;"	v	typeref:struct:platform_driver	file:
+bfin_rotary_exit	bfin_rotary.c	/^module_exit(bfin_rotary_exit);$/;"	v
+bfin_rotary_exit	bfin_rotary.c	/^static void __exit bfin_rotary_exit(void)$/;"	f	file:
+bfin_rotary_init	bfin_rotary.c	/^module_init(bfin_rotary_init);$/;"	v
+bfin_rotary_init	bfin_rotary.c	/^static int __init bfin_rotary_init(void)$/;"	f	file:
+bfin_rotary_isr	bfin_rotary.c	/^static irqreturn_t bfin_rotary_isr(int irq, void *dev_id)$/;"	f	file:
+bfin_rotary_pm_ops	bfin_rotary.c	/^static const struct dev_pm_ops bfin_rotary_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+bfin_rotary_probe	bfin_rotary.c	/^static int __devinit bfin_rotary_probe(struct platform_device *pdev)$/;"	f	file:
+bfin_rotary_remove	bfin_rotary.c	/^static int __devexit bfin_rotary_remove(struct platform_device *pdev)$/;"	f	file:
+bfin_rotary_resume	bfin_rotary.c	/^static int bfin_rotary_resume(struct device *dev)$/;"	f	file:
+bfin_rotary_suspend	bfin_rotary.c	/^static int bfin_rotary_suspend(struct device *dev)$/;"	f	file:
+bios_attach	wistron_btns.c	/^static void __devinit bios_attach(void)$/;"	f	file:
+bios_code_map_base	wistron_btns.c	/^static void __iomem *bios_code_map_base;$/;"	v	file:
+bios_data_map_base	wistron_btns.c	/^static void __iomem *bios_data_map_base;$/;"	v	file:
+bios_detach	wistron_btns.c	/^static void bios_detach(void)$/;"	f	file:
+bios_entry_point	wistron_btns.c	/^static void __iomem *bios_entry_point; \/* BIOS routine entry point *\/$/;"	v	file:
+bios_get_cmos_address	wistron_btns.c	/^static u8 __devinit bios_get_cmos_address(void)$/;"	f	file:
+bios_get_default_setting	wistron_btns.c	/^static u16 __devinit bios_get_default_setting(u8 subsys)$/;"	f	file:
+bios_pop_queue	wistron_btns.c	/^static u16 bios_pop_queue(void)$/;"	f	file:
+bios_set_state	wistron_btns.c	/^static void bios_set_state(u8 subsys, int enable)$/;"	f	file:
+bios_signature	apanel.c	/^static __init const void __iomem *bios_signature(const void __iomem *bios)$/;"	f	file:
+bit_tester	keyspan_remote.c	/^struct bit_tester {$/;"	s	file:
+bit_to_mg	cma3000_d0x.c	/^	int bit_to_mg;$/;"	m	struct:cma3000_accl_data	file:
+bits_left	keyspan_remote.c	/^	int	bits_left;$/;"	m	struct:bit_tester	file:
+bluetooth_enabled	wistron_btns.c	/^static bool bluetooth_enabled;$/;"	v	file:
+bops	adxl34x.c	/^	const struct adxl34x_bus_ops *bops;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::adxl34x_bus_ops	file:
+bottom_ep	ad714x.c	/^	int bottom_ep;$/;"	m	struct:ad714x_touchpad_drv	file:
+bottom_ep_val	ad714x.c	/^	int bottom_ep_val;$/;"	m	struct:ad714x_touchpad_drv	file:
+btncode	pcf8574_keypad.c	/^	unsigned short btncode[ARRAY_SIZE(pcf8574_kp_btncode)];$/;"	m	struct:kp_data	file:
+buf	ati_remote2.c	/^	void *buf[2];$/;"	m	struct:ati_remote2	file:
+buf_dma	ati_remote2.c	/^	dma_addr_t buf_dma[2];$/;"	m	struct:ati_remote2	file:
+buff	keychord.c	/^	__u16			buff[BUFFER_SIZE];$/;"	m	struct:keychord_device	file:
+buffer	keyspan_remote.c	/^	u8	buffer[32];$/;"	m	struct:bit_tester	file:
+bus_ops	cma3000_d0x.c	/^	const struct cma3000_bus_ops *bus_ops;$/;"	m	struct:cma3000_accl_data	typeref:struct:cma3000_accl_data::cma3000_bus_ops	file:
+bustype	adxl34x.h	/^	u16 bustype;$/;"	m	struct:adxl34x_bus_ops
+bustype	cma3000_d0x.h	/^	u16 bustype;$/;"	m	struct:cma3000_bus_ops
+button	ad714x.c	/^	struct ad714x_button_drv *button;$/;"	m	struct:ad714x_driver_data	typeref:struct:ad714x_driver_data::ad714x_button_drv	file:
+button	keyspan_remote.c	/^	u8	button;$/;"	m	struct:keyspan_message	file:
+button_dev	silan_button.c	/^struct input_dev *button_dev;$/;"	v	typeref:struct:input_dev
+button_dev	virtual_input.c	/^struct input_dev *button_dev;$/;"	v	typeref:struct:input_dev
+button_exit	silan_button.c	/^module_exit(button_exit);$/;"	v
+button_exit	silan_button.c	/^static void __exit button_exit(void)$/;"	f	file:
+button_exit	virtual_input.c	/^module_exit(button_exit);$/;"	v
+button_exit	virtual_input.c	/^static void __exit button_exit(void)$/;"	f	file:
+button_init	silan_button.c	/^module_init(button_init);$/;"	v
+button_init	silan_button.c	/^static int __init button_init(void)$/;"	f	file:
+button_init	virtual_input.c	/^module_init(button_init);$/;"	v
+button_init	virtual_input.c	/^static int __init button_init(void)$/;"	f	file:
+button_key	bfin_rotary.c	/^	unsigned int button_key;$/;"	m	struct:bfin_rot	file:
+button_status	sgi_btns.c	/^static inline u8 button_status(void)$/;"	f	file:
+buttons_dev	cobalt_btns.c	/^struct buttons_dev {$/;"	s	file:
+buttons_dev	sgi_btns.c	/^struct buttons_dev {$/;"	s	file:
+buzzer_pending	cm109.c	/^	unsigned buzzer_pending:1;	\/* need to issue buzz command *\/$/;"	m	struct:cm109_dev	file:
+buzzer_state	cm109.c	/^	unsigned char buzzer_state;	\/* on\/off *\/$/;"	m	struct:cm109_dev	file:
+byte	cm109.c	/^	u8 byte[4];$/;"	m	struct:cm109_ctl_packet	file:
+c_state	ad714x.c	/^	unsigned short c_state;$/;"	m	struct:ad714x_chip	file:
+call_bios	wistron_btns.c	/^static void call_bios(struct regs *regs)$/;"	f	file:
+channel_mask	ati_remote.c	/^static unsigned long channel_mask;$/;"	v	file:
+channel_mask	ati_remote2.c	/^	unsigned int channel_mask;$/;"	m	struct:ati_remote2	file:
+channel_mask	ati_remote2.c	/^static unsigned int channel_mask = ATI_REMOTE2_MAX_CHANNEL_MASK;$/;"	v	file:
+check_keychord	keychord.c	/^static int check_keychord(struct keychord_device *kdev,$/;"	f	file:
+chip	88pm860x_onkey.c	/^	struct pm860x_chip	*chip;$/;"	m	struct:pm860x_onkey_info	typeref:struct:pm860x_onkey_info::pm860x_chip	file:
+clear_phantom_key	gpio_matrix.c	/^static void clear_phantom_key(struct gpio_kp *kp, int out, int in)$/;"	f	file:
+client	apanel.c	/^	struct i2c_client *client;$/;"	m	struct:apanel	typeref:struct:apanel::i2c_client	file:
+client	pcf8574_keypad.c	/^	struct i2c_client *client;$/;"	m	struct:kp_data	typeref:struct:kp_data::i2c_client	file:
+clock_freq	sparcspkr.c	/^	u32		clock_freq;$/;"	m	struct:bbc_beep_info	file:
+cm109_ctl_packet	cm109.c	/^struct cm109_ctl_packet {$/;"	s	file:
+cm109_dev	cm109.c	/^struct cm109_dev {$/;"	s	file:
+cm109_driver	cm109.c	/^static struct usb_driver cm109_driver = {$/;"	v	typeref:struct:usb_driver	file:
+cm109_exit	cm109.c	/^module_exit(cm109_exit);$/;"	v
+cm109_exit	cm109.c	/^static void __exit cm109_exit(void)$/;"	f	file:
+cm109_init	cm109.c	/^module_init(cm109_init);$/;"	v
+cm109_init	cm109.c	/^static int __init cm109_init(void)$/;"	f	file:
+cm109_input_close	cm109.c	/^static void cm109_input_close(struct input_dev *idev)$/;"	f	file:
+cm109_input_ev	cm109.c	/^static int cm109_input_ev(struct input_dev *idev, unsigned int type,$/;"	f	file:
+cm109_input_open	cm109.c	/^static int cm109_input_open(struct input_dev *idev)$/;"	f	file:
+cm109_restore_state	cm109.c	/^static void cm109_restore_state(struct cm109_dev *dev)$/;"	f	file:
+cm109_select_keymap	cm109.c	/^static int __init cm109_select_keymap(void)$/;"	f	file:
+cm109_stop_traffic	cm109.c	/^static void cm109_stop_traffic(struct cm109_dev *dev)$/;"	f	file:
+cm109_submit_buzz_toggle	cm109.c	/^static void cm109_submit_buzz_toggle(struct cm109_dev *dev)$/;"	f	file:
+cm109_toggle_buzzer_async	cm109.c	/^static void cm109_toggle_buzzer_async(struct cm109_dev *dev)$/;"	f	file:
+cm109_toggle_buzzer_sync	cm109.c	/^static void cm109_toggle_buzzer_sync(struct cm109_dev *dev, int on)$/;"	f	file:
+cm109_urb_ctl_callback	cm109.c	/^static void cm109_urb_ctl_callback(struct urb *urb)$/;"	f	file:
+cm109_urb_irq_callback	cm109.c	/^static void cm109_urb_irq_callback(struct urb *urb)$/;"	f	file:
+cm109_usb_cleanup	cm109.c	/^static void cm109_usb_cleanup(struct cm109_dev *dev)$/;"	f	file:
+cm109_usb_disconnect	cm109.c	/^static void cm109_usb_disconnect(struct usb_interface *interface)$/;"	f	file:
+cm109_usb_post_reset	cm109.c	/^static int cm109_usb_post_reset(struct usb_interface *intf)$/;"	f	file:
+cm109_usb_pre_reset	cm109.c	/^static int cm109_usb_pre_reset(struct usb_interface *intf)$/;"	f	file:
+cm109_usb_probe	cm109.c	/^static int cm109_usb_probe(struct usb_interface *intf,$/;"	f	file:
+cm109_usb_resume	cm109.c	/^static int cm109_usb_resume(struct usb_interface *intf)$/;"	f	file:
+cm109_usb_suspend	cm109.c	/^static int cm109_usb_suspend(struct usb_interface *intf, pm_message_t message)$/;"	f	file:
+cm109_usb_table	cm109.c	/^static const struct usb_device_id cm109_usb_table[] = {$/;"	v	typeref:struct:usb_device_id	file:
+cma3000_accl_data	cma3000_d0x.c	/^struct cma3000_accl_data {$/;"	s	file:
+cma3000_bus_ops	cma3000_d0x.h	/^struct cma3000_bus_ops {$/;"	s
+cma3000_close	cma3000_d0x.c	/^static void cma3000_close(struct input_dev *input_dev)$/;"	f	file:
+cma3000_exit	cma3000_d0x.c	/^EXPORT_SYMBOL(cma3000_exit);$/;"	v
+cma3000_exit	cma3000_d0x.c	/^void cma3000_exit(struct cma3000_accl_data *data)$/;"	f
+cma3000_i2c_bops	cma3000_d0x_i2c.c	/^static const struct cma3000_bus_ops cma3000_i2c_bops = {$/;"	v	typeref:struct:cma3000_bus_ops	file:
+cma3000_i2c_driver	cma3000_d0x_i2c.c	/^static struct i2c_driver cma3000_i2c_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+cma3000_i2c_exit	cma3000_d0x_i2c.c	/^module_exit(cma3000_i2c_exit);$/;"	v
+cma3000_i2c_exit	cma3000_d0x_i2c.c	/^static void __exit cma3000_i2c_exit(void)$/;"	f	file:
+cma3000_i2c_id	cma3000_d0x_i2c.c	/^static const struct i2c_device_id cma3000_i2c_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+cma3000_i2c_init	cma3000_d0x_i2c.c	/^module_init(cma3000_i2c_init);$/;"	v
+cma3000_i2c_init	cma3000_d0x_i2c.c	/^static int __init cma3000_i2c_init(void)$/;"	f	file:
+cma3000_i2c_pm_ops	cma3000_d0x_i2c.c	/^static const struct dev_pm_ops cma3000_i2c_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+cma3000_i2c_probe	cma3000_d0x_i2c.c	/^static int __devinit cma3000_i2c_probe(struct i2c_client *client,$/;"	f	file:
+cma3000_i2c_read	cma3000_d0x_i2c.c	/^static int cma3000_i2c_read(struct device *dev, u8 reg, char *msg)$/;"	f	file:
+cma3000_i2c_remove	cma3000_d0x_i2c.c	/^static int __devexit cma3000_i2c_remove(struct i2c_client *client)$/;"	f	file:
+cma3000_i2c_resume	cma3000_d0x_i2c.c	/^static int cma3000_i2c_resume(struct device *dev)$/;"	f	file:
+cma3000_i2c_set	cma3000_d0x_i2c.c	/^static int cma3000_i2c_set(struct device *dev,$/;"	f	file:
+cma3000_i2c_suspend	cma3000_d0x_i2c.c	/^static int cma3000_i2c_suspend(struct device *dev)$/;"	f	file:
+cma3000_init	cma3000_d0x.c	/^EXPORT_SYMBOL(cma3000_init);$/;"	v
+cma3000_init	cma3000_d0x.c	/^struct cma3000_accl_data *cma3000_init(struct device *dev, int irq,$/;"	f
+cma3000_open	cma3000_d0x.c	/^static int cma3000_open(struct input_dev *input_dev)$/;"	f	file:
+cma3000_poweroff	cma3000_d0x.c	/^static int cma3000_poweroff(struct cma3000_accl_data *data)$/;"	f	file:
+cma3000_poweron	cma3000_d0x.c	/^static int cma3000_poweron(struct cma3000_accl_data *data)$/;"	f	file:
+cma3000_reset	cma3000_d0x.c	/^static int cma3000_reset(struct cma3000_accl_data *data)$/;"	f	file:
+cma3000_resume	cma3000_d0x.c	/^EXPORT_SYMBOL(cma3000_resume);$/;"	v
+cma3000_resume	cma3000_d0x.c	/^void cma3000_resume(struct cma3000_accl_data *data)$/;"	f
+cma3000_suspend	cma3000_d0x.c	/^EXPORT_SYMBOL(cma3000_suspend);$/;"	v
+cma3000_suspend	cma3000_d0x.c	/^void cma3000_suspend(struct cma3000_accl_data *data)$/;"	f
+cma3000_thread_irq	cma3000_d0x.c	/^static irqreturn_t cma3000_thread_irq(int irq, void *dev_id)$/;"	f	file:
+cmd	yealink.h	/^	u8	cmd;		\/* command code, see below *\/$/;"	m	struct:yld_ctl_packet
+cmos_address	wistron_btns.c	/^static u8 cmos_address;$/;"	v	file:
+cnt_config	bfin_rotary.c	/^	unsigned short cnt_config;$/;"	m	struct:bfin_rot	file:
+cnt_debounce	bfin_rotary.c	/^	unsigned short cnt_debounce;$/;"	m	struct:bfin_rot	file:
+cnt_imask	bfin_rotary.c	/^	unsigned short cnt_imask;$/;"	m	struct:bfin_rot	file:
+cobalt_buttons_driver	cobalt_btns.c	/^static struct platform_driver cobalt_buttons_driver = {$/;"	v	typeref:struct:platform_driver	file:
+cobalt_buttons_exit	cobalt_btns.c	/^module_exit(cobalt_buttons_exit);$/;"	v
+cobalt_buttons_exit	cobalt_btns.c	/^static void __exit cobalt_buttons_exit(void)$/;"	f	file:
+cobalt_buttons_init	cobalt_btns.c	/^module_init(cobalt_buttons_init);$/;"	v
+cobalt_buttons_init	cobalt_btns.c	/^static int __init cobalt_buttons_init(void)$/;"	f	file:
+cobalt_buttons_probe	cobalt_btns.c	/^static int __devinit cobalt_buttons_probe(struct platform_device *pdev)$/;"	f	file:
+cobalt_buttons_remove	cobalt_btns.c	/^static int __devexit cobalt_buttons_remove(struct platform_device *pdev)$/;"	f	file:
+cobalt_map	cobalt_btns.c	/^static const unsigned short cobalt_map[] = {$/;"	v	file:
+code	ati_remote.c	/^	unsigned int code;$/;"	m	struct:__anon13	file:
+coexist	twl4030-vibra.c	/^	bool			coexist;$/;"	m	struct:vibra_info	file:
+config	powermate.c	/^	struct urb *irq, *config;$/;"	m	struct:powermate_device	typeref:struct:powermate_device::	file:
+configcr	powermate.c	/^	struct usb_ctrlrequest *configcr;$/;"	m	struct:powermate_device	typeref:struct:powermate_device::usb_ctrlrequest	file:
+copy	yealink.c	/^	} master, copy;$/;"	m	struct:yealink_dev	typeref:union:yealink_dev::__anon9	file:
+copy_keymap	wistron_btns.c	/^static int __init copy_keymap(void)$/;"	f	file:
+count	cobalt_btns.c	/^	int count[ARRAY_SIZE(cobalt_map)];$/;"	m	struct:buttons_dev	file:
+count	sgi_btns.c	/^	int count[ARRAY_SIZE(sgi_map)];$/;"	m	struct:buttons_dev	file:
+cpuclk	ir_input.c	31;"	d	file:
+ctl_data	cm109.c	/^	struct cm109_ctl_packet *ctl_data;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::cm109_ctl_packet	file:
+ctl_data	yealink.c	/^	struct yld_ctl_packet	*ctl_data;$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::yld_ctl_packet	file:
+ctl_dma	cm109.c	/^	dma_addr_t ctl_dma;$/;"	m	struct:cm109_dev	file:
+ctl_dma	yealink.c	/^	dma_addr_t		ctl_dma;$/;"	m	struct:yealink_dev	file:
+ctl_req	cm109.c	/^	struct usb_ctrlrequest *ctl_req;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::usb_ctrlrequest	file:
+ctl_req	yealink.c	/^	struct usb_ctrlrequest	*ctl_req;$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::usb_ctrlrequest	file:
+ctl_submit_lock	cm109.c	/^	spinlock_t ctl_submit_lock;$/;"	m	struct:cm109_dev	file:
+ctl_urb_pending	cm109.c	/^	unsigned ctl_urb_pending:1;	\/* ctl_urb is in flight *\/$/;"	m	struct:cm109_dev	file:
+ctrl_mod	cma3000_d0x.h	/^	u8 ctrl_mod;$/;"	m	struct:cma3000_bus_ops
+current_output	gpio_matrix.c	/^	int current_output;$/;"	m	struct:gpio_kp	file:
+data	keyspan_remote.c	/^	struct bit_tester		data;$/;"	m	struct:usb_keyspan	typeref:struct:usb_keyspan::bit_tester	file:
+data	powermate.c	/^	signed char *data;$/;"	m	struct:powermate_device	file:
+data	yealink.h	/^	u8	data[11];$/;"	m	struct:yld_ctl_packet
+data1	ati_remote.c	/^	unsigned char data1, data2;$/;"	m	struct:__anon13	file:
+data2	ati_remote.c	/^	unsigned char data1, data2;$/;"	m	struct:__anon13	file:
+data_dma	powermate.c	/^	dma_addr_t data_dma;$/;"	m	struct:powermate_device	file:
+dbginfo	ati_remote.c	142;"	d	file:
+debounce	gpio_input.c	/^	uint8_t debounce;$/;"	m	struct:gpio_key_state	file:
+debounce_count	gpio_input.c	/^	int debounce_count;$/;"	m	struct:gpio_input_state	file:
+debug	ati_remote.c	/^static int debug;$/;"	v	file:
+debug	keyspan_remote.c	/^static int debug;$/;"	v	file:
+decode_mg	cma3000_d0x.c	/^static void decode_mg(struct cma3000_accl_data *data, int *datax,$/;"	f	file:
+default_ringtone	yealink.c	/^static u8 default_ringtone[] = {$/;"	v	file:
+dev	88pm860x_onkey.c	/^	struct device		*dev;$/;"	m	struct:pm860x_onkey_info	typeref:struct:pm860x_onkey_info::device	file:
+dev	ad714x.c	/^	struct device *dev;$/;"	m	struct:ad714x_chip	typeref:struct:ad714x_chip::device	file:
+dev	adxl34x.c	/^	struct device *dev;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::device	file:
+dev	cma3000_d0x.c	/^	struct device *dev;$/;"	m	struct:cma3000_accl_data	typeref:struct:cma3000_accl_data::device	file:
+dev	dm355evm_keys.c	/^	struct device		*dev;$/;"	m	struct:dm355evm_keys	typeref:struct:dm355evm_keys::device	file:
+dev	max8925_onkey.c	/^	struct device		*dev;$/;"	m	struct:max8925_onkey_info	typeref:struct:max8925_onkey_info::device	file:
+dev	twl4030-vibra.c	/^	struct device		*dev;$/;"	m	struct:vibra_info	typeref:struct:vibra_info::device	file:
+dev	wm831x-on.c	/^	struct input_dev *dev;$/;"	m	struct:wm831x_on	typeref:struct:wm831x_on::input_dev	file:
+device_chip	apanel.c	/^static enum apanel_chip device_chip[APANEL_DEV_MAX];$/;"	v	typeref:enum:apanel_chip	file:
+device_ids	keychord.c	/^	struct input_device_id  device_ids[2];$/;"	m	struct:keychord_device	typeref:struct:keychord_device::input_device_id	file:
+dialtone	yealink.c	/^	u8	dialtone;$/;"	m	struct:yld_status	file:
+dir	rotary_encoder.c	/^	unsigned char dir;	\/* 0 - clockwise, 1 - CCW *\/$/;"	m	struct:rotary_encoder	file:
+direction	twl4030-vibra.c	/^	int			direction;$/;"	m	struct:vibra_info	file:
+disabled	adxl34x.c	/^	bool disabled;	\/* P: mutex *\/$/;"	m	struct:adxl34x	file:
+disabled_irq	gpio_matrix.c	/^	unsigned int disabled_irq:1;$/;"	m	struct:gpio_kp	file:
+dm355evm_keys	dm355evm_keys.c	/^static const struct key_entry dm355evm_keys[] = {$/;"	v	typeref:struct:key_entry	file:
+dm355evm_keys	dm355evm_keys.c	/^struct dm355evm_keys {$/;"	s	file:
+dm355evm_keys_driver	dm355evm_keys.c	/^static struct platform_driver dm355evm_keys_driver = {$/;"	v	typeref:struct:platform_driver	file:
+dm355evm_keys_exit	dm355evm_keys.c	/^module_exit(dm355evm_keys_exit);$/;"	v
+dm355evm_keys_exit	dm355evm_keys.c	/^static void __exit dm355evm_keys_exit(void)$/;"	f	file:
+dm355evm_keys_init	dm355evm_keys.c	/^module_init(dm355evm_keys_init);$/;"	v
+dm355evm_keys_init	dm355evm_keys.c	/^static int __init dm355evm_keys_init(void)$/;"	f	file:
+dm355evm_keys_irq	dm355evm_keys.c	/^static irqreturn_t dm355evm_keys_irq(int irq, void *_keys)$/;"	f	file:
+dm355evm_keys_probe	dm355evm_keys.c	/^static int __devinit dm355evm_keys_probe(struct platform_device *pdev)$/;"	f	file:
+dm355evm_keys_remove	dm355evm_keys.c	/^static int __devexit dm355evm_keys_remove(struct platform_device *pdev)$/;"	f	file:
+dmi_ids	wistron_btns.c	/^static const struct dmi_system_id __initconst dmi_ids[] = {$/;"	v	typeref:struct:__initconst	file:
+dmi_matched	wistron_btns.c	/^static int __init dmi_matched(const struct dmi_system_id *dmi)$/;"	f	file:
+down_key	bfin_rotary.c	/^	unsigned int down_key;$/;"	m	struct:bfin_rot	file:
+driver_info	cm109.c	/^struct driver_info {$/;"	s	file:
+driver_info	yealink.c	/^struct driver_info {$/;"	s	file:
+ds	gpio_input.c	/^	struct gpio_input_state *ds;$/;"	m	struct:gpio_key_state	typeref:struct:gpio_key_state::gpio_input_state	file:
+early_suspend	gpio_event.c	/^	struct early_suspend early_suspend;$/;"	m	struct:gpio_event	typeref:struct:gpio_event::early_suspend	file:
+eax	wistron_btns.c	/^	u32 eax, ebx, ecx;$/;"	m	struct:regs	file:
+ebx	wistron_btns.c	/^	u32 eax, ebx, ecx;$/;"	m	struct:regs	file:
+ecx	wistron_btns.c	/^	u32 eax, ebx, ecx;$/;"	m	struct:regs	file:
+effect	uinput.c	/^	struct ff_effect_compat	effect;$/;"	m	struct:uinput_ff_upload_compat	typeref:struct:uinput_ff_upload_compat::ff_effect_compat	file:
+enable_reg	sparcspkr.c	/^	void __iomem	*enable_reg;$/;"	m	struct:grover_beep_info	file:
+enabled	twl4030-vibra.c	/^	bool			enabled;$/;"	m	struct:vibra_info	file:
+endpoint_in	ati_remote.c	/^	struct usb_endpoint_descriptor *endpoint_in;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::usb_endpoint_descriptor	file:
+endpoint_out	ati_remote.c	/^	struct usb_endpoint_descriptor *endpoint_out;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::usb_endpoint_descriptor	file:
+ep	ati_remote2.c	/^	struct usb_endpoint_descriptor *ep[2];$/;"	m	struct:ati_remote2	typeref:struct:ati_remote2::usb_endpoint_descriptor	file:
+epoch	hp_sdc_rtc.c	/^static unsigned long epoch = 2000;$/;"	v	file:
+err	ati_remote.c	143;"	d	file:
+err	ati_remote.c	144;"	d	file:
+event	sparcspkr.c	/^	int (*event)(struct input_dev *dev, unsigned int type, unsigned int code, int value);$/;"	m	struct:sparcspkr_state	file:
+fifo_delay	adxl34x.c	/^	bool fifo_delay;$/;"	m	struct:adxl34x	file:
+first_jiffies	ati_remote.c	/^	unsigned long first_jiffies;$/;"	m	struct:ati_remote	file:
+flags	ati_remote2.c	/^	unsigned int flags;$/;"	m	struct:ati_remote2	file:
+flt_pos	ad714x.c	/^	int flt_pos;$/;"	m	struct:ad714x_slider_drv	file:
+flt_pos	ad714x.c	/^	int flt_pos;$/;"	m	struct:ad714x_wheel_drv	file:
+force	wistron_btns.c	/^static int force; \/* = 0; *\/$/;"	v	file:
+freq_regs	sparcspkr.c	/^	void __iomem	*freq_regs;$/;"	m	struct:grover_beep_info	file:
+g_range	cma3000_d0x.c	/^	int g_range;$/;"	m	struct:cma3000_accl_data	file:
+get_icons	yealink.c	/^static ssize_t get_icons(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+gpi	cm109.c	/^	u8 gpi;			\/* Cached value of GPI (high nibble) *\/$/;"	m	struct:cm109_dev	file:
+gpio_axis_4bit_gray_map	gpio_axis.c	/^uint16_t gpio_axis_4bit_gray_map(struct gpio_event_axis_info *info, uint16_t in)$/;"	f
+gpio_axis_4bit_gray_map_table	gpio_axis.c	/^uint16_t gpio_axis_4bit_gray_map_table[] = {$/;"	v
+gpio_axis_5bit_singletrack_map	gpio_axis.c	/^uint16_t gpio_axis_5bit_singletrack_map($/;"	f
+gpio_axis_5bit_singletrack_map_table	gpio_axis.c	/^uint16_t gpio_axis_5bit_singletrack_map_table[] = {$/;"	v
+gpio_axis_irq_handler	gpio_axis.c	/^static irqreturn_t gpio_axis_irq_handler(int irq, void *dev_id)$/;"	f	file:
+gpio_axis_state	gpio_axis.c	/^struct gpio_axis_state {$/;"	s	file:
+gpio_base	silan_button.c	/^static int gpio_base = 96;$/;"	v	file:
+gpio_base	silan_keypad.c	26;"	d	file:
+gpio_event	gpio_event.c	/^struct gpio_event {$/;"	s	file:
+gpio_event_axis_func	gpio_axis.c	/^int gpio_event_axis_func(struct gpio_event_input_devs *input_devs,$/;"	f
+gpio_event_call_all_func	gpio_event.c	/^static int gpio_event_call_all_func(struct gpio_event *ip, int func)$/;"	f	file:
+gpio_event_driver	gpio_event.c	/^static struct platform_driver gpio_event_driver = {$/;"	v	typeref:struct:platform_driver	file:
+gpio_event_exit	gpio_event.c	/^module_exit(gpio_event_exit);$/;"	v
+gpio_event_exit	gpio_event.c	/^static void __exit gpio_event_exit(void)$/;"	f	file:
+gpio_event_init	gpio_event.c	/^module_init(gpio_event_init);$/;"	v
+gpio_event_init	gpio_event.c	/^static int __devinit gpio_event_init(void)$/;"	f	file:
+gpio_event_input_func	gpio_input.c	/^int gpio_event_input_func(struct gpio_event_input_devs *input_devs,$/;"	f
+gpio_event_input_irq_handler	gpio_input.c	/^static irqreturn_t gpio_event_input_irq_handler(int irq, void *dev_id)$/;"	f	file:
+gpio_event_input_request_irqs	gpio_input.c	/^static int gpio_event_input_request_irqs(struct gpio_input_state *ds)$/;"	f	file:
+gpio_event_input_timer_func	gpio_input.c	/^static enum hrtimer_restart gpio_event_input_timer_func(struct hrtimer *timer)$/;"	f	file:
+gpio_event_matrix_func	gpio_matrix.c	/^int gpio_event_matrix_func(struct gpio_event_input_devs *input_devs,$/;"	f
+gpio_event_output_event	gpio_output.c	/^int gpio_event_output_event($/;"	f
+gpio_event_output_func	gpio_output.c	/^int gpio_event_output_func($/;"	f
+gpio_event_probe	gpio_event.c	/^static int gpio_event_probe(struct platform_device *pdev)$/;"	f	file:
+gpio_event_remove	gpio_event.c	/^static int gpio_event_remove(struct platform_device *pdev)$/;"	f	file:
+gpio_event_resume	gpio_event.c	/^void gpio_event_resume(struct early_suspend *h)$/;"	f
+gpio_event_suspend	gpio_event.c	/^void gpio_event_suspend(struct early_suspend *h)$/;"	f
+gpio_event_update_axis	gpio_axis.c	/^static void gpio_event_update_axis(struct gpio_axis_state *as, int report)$/;"	f	file:
+gpio_input_event	gpio_event.c	/^static int gpio_input_event($/;"	f	file:
+gpio_input_state	gpio_input.c	/^struct gpio_input_state {$/;"	s	file:
+gpio_key_state	gpio_input.c	/^struct gpio_key_state {$/;"	s	file:
+gpio_keypad_irq_handler	gpio_matrix.c	/^static irqreturn_t gpio_keypad_irq_handler(int irq_in, void *dev_id)$/;"	f	file:
+gpio_keypad_request_irqs	gpio_matrix.c	/^static int gpio_keypad_request_irqs(struct gpio_kp *kp)$/;"	f	file:
+gpio_keypad_timer_func	gpio_matrix.c	/^static enum hrtimer_restart gpio_keypad_timer_func(struct hrtimer *timer)$/;"	f	file:
+gpio_kp	gpio_matrix.c	/^struct gpio_kp {$/;"	s	file:
+gpiobase	ir_input.c	/^static int gpiobase = 96;$/;"	v	file:
+gref	xen-kbdfront.c	/^	int gref;$/;"	m	struct:xenkbd_info	file:
+grover	sparcspkr.c	/^		struct grover_beep_info grover;$/;"	m	union:sparcspkr_state::__anon5	typeref:struct:sparcspkr_state::__anon5::grover_beep_info	file:
+grover_beep_driver	sparcspkr.c	/^static struct platform_driver grover_beep_driver = {$/;"	v	typeref:struct:platform_driver	file:
+grover_beep_info	sparcspkr.c	/^struct grover_beep_info {$/;"	s	file:
+grover_beep_match	sparcspkr.c	/^static const struct of_device_id grover_beep_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+grover_beep_probe	sparcspkr.c	/^static int __devinit grover_beep_probe(struct platform_device *op)$/;"	f	file:
+grover_remove	sparcspkr.c	/^static int __devexit grover_remove(struct platform_device *op)$/;"	f	file:
+grover_spkr_event	sparcspkr.c	/^static int grover_spkr_event(struct input_dev *dev, unsigned int type, unsigned int code, int value)$/;"	f	file:
+h_state	ad714x.c	/^	unsigned short h_state;$/;"	m	struct:ad714x_chip	file:
+handle_buttons	cobalt_btns.c	/^static void handle_buttons(struct input_polled_dev *dev)$/;"	f	file:
+handle_buttons	sgi_btns.c	/^static void handle_buttons(struct input_polled_dev *dev)$/;"	f	file:
+handle_key	wistron_btns.c	/^static void handle_key(u8 code)$/;"	f	file:
+have_bluetooth	wistron_btns.c	/^static bool have_bluetooth;$/;"	v	file:
+have_wifi	wistron_btns.c	/^static bool have_wifi;$/;"	v	file:
+head	keychord.c	/^	unsigned char		head;$/;"	m	struct:keychord_device	file:
+hide_icon	yealink.c	/^static ssize_t hide_icon(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+highest_stage	ad714x.c	/^	int highest_stage;$/;"	m	struct:ad714x_slider_drv	file:
+highest_stage	ad714x.c	/^	int highest_stage;$/;"	m	struct:ad714x_wheel_drv	file:
+hp_sdc_rtc_async_queue	hp_sdc_rtc.c	/^static struct fasync_struct *hp_sdc_rtc_async_queue;$/;"	v	typeref:struct:fasync_struct	file:
+hp_sdc_rtc_dev	hp_sdc_rtc.c	/^static struct miscdevice hp_sdc_rtc_dev = {$/;"	v	typeref:struct:miscdevice	file:
+hp_sdc_rtc_do_read_bbrtc	hp_sdc_rtc.c	/^static int hp_sdc_rtc_do_read_bbrtc (struct rtc_time *rtctm)$/;"	f	file:
+hp_sdc_rtc_exit	hp_sdc_rtc.c	/^module_exit(hp_sdc_rtc_exit);$/;"	v
+hp_sdc_rtc_exit	hp_sdc_rtc.c	/^static void __exit hp_sdc_rtc_exit(void)$/;"	f	file:
+hp_sdc_rtc_fasync	hp_sdc_rtc.c	/^static int hp_sdc_rtc_fasync (int fd, struct file *filp, int on)$/;"	f	file:
+hp_sdc_rtc_fops	hp_sdc_rtc.c	/^static const struct file_operations hp_sdc_rtc_fops = {$/;"	v	typeref:struct:file_operations	file:
+hp_sdc_rtc_init	hp_sdc_rtc.c	/^module_init(hp_sdc_rtc_init);$/;"	v
+hp_sdc_rtc_init	hp_sdc_rtc.c	/^static int __init hp_sdc_rtc_init(void)$/;"	f	file:
+hp_sdc_rtc_ioctl	hp_sdc_rtc.c	/^static int hp_sdc_rtc_ioctl(struct file *file, $/;"	f	file:
+hp_sdc_rtc_isr	hp_sdc_rtc.c	/^static hp_sdc_irqhook hp_sdc_rtc_isr;$/;"	v	file:
+hp_sdc_rtc_isr	hp_sdc_rtc.c	/^static void hp_sdc_rtc_isr (int irq, void *dev_id, $/;"	f	file:
+hp_sdc_rtc_open	hp_sdc_rtc.c	/^static int hp_sdc_rtc_open(struct inode *inode, struct file *file)$/;"	f	file:
+hp_sdc_rtc_poll	hp_sdc_rtc.c	/^static unsigned int hp_sdc_rtc_poll(struct file *file, poll_table *wait)$/;"	f	file:
+hp_sdc_rtc_proc_output	hp_sdc_rtc.c	/^static int hp_sdc_rtc_proc_output (char *buf)$/;"	f	file:
+hp_sdc_rtc_read	hp_sdc_rtc.c	/^static ssize_t hp_sdc_rtc_read(struct file *file, char __user *buf,$/;"	f	file:
+hp_sdc_rtc_read_bbrtc	hp_sdc_rtc.c	/^static int hp_sdc_rtc_read_bbrtc (struct rtc_time *rtctm)$/;"	f	file:
+hp_sdc_rtc_read_ct	hp_sdc_rtc.c	/^static inline int hp_sdc_rtc_read_ct(struct timeval *res) {$/;"	f	file:
+hp_sdc_rtc_read_dt	hp_sdc_rtc.c	/^static inline int hp_sdc_rtc_read_dt(struct timeval *res) {$/;"	f	file:
+hp_sdc_rtc_read_fhs	hp_sdc_rtc.c	/^static inline int hp_sdc_rtc_read_fhs(struct timeval *res) {$/;"	f	file:
+hp_sdc_rtc_read_i8042timer	hp_sdc_rtc.c	/^static int64_t hp_sdc_rtc_read_i8042timer (uint8_t loadcmd, int numreg)$/;"	f	file:
+hp_sdc_rtc_read_mt	hp_sdc_rtc.c	/^static inline int hp_sdc_rtc_read_mt(struct timeval *res) {$/;"	f	file:
+hp_sdc_rtc_read_proc	hp_sdc_rtc.c	/^static int hp_sdc_rtc_read_proc(char *page, char **start, off_t off,$/;"	f	file:
+hp_sdc_rtc_read_rt	hp_sdc_rtc.c	/^static inline int hp_sdc_rtc_read_rt(struct timeval *res) {$/;"	f	file:
+hp_sdc_rtc_set_ct	hp_sdc_rtc.c	356;"	d	file:
+hp_sdc_rtc_set_dt	hp_sdc_rtc.c	352;"	d	file:
+hp_sdc_rtc_set_fhs	hp_sdc_rtc.c	/^static int hp_sdc_rtc_set_fhs (struct timeval *setto)$/;"	f	file:
+hp_sdc_rtc_set_i8042timer	hp_sdc_rtc.c	/^static int hp_sdc_rtc_set_i8042timer (struct timeval *setto, uint8_t setcmd)$/;"	f	file:
+hp_sdc_rtc_set_mt	hp_sdc_rtc.c	348;"	d	file:
+hp_sdc_rtc_set_rt	hp_sdc_rtc.c	/^static int hp_sdc_rtc_set_rt (struct timeval *setto)$/;"	f	file:
+hp_sdc_rtc_unlocked_ioctl	hp_sdc_rtc.c	/^static long hp_sdc_rtc_unlocked_ioctl(struct file *file,$/;"	f	file:
+hw	ad714x.c	/^	struct ad714x_platform_data *hw;$/;"	m	struct:ad714x_chip	typeref:struct:ad714x_chip::ad714x_platform_data	file:
+hw_code	ati_remote2.c	/^	u8  hw_code;$/;"	m	struct:__anon4	file:
+hwcal	adxl34x.c	/^	struct axis_triple hwcal;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::axis_triple	file:
+i2c	88pm860x_onkey.c	/^	struct i2c_client	*i2c;$/;"	m	struct:pm860x_onkey_info	typeref:struct:pm860x_onkey_info::i2c_client	file:
+i2c	max8925_onkey.c	/^	struct i2c_client	*i2c;$/;"	m	struct:max8925_onkey_info	typeref:struct:max8925_onkey_info::i2c_client	file:
+i8042tregs	hp_sdc_rtc.c	/^static struct semaphore i8042tregs;$/;"	v	typeref:struct:semaphore	file:
+idev	88pm860x_onkey.c	/^	struct input_dev	*idev;$/;"	m	struct:pm860x_onkey_info	typeref:struct:pm860x_onkey_info::input_dev	file:
+idev	ab8500-ponkey.c	/^	struct input_dev	*idev;$/;"	m	struct:ab8500_ponkey	typeref:struct:ab8500_ponkey::input_dev	file:
+idev	ati_remote.c	/^	struct input_dev *idev;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::input_dev	file:
+idev	ati_remote2.c	/^	struct input_dev *idev;$/;"	m	struct:ati_remote2	typeref:struct:ati_remote2::input_dev	file:
+idev	cm109.c	/^	struct input_dev *idev;	 \/* input device *\/$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::input_dev	file:
+idev	max8925_onkey.c	/^	struct input_dev	*idev;$/;"	m	struct:max8925_onkey_info	typeref:struct:max8925_onkey_info::input_dev	file:
+idev	pcf8574_keypad.c	/^	struct input_dev *idev;$/;"	m	struct:kp_data	typeref:struct:kp_data::input_dev	file:
+idev	yealink.c	/^	struct input_dev *idev;		\/* input device *\/$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::input_dev	file:
+in_buffer	keyspan_remote.c	/^	unsigned char			*in_buffer;$/;"	m	struct:usb_keyspan	file:
+in_dma	keyspan_remote.c	/^	dma_addr_t			in_dma;$/;"	m	struct:usb_keyspan	file:
+in_endpoint	keyspan_remote.c	/^	struct usb_endpoint_descriptor	*in_endpoint;$/;"	m	struct:usb_keyspan	typeref:struct:usb_keyspan::usb_endpoint_descriptor	file:
+inbuf	ati_remote.c	/^	unsigned char *inbuf;$/;"	m	struct:ati_remote	file:
+inbuf_dma	ati_remote.c	/^	dma_addr_t inbuf_dma;$/;"	m	struct:ati_remote	file:
+info	gpio_axis.c	/^	struct gpio_event_axis_info *info;$/;"	m	struct:gpio_axis_state	typeref:struct:gpio_axis_state::gpio_event_axis_info	file:
+info	gpio_event.c	/^	const struct gpio_event_platform_data *info;$/;"	m	struct:gpio_event	typeref:struct:gpio_event::gpio_event_platform_data	file:
+info	gpio_input.c	/^	const struct gpio_event_input_info *info;$/;"	m	struct:gpio_input_state	typeref:struct:gpio_input_state::gpio_event_input_info	file:
+info_P1K	yealink.c	/^static const struct driver_info info_P1K = {$/;"	v	typeref:struct:driver_info	file:
+info_cm109	cm109.c	/^static const struct driver_info info_cm109 = {$/;"	v	typeref:struct:driver_info	file:
+init1	ati_remote.c	/^static char init1[] = { 0x01, 0x00, 0x20, 0x14 };$/;"	v	file:
+init2	ati_remote.c	/^static char init2[] = { 0x01, 0x00, 0x20, 0x14, 0x20, 0x20, 0x20 };$/;"	v	file:
+input	ad714x.c	/^	struct input_dev *input;$/;"	m	struct:ad714x_button_drv	typeref:struct:ad714x_button_drv::input_dev	file:
+input	ad714x.c	/^	struct input_dev *input;$/;"	m	struct:ad714x_slider_drv	typeref:struct:ad714x_slider_drv::input_dev	file:
+input	ad714x.c	/^	struct input_dev *input;$/;"	m	struct:ad714x_touchpad_drv	typeref:struct:ad714x_touchpad_drv::input_dev	file:
+input	ad714x.c	/^	struct input_dev *input;$/;"	m	struct:ad714x_wheel_drv	typeref:struct:ad714x_wheel_drv::input_dev	file:
+input	adxl34x.c	/^	struct input_dev *input;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::input_dev	file:
+input	bfin_rotary.c	/^	struct input_dev *input;$/;"	m	struct:bfin_rot	typeref:struct:bfin_rot::input_dev	file:
+input	dm355evm_keys.c	/^	struct input_dev	*input;$/;"	m	struct:dm355evm_keys	typeref:struct:dm355evm_keys::input_dev	file:
+input	keyspan_remote.c	/^	struct input_dev		*input;$/;"	m	struct:usb_keyspan	typeref:struct:usb_keyspan::input_dev	file:
+input	pcap_keys.c	/^	struct input_dev *input;$/;"	m	struct:pcap_keys	typeref:struct:pcap_keys::input_dev	file:
+input	powermate.c	/^	struct input_dev *input;$/;"	m	struct:powermate_device	typeref:struct:powermate_device::input_dev	file:
+input	pwm-beeper.c	/^	struct input_dev *input;$/;"	m	struct:pwm_beeper	typeref:struct:pwm_beeper::input_dev	file:
+input	rotary_encoder.c	/^	struct input_dev *input;$/;"	m	struct:rotary_encoder	typeref:struct:rotary_encoder::input_dev	file:
+input_close	yealink.c	/^static void input_close(struct input_dev *dev)$/;"	f	file:
+input_dev	atlas_btns.c	/^static struct input_dev *input_dev;$/;"	v	typeref:struct:input_dev	file:
+input_dev	cma3000_d0x.c	/^	struct input_dev *input_dev;$/;"	m	struct:cma3000_accl_data	typeref:struct:cma3000_accl_data::input_dev	file:
+input_dev	pcf50633-input.c	/^	struct input_dev *input_dev;$/;"	m	struct:pcf50633_input	typeref:struct:pcf50633_input::input_dev	file:
+input_dev	sparcspkr.c	/^	struct input_dev	*input_dev;$/;"	m	struct:sparcspkr_state	typeref:struct:sparcspkr_state::input_dev	file:
+input_dev	twl4030-vibra.c	/^	struct input_dev	*input_dev;$/;"	m	struct:vibra_info	typeref:struct:vibra_info::input_dev	file:
+input_devs	gpio_axis.c	/^	struct gpio_event_input_devs *input_devs;$/;"	m	struct:gpio_axis_state	typeref:struct:gpio_axis_state::gpio_event_input_devs	file:
+input_devs	gpio_event.c	/^	struct gpio_event_input_devs *input_devs;$/;"	m	struct:gpio_event	typeref:struct:gpio_event::gpio_event_input_devs	file:
+input_devs	gpio_input.c	/^	struct gpio_event_input_devs *input_devs;$/;"	m	struct:gpio_input_state	typeref:struct:gpio_input_state::gpio_event_input_devs	file:
+input_devs	gpio_matrix.c	/^	struct gpio_event_input_devs *input_devs;$/;"	m	struct:gpio_kp	typeref:struct:gpio_kp::gpio_event_input_devs	file:
+input_handler	keychord.c	/^	struct input_handler	input_handler;$/;"	m	struct:keychord_device	typeref:struct:keychord_device::input_handler	file:
+input_handler	xen-kbdfront.c	/^static irqreturn_t input_handler(int rq, void *dev_id)$/;"	f	file:
+input_open	yealink.c	/^static int input_open(struct input_dev *dev)$/;"	f	file:
+input_the_key	silan_keypad.c	/^static void input_the_key(int row, int volumn)$/;"	f	file:
+int_mask	adxl34x.c	/^	unsigned int_mask;$/;"	m	struct:adxl34x	file:
+interface	ati_remote.c	/^	struct usb_interface *interface;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::usb_interface	file:
+interface	keyspan_remote.c	/^	struct usb_interface		*interface;$/;"	m	struct:usb_keyspan	typeref:struct:usb_keyspan::usb_interface	file:
+intf	ati_remote2.c	/^	struct usb_interface *intf[2];$/;"	m	struct:ati_remote2	typeref:struct:ati_remote2::usb_interface	file:
+intf	cm109.c	/^	struct usb_interface *intf;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::usb_interface	file:
+ipdev	apanel.c	/^	struct input_polled_dev *ipdev;$/;"	m	struct:apanel	typeref:struct:apanel::input_polled_dev	file:
+ir_dev	ir_input.c	/^struct input_dev *ir_dev;$/;"	v	typeref:struct:input_dev
+ir_devname	ir_input.c	/^    unsigned char *ir_devname;$/;"	m	struct:ir_private	file:
+ir_exit	ir_input.c	/^module_exit(ir_exit);$/;"	v
+ir_exit	ir_input.c	/^static void __exit ir_exit(void)$/;"	f	file:
+ir_init	ir_input.c	/^module_init(ir_init);$/;"	v
+ir_init	ir_input.c	/^static int __init ir_init(void)$/;"	f	file:
+ir_irq	ir_input.c	/^static int ir_irq = 38;$/;"	v	file:
+ir_isr	ir_input.c	/^static irqreturn_t ir_isr(int irq, void *dev_id)$/;"	f	file:
+ir_key_table	ir_input.c	/^} ir_key_table[] = $/;"	v	typeref:struct:__anon7	file:
+ir_priv	ir_input.c	/^struct ir_private ir_priv;$/;"	v	typeref:struct:ir_private
+ir_private	ir_input.c	/^struct ir_private {$/;"	s	file:
+ir_produce	ir_input.c	/^static void ir_produce()$/;"	f	file:
+ir_work	ir_input.c	/^struct delayed_work ir_work;$/;"	v	typeref:struct:delayed_work
+ir_work_fn	ir_input.c	/^static void ir_work_fn(struct work_struct *work)$/;"	f	file:
+ir_wq	ir_input.c	/^DECLARE_WAIT_QUEUE_HEAD(ir_wq);$/;"	v
+ircode	ir_input.c	/^   unsigned char  ircode;$/;"	m	struct:__anon7	file:
+irq	88pm860x_onkey.c	/^	int			irq;$/;"	m	struct:pm860x_onkey_info	file:
+irq	ad714x.c	/^	int irq;$/;"	m	struct:ad714x_chip	file:
+irq	adxl34x.c	/^	int irq;$/;"	m	struct:adxl34x	file:
+irq	bfin_rotary.c	/^	int irq;$/;"	m	struct:bfin_rot	file:
+irq	cma3000_d0x.c	/^	int irq;$/;"	m	struct:cma3000_accl_data	file:
+irq	dm355evm_keys.c	/^	int			irq;$/;"	m	struct:dm355evm_keys	file:
+irq	max8925_onkey.c	/^	int			irq[2];$/;"	m	struct:max8925_onkey_info	file:
+irq	powermate.c	/^	struct urb *irq, *config;$/;"	m	struct:powermate_device	typeref:struct:powermate_device::urb	file:
+irq	xen-kbdfront.c	/^	int irq;$/;"	m	struct:xenkbd_info	file:
+irq_a	rotary_encoder.c	/^	unsigned int irq_a;$/;"	m	struct:rotary_encoder	file:
+irq_b	rotary_encoder.c	/^	unsigned int irq_b;$/;"	m	struct:rotary_encoder	file:
+irq_data	cm109.c	/^	struct cm109_ctl_packet *irq_data;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::cm109_ctl_packet	file:
+irq_data	yealink.c	/^	struct yld_ctl_packet	*irq_data;$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::yld_ctl_packet	file:
+irq_dbf	ab8500-ponkey.c	/^	int			irq_dbf;$/;"	m	struct:ab8500_ponkey	file:
+irq_dbr	ab8500-ponkey.c	/^	int			irq_dbr;$/;"	m	struct:ab8500_ponkey	file:
+irq_dma	cm109.c	/^	dma_addr_t irq_dma;$/;"	m	struct:cm109_dev	file:
+irq_dma	yealink.c	/^	dma_addr_t		irq_dma;$/;"	m	struct:yealink_dev	file:
+irq_lock	gpio_input.c	/^	spinlock_t irq_lock;$/;"	m	struct:gpio_input_state	file:
+irq_urb	ati_remote.c	/^	struct urb *irq_urb;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::urb	file:
+irq_urb	keyspan_remote.c	/^	struct urb*			irq_urb;$/;"	m	struct:usb_keyspan	typeref:struct:usb_keyspan::urb	file:
+irq_urb_pending	cm109.c	/^	unsigned irq_urb_pending:1;	\/* irq_urb is in flight *\/$/;"	m	struct:cm109_dev	file:
+ixp4xx_spkr_control	ixp4xx-beeper.c	/^static void ixp4xx_spkr_control(unsigned int pin, unsigned int count)$/;"	f	file:
+ixp4xx_spkr_event	ixp4xx-beeper.c	/^static int ixp4xx_spkr_event(struct input_dev *dev, unsigned int type, unsigned int code, int value)$/;"	f	file:
+ixp4xx_spkr_exit	ixp4xx-beeper.c	/^module_exit(ixp4xx_spkr_exit);$/;"	v
+ixp4xx_spkr_exit	ixp4xx-beeper.c	/^static void __exit ixp4xx_spkr_exit(void)$/;"	f	file:
+ixp4xx_spkr_init	ixp4xx-beeper.c	/^module_init(ixp4xx_spkr_init);$/;"	v
+ixp4xx_spkr_init	ixp4xx-beeper.c	/^static int __init ixp4xx_spkr_init(void)$/;"	f	file:
+ixp4xx_spkr_interrupt	ixp4xx-beeper.c	/^static irqreturn_t ixp4xx_spkr_interrupt(int irq, void *dev_id)$/;"	f	file:
+ixp4xx_spkr_platform_driver	ixp4xx-beeper.c	/^static struct platform_driver ixp4xx_spkr_platform_driver = {$/;"	v	typeref:struct:platform_driver	file:
+ixp4xx_spkr_probe	ixp4xx-beeper.c	/^static int __devinit ixp4xx_spkr_probe(struct platform_device *dev)$/;"	f	file:
+ixp4xx_spkr_remove	ixp4xx-beeper.c	/^static int __devexit ixp4xx_spkr_remove(struct platform_device *dev)$/;"	f	file:
+ixp4xx_spkr_shutdown	ixp4xx-beeper.c	/^static void ixp4xx_spkr_shutdown(struct platform_device *dev)$/;"	f	file:
+jiffies	ati_remote2.c	/^	unsigned long jiffies;$/;"	m	struct:ati_remote2	file:
+jiffies_last_press	wistron_btns.c	/^static unsigned long jiffies_last_press;$/;"	v	file:
+kbd	xen-kbdfront.c	/^	struct input_dev *kbd;$/;"	m	struct:xenkbd_info	typeref:struct:xenkbd_info::input_dev	file:
+key_code	cm109.c	/^	int key_code;		\/* last reported key *\/$/;"	m	struct:cm109_dev	file:
+key_code	yealink.c	/^	int key_code;			\/* last reported key	 *\/$/;"	m	struct:yealink_dev	file:
+key_dev	silan_keypad.c	/^static struct input_dev *key_dev;$/;"	v	typeref:struct:input_dev	file:
+key_down	keychord.c	/^	int key_down;$/;"	m	struct:keychord_device	file:
+key_exit	silan_keypad.c	/^module_exit(key_exit);$/;"	v
+key_exit	silan_keypad.c	/^static void __exit key_exit(void)$/;"	f	file:
+key_init	silan_keypad.c	/^module_init(key_init);$/;"	v
+key_init	silan_keypad.c	/^static int __init key_init(void)$/;"	f	file:
+key_press_irq	pmic8xxx-pwrkey.c	/^	int key_press_irq;$/;"	m	struct:pmic8xxx_pwrkey	file:
+key_state	gpio_input.c	/^	struct gpio_key_state key_state[0];$/;"	m	struct:gpio_input_state	typeref:struct:gpio_input_state::gpio_key_state	file:
+key_state_changed	gpio_matrix.c	/^	unsigned int key_state_changed:1;$/;"	m	struct:gpio_kp	file:
+key_table	ir_input.c	/^    unsigned long *key_table;    \/* Table for repetition keys *\/$/;"	m	struct:ir_private	file:
+key_table	silan_button.c	/^static const int key_table[DEVNUM] =$/;"	v	file:
+key_table	silan_keypad.c	/^static const int key_table[DEVNUM] =$/;"	v	file:
+key_table	virtual_input.c	/^static const int key_table[DEVNUM] =$/;"	v	file:
+keybit	cm109.c	/^	int keybit;		\/* 0=new scan  1,2,4,8=scan columns  *\/$/;"	m	struct:cm109_dev	file:
+keybit	keychord.c	/^	unsigned long keybit[BITS_TO_LONGS(KEY_CNT)];$/;"	m	struct:keychord_device	file:
+keychord_connect	keychord.c	/^static int keychord_connect(struct input_handler *handler,$/;"	f	file:
+keychord_count	keychord.c	/^	int			keychord_count;$/;"	m	struct:keychord_device	file:
+keychord_device	keychord.c	/^struct keychord_device {$/;"	s	file:
+keychord_disconnect	keychord.c	/^static void keychord_disconnect(struct input_handle *handle)$/;"	f	file:
+keychord_event	keychord.c	/^static void keychord_event(struct input_handle *handle, unsigned int type,$/;"	f	file:
+keychord_exit	keychord.c	/^module_exit(keychord_exit);$/;"	v
+keychord_exit	keychord.c	/^static void __exit keychord_exit(void)$/;"	f	file:
+keychord_fops	keychord.c	/^static const struct file_operations keychord_fops = {$/;"	v	typeref:struct:file_operations	file:
+keychord_init	keychord.c	/^module_init(keychord_init);$/;"	v
+keychord_init	keychord.c	/^static int __init keychord_init(void)$/;"	f	file:
+keychord_misc	keychord.c	/^static struct miscdevice keychord_misc = {$/;"	v	typeref:struct:miscdevice	file:
+keychord_open	keychord.c	/^static int keychord_open(struct inode *inode, struct file *file)$/;"	f	file:
+keychord_poll	keychord.c	/^static unsigned int keychord_poll(struct file *file, poll_table *wait)$/;"	f	file:
+keychord_read	keychord.c	/^static ssize_t keychord_read(struct file *file, char __user *buffer,$/;"	f	file:
+keychord_release	keychord.c	/^static int keychord_release(struct inode *inode, struct file *file)$/;"	f	file:
+keychord_write	keychord.c	/^static ssize_t keychord_write(struct file *file, const char __user *buffer,$/;"	f	file:
+keychords	keychord.c	/^	struct input_keychord	*keychords;$/;"	m	struct:keychord_device	typeref:struct:keychord_device::input_keychord	file:
+keycode	ati_remote2.c	/^	u16 keycode;$/;"	m	struct:__anon4	file:
+keycode	ati_remote2.c	/^	u16 keycode[ATI_REMOTE2_MODES][ARRAY_SIZE(ati_remote2_key_table)];$/;"	m	struct:ati_remote2	file:
+keycode	ir_input.c	/^   int  keycode;$/;"	m	struct:__anon7	file:
+keymap	apanel.c	/^	unsigned short keymap[MAX_PANEL_KEYS];$/;"	m	struct:apanel	file:
+keymap	cm109.c	/^	unsigned short keymap[KEYMAP_SIZE];$/;"	m	struct:cm109_dev	file:
+keymap	cm109.c	/^static unsigned short (*keymap)(int) = keymap_kip1000;$/;"	v	file:
+keymap	cobalt_btns.c	/^	unsigned short keymap[ARRAY_SIZE(cobalt_map)];$/;"	m	struct:buttons_dev	file:
+keymap	keyspan_remote.c	/^	unsigned short			keymap[ARRAY_SIZE(keyspan_key_table)];$/;"	m	struct:usb_keyspan	file:
+keymap	sgi_btns.c	/^	unsigned short keymap[ARRAY_SIZE(sgi_map)];$/;"	m	struct:buttons_dev	file:
+keymap	wistron_btns.c	/^static struct key_entry *keymap; \/* = NULL; Current key map *\/$/;"	v	typeref:struct:key_entry	file:
+keymap_atcom	cm109.c	/^static unsigned short keymap_atcom(int scancode)$/;"	f	file:
+keymap_gtalk	cm109.c	/^static unsigned short keymap_gtalk(int scancode)$/;"	f	file:
+keymap_kip1000	cm109.c	/^static unsigned short keymap_kip1000(int scancode)$/;"	f	file:
+keymap_name	wistron_btns.c	/^static char *keymap_name; \/* = NULL; *\/$/;"	v	file:
+keymap_usbph01	cm109.c	/^static unsigned short keymap_usbph01(int scancode)$/;"	f	file:
+keynum	yealink.c	/^	u8	keynum;$/;"	m	struct:yld_status	file:
+keypad	silan_keypad.c	/^static int keypad[] = {volumn1, volumn2, volumn3, volumn4};$/;"	v	file:
+keypad_info	gpio_matrix.c	/^	struct gpio_event_matrix_info *keypad_info;$/;"	m	struct:gpio_kp	typeref:struct:gpio_kp::gpio_event_matrix_info	file:
+keypad_isr	silan_keypad.c	/^static irqreturn_t keypad_isr(int irq, void *dev_id)$/;"	f	file:
+keypad_work	silan_keypad.c	/^static struct delayed_work keypad_work;$/;"	v	typeref:struct:delayed_work	file:
+keypad_work_fn	silan_keypad.c	/^static void keypad_work_fn(struct work_struct *work)$/;"	f	file:
+keys_pressed	gpio_matrix.c	/^	unsigned long keys_pressed[0];$/;"	m	struct:gpio_kp	file:
+keyspan_check_data	keyspan_remote.c	/^static void keyspan_check_data(struct usb_keyspan *remote)$/;"	f	file:
+keyspan_close	keyspan_remote.c	/^static void keyspan_close(struct input_dev *dev)$/;"	f	file:
+keyspan_disconnect	keyspan_remote.c	/^static void keyspan_disconnect(struct usb_interface *interface)$/;"	f	file:
+keyspan_driver	keyspan_remote.c	/^static struct usb_driver keyspan_driver =$/;"	v	typeref:struct:usb_driver	file:
+keyspan_driver	keyspan_remote.c	/^static struct usb_driver keyspan_driver;$/;"	v	typeref:struct:usb_driver	file:
+keyspan_get_in_endpoint	keyspan_remote.c	/^static struct usb_endpoint_descriptor *keyspan_get_in_endpoint(struct usb_host_interface *iface)$/;"	f	file:
+keyspan_irq_recv	keyspan_remote.c	/^static void keyspan_irq_recv(struct urb *urb)$/;"	f	file:
+keyspan_key_table	keyspan_remote.c	/^static const unsigned short keyspan_key_table[] = {$/;"	v	file:
+keyspan_load_tester	keyspan_remote.c	/^static int keyspan_load_tester(struct usb_keyspan* dev, int bits_needed)$/;"	f	file:
+keyspan_message	keyspan_remote.c	/^struct keyspan_message {$/;"	s	file:
+keyspan_open	keyspan_remote.c	/^static int keyspan_open(struct input_dev *dev)$/;"	f	file:
+keyspan_print	keyspan_remote.c	/^static void keyspan_print(struct usb_keyspan* dev) \/*unsigned char* data)*\/$/;"	f	file:
+keyspan_probe	keyspan_remote.c	/^static int keyspan_probe(struct usb_interface *interface, const struct usb_device_id *id)$/;"	f	file:
+keyspan_report_button	keyspan_remote.c	/^static void keyspan_report_button(struct usb_keyspan *remote, int button, int press)$/;"	f	file:
+keyspan_setup	keyspan_remote.c	/^static int keyspan_setup(struct usb_device* dev)$/;"	f	file:
+keyspan_table	keyspan_remote.c	/^static struct usb_device_id keyspan_table[] = {$/;"	v	typeref:struct:usb_device_id	file:
+keystate	keychord.c	/^	unsigned long keystate[BITS_TO_LONGS(KEY_CNT)];$/;"	m	struct:keychord_device	file:
+kind	ati_remote.c	/^	short kind;$/;"	m	struct:__anon13	file:
+kp_data	pcf8574_keypad.c	/^struct kp_data {$/;"	s	file:
+l_state	ad714x.c	/^	unsigned short l_state;$/;"	m	struct:ad714x_chip	file:
+last_jiffies	ir_input.c	/^    unsigned long last_jiffies;    \/* Timestamp for last reception *\/$/;"	m	struct:ir_private	file:
+last_key_state_changed	gpio_matrix.c	/^	unsigned int last_key_state_changed:1;$/;"	m	struct:gpio_kp	file:
+last_stable	rotary_encoder.c	/^	char last_stable;$/;"	m	struct:rotary_encoder	file:
+laststate	pcf8574_keypad.c	/^	unsigned char laststate;$/;"	m	struct:kp_data	file:
+lcd	yealink.c	/^	u8	lcd[24];$/;"	m	struct:yld_status	file:
+lcdMap	yealink.c	/^	u8 lcdMap[ARRAY_SIZE(lcdMap)];	\/* state of LCD, LED ... *\/$/;"	m	struct:yealink_dev	file:
+lcdMap	yealink.c	/^} lcdMap[] = {$/;"	v	typeref:struct:lcd_segment_map	file:
+lcd_segment_map	yealink.c	/^static const struct lcd_segment_map {$/;"	s	file:
+led	yealink.c	/^	u8	led;$/;"	m	struct:yld_status	file:
+led_bits	apanel.c	/^	u16    led_bits;$/;"	m	struct:apanel	file:
+led_update	apanel.c	/^static void led_update(struct work_struct *work)$/;"	f	file:
+led_work	apanel.c	/^	struct work_struct led_work;$/;"	m	struct:apanel	typeref:struct:apanel::work_struct	file:
+leds_present	wistron_btns.c	/^static int leds_present;	\/* bitmask of leds present *\/$/;"	v	file:
+left_ep	ad714x.c	/^	int left_ep;$/;"	m	struct:ad714x_touchpad_drv	file:
+left_ep_val	ad714x.c	/^	int left_ep_val;$/;"	m	struct:ad714x_touchpad_drv	file:
+len	keyspan_remote.c	/^	int	len;$/;"	m	struct:bit_tester	file:
+locate_wistron_bios	wistron_btns.c	/^static ssize_t __init locate_wistron_bios(void __iomem *base)$/;"	f	file:
+lock	ir_input.c	/^    spinlock_t lock;        \/* Spin lock *\/$/;"	m	struct:ir_private	file:
+lock	keychord.c	/^	spinlock_t		lock;$/;"	m	struct:keychord_device	file:
+lock	powermate.c	/^	spinlock_t lock;$/;"	m	struct:powermate_device	file:
+lock	sparcspkr.c	/^	spinlock_t		lock;$/;"	m	struct:sparcspkr_state	file:
+m	yealink.c	/^			u8	a,m;$/;"	m	struct:lcd_segment_map::__anon8::pictogram_map	file:
+m	yealink.c	/^			u8	a,m;$/;"	m	struct:lcd_segment_map::__anon8::segment_map	file:
+m68kspkr_event	m68kspkr.c	/^static int m68kspkr_event(struct input_dev *dev, unsigned int type, unsigned int code, int value)$/;"	f	file:
+m68kspkr_exit	m68kspkr.c	/^module_exit(m68kspkr_exit);$/;"	v
+m68kspkr_exit	m68kspkr.c	/^static void __exit m68kspkr_exit(void)$/;"	f	file:
+m68kspkr_init	m68kspkr.c	/^module_init(m68kspkr_init);$/;"	v
+m68kspkr_init	m68kspkr.c	/^static int __init m68kspkr_init(void)$/;"	f	file:
+m68kspkr_platform_device	m68kspkr.c	/^static struct platform_device *m68kspkr_platform_device;$/;"	v	typeref:struct:platform_device	file:
+m68kspkr_platform_driver	m68kspkr.c	/^static struct platform_driver m68kspkr_platform_driver = {$/;"	v	typeref:struct:platform_driver	file:
+m68kspkr_probe	m68kspkr.c	/^static int __devinit m68kspkr_probe(struct platform_device *dev)$/;"	f	file:
+m68kspkr_remove	m68kspkr.c	/^static int __devexit m68kspkr_remove(struct platform_device *dev)$/;"	f	file:
+m68kspkr_shutdown	m68kspkr.c	/^static void m68kspkr_shutdown(struct platform_device *dev)$/;"	f	file:
+mail_led	apanel.c	/^	struct led_classdev mail_led;$/;"	m	struct:apanel	typeref:struct:apanel::led_classdev	file:
+mail_led_set	apanel.c	/^static void mail_led_set(struct led_classdev *led,$/;"	f	file:
+map_bios	wistron_btns.c	/^static int __init map_bios(void)$/;"	f	file:
+map_p1k_to_key	yealink.c	/^static int map_p1k_to_key(int scancode)$/;"	f	file:
+master	yealink.c	/^	} master, copy;$/;"	m	struct:yealink_dev	typeref:union:yealink_dev::__anon9	file:
+max8925_onkey_driver	max8925_onkey.c	/^static struct platform_driver max8925_onkey_driver = {$/;"	v	typeref:struct:platform_driver	file:
+max8925_onkey_exit	max8925_onkey.c	/^module_exit(max8925_onkey_exit);$/;"	v
+max8925_onkey_exit	max8925_onkey.c	/^static void __exit max8925_onkey_exit(void)$/;"	f	file:
+max8925_onkey_handler	max8925_onkey.c	/^static irqreturn_t max8925_onkey_handler(int irq, void *data)$/;"	f	file:
+max8925_onkey_info	max8925_onkey.c	/^struct max8925_onkey_info {$/;"	s	file:
+max8925_onkey_init	max8925_onkey.c	/^module_init(max8925_onkey_init);$/;"	v
+max8925_onkey_init	max8925_onkey.c	/^static int __init max8925_onkey_init(void)$/;"	f	file:
+max8925_onkey_probe	max8925_onkey.c	/^static int __devinit max8925_onkey_probe(struct platform_device *pdev)$/;"	f	file:
+max8925_onkey_remove	max8925_onkey.c	/^static int __devexit max8925_onkey_remove(struct platform_device *pdev)$/;"	f	file:
+mode	ati_remote2.c	/^	int mode;$/;"	m	struct:ati_remote2	file:
+mode	cma3000_d0x.c	/^	u8 mode;$/;"	m	struct:cma3000_accl_data	file:
+mode_mask	ati_remote2.c	/^	unsigned int mode_mask;$/;"	m	struct:ati_remote2	file:
+mode_mask	ati_remote2.c	/^static unsigned int mode_mask = ATI_REMOTE2_MAX_MODE_MASK;$/;"	v	file:
+mode_to_mg	cma3000_d0x.c	/^static int mode_to_mg[8][2] = {$/;"	v	file:
+model	adxl34x.c	/^	unsigned model;$/;"	m	struct:adxl34x	file:
+mutex	ad714x.c	/^	struct mutex mutex;$/;"	m	struct:ad714x_chip	typeref:struct:ad714x_chip::mutex	file:
+mutex	adxl34x.c	/^	struct mutex mutex;	\/* reentrant protection for struct *\/$/;"	m	struct:adxl34x	typeref:struct:adxl34x::mutex	file:
+mutex	cma3000_d0x.c	/^	struct mutex mutex;$/;"	m	struct:cma3000_accl_data	typeref:struct:cma3000_accl_data::mutex	file:
+name	ati_remote.c	/^	char name[NAME_BUFSIZE];$/;"	m	struct:ati_remote	file:
+name	ati_remote2.c	/^	char name[64];$/;"	m	struct:ati_remote2	file:
+name	cm109.c	/^	char *name;$/;"	m	struct:driver_info	file:
+name	keyspan_remote.c	/^	char				name[128];$/;"	m	struct:usb_keyspan	file:
+name	pcf8574_keypad.c	/^	char name[64];$/;"	m	struct:kp_data	file:
+name	sparcspkr.c	/^	const char		*name;$/;"	m	struct:sparcspkr_state	file:
+name	yealink.c	/^			char	name[10];$/;"	m	struct:lcd_segment_map::__anon8::pictogram_map	file:
+name	yealink.c	/^	char *name;$/;"	m	struct:driver_info	file:
+nkeys	apanel.c	/^	u16    nkeys;$/;"	m	struct:apanel	file:
+offset	yealink.h	/^	u16	offset;		\/* internal packet offset *\/$/;"	m	struct:yld_ctl_packet
+old	uinput.c	/^	struct ff_effect_compat	old;$/;"	m	struct:uinput_ff_upload_compat	typeref:struct:uinput_ff_upload_compat::ff_effect_compat	file:
+old_data	ati_remote.c	/^	unsigned char old_data[2];  \/* Detect duplicate events *\/$/;"	m	struct:ati_remote	file:
+old_jiffies	ati_remote.c	/^	unsigned long old_jiffies;$/;"	m	struct:ati_remote	file:
+open	cm109.c	/^	unsigned open:1;$/;"	m	struct:cm109_dev	file:
+open	keyspan_remote.c	/^	int				open;$/;"	m	struct:usb_keyspan	file:
+opened	adxl34x.c	/^	bool opened;	\/* P: mutex *\/$/;"	m	struct:adxl34x	file:
+opened	cma3000_d0x.c	/^	bool opened;$/;"	m	struct:cma3000_accl_data	file:
+orient2d_saved	adxl34x.c	/^	unsigned orient2d_saved;$/;"	m	struct:adxl34x	file:
+orient3d_saved	adxl34x.c	/^	unsigned orient3d_saved;$/;"	m	struct:adxl34x	file:
+out_urb	ati_remote.c	/^	struct urb *out_urb;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::urb	file:
+outbuf	ati_remote.c	/^	unsigned char *outbuf;$/;"	m	struct:ati_remote	file:
+outbuf_dma	ati_remote.c	/^	dma_addr_t outbuf_dma;$/;"	m	struct:ati_remote	file:
+p	yealink.c	/^		}	p;$/;"	m	union:lcd_segment_map::__anon8	typeref:struct:lcd_segment_map::__anon8::pictogram_map	file:
+page	xen-kbdfront.c	/^	struct xenkbd_page *page;$/;"	m	struct:xenkbd_info	typeref:struct:xenkbd_info::xenkbd_page	file:
+param_check_channel_mask	ati_remote2.c	95;"	d	file:
+param_check_mode_mask	ati_remote2.c	104;"	d	file:
+param_ops_channel_mask	ati_remote2.c	/^static struct kernel_param_ops param_ops_channel_mask = {$/;"	v	typeref:struct:kernel_param_ops	file:
+param_ops_mode_mask	ati_remote2.c	/^static struct kernel_param_ops param_ops_mode_mask = {$/;"	v	typeref:struct:kernel_param_ops	file:
+pcap	pcap_keys.c	/^	struct pcap_chip *pcap;$/;"	m	struct:pcap_keys	typeref:struct:pcap_keys::pcap_chip	file:
+pcap_keys	pcap_keys.c	/^struct pcap_keys {$/;"	s	file:
+pcap_keys_device_driver	pcap_keys.c	/^static struct platform_driver pcap_keys_device_driver = {$/;"	v	typeref:struct:platform_driver	file:
+pcap_keys_exit	pcap_keys.c	/^module_exit(pcap_keys_exit);$/;"	v
+pcap_keys_exit	pcap_keys.c	/^static void __exit pcap_keys_exit(void)$/;"	f	file:
+pcap_keys_handler	pcap_keys.c	/^static irqreturn_t pcap_keys_handler(int irq, void *_pcap_keys)$/;"	f	file:
+pcap_keys_init	pcap_keys.c	/^module_init(pcap_keys_init);$/;"	v
+pcap_keys_init	pcap_keys.c	/^static int __init pcap_keys_init(void)$/;"	f	file:
+pcap_keys_probe	pcap_keys.c	/^static int __devinit pcap_keys_probe(struct platform_device *pdev)$/;"	f	file:
+pcap_keys_remove	pcap_keys.c	/^static int __devexit pcap_keys_remove(struct platform_device *pdev)$/;"	f	file:
+pcf	pcf50633-input.c	/^	struct pcf50633 *pcf;$/;"	m	struct:pcf50633_input	typeref:struct:pcf50633_input::pcf50633	file:
+pcf50633_input	pcf50633-input.c	/^struct pcf50633_input {$/;"	s	file:
+pcf50633_input_driver	pcf50633-input.c	/^static struct platform_driver pcf50633_input_driver = {$/;"	v	typeref:struct:platform_driver	file:
+pcf50633_input_exit	pcf50633-input.c	/^module_exit(pcf50633_input_exit);$/;"	v
+pcf50633_input_exit	pcf50633-input.c	/^static void __exit pcf50633_input_exit(void)$/;"	f	file:
+pcf50633_input_init	pcf50633-input.c	/^module_init(pcf50633_input_init);$/;"	v
+pcf50633_input_init	pcf50633-input.c	/^static int __init pcf50633_input_init(void)$/;"	f	file:
+pcf50633_input_irq	pcf50633-input.c	/^pcf50633_input_irq(int irq, void *data)$/;"	f	file:
+pcf50633_input_probe	pcf50633-input.c	/^static int __devinit pcf50633_input_probe(struct platform_device *pdev)$/;"	f	file:
+pcf50633_input_remove	pcf50633-input.c	/^static int __devexit pcf50633_input_remove(struct platform_device *pdev)$/;"	f	file:
+pcf8574_kp_btncode	pcf8574_keypad.c	/^static const unsigned char pcf8574_kp_btncode[] = {$/;"	v	file:
+pcf8574_kp_driver	pcf8574_keypad.c	/^static struct i2c_driver pcf8574_kp_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+pcf8574_kp_exit	pcf8574_keypad.c	/^module_exit(pcf8574_kp_exit);$/;"	v
+pcf8574_kp_exit	pcf8574_keypad.c	/^static void __exit pcf8574_kp_exit(void)$/;"	f	file:
+pcf8574_kp_id	pcf8574_keypad.c	/^static const struct i2c_device_id pcf8574_kp_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+pcf8574_kp_init	pcf8574_keypad.c	/^module_init(pcf8574_kp_init);$/;"	v
+pcf8574_kp_init	pcf8574_keypad.c	/^static int __init pcf8574_kp_init(void)$/;"	f	file:
+pcf8574_kp_irq_handler	pcf8574_keypad.c	/^static irqreturn_t pcf8574_kp_irq_handler(int irq, void *dev_id)$/;"	f	file:
+pcf8574_kp_pm_ops	pcf8574_keypad.c	/^static const struct dev_pm_ops pcf8574_kp_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+pcf8574_kp_probe	pcf8574_keypad.c	/^static int __devinit pcf8574_kp_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+pcf8574_kp_remove	pcf8574_keypad.c	/^static int __devexit pcf8574_kp_remove(struct i2c_client *client)$/;"	f	file:
+pcf8574_kp_resume	pcf8574_keypad.c	/^static int pcf8574_kp_resume(struct device *dev)$/;"	f	file:
+pcf8574_kp_resume	pcf8574_keypad.c	196;"	d	file:
+pcf8574_kp_suspend	pcf8574_keypad.c	/^static int pcf8574_kp_suspend(struct device *dev)$/;"	f	file:
+pcf8574_kp_suspend	pcf8574_keypad.c	197;"	d	file:
+pcspkr_event	pcspkr.c	/^static int pcspkr_event(struct input_dev *dev, unsigned int type, unsigned int code, int value)$/;"	f	file:
+pcspkr_exit	pcspkr.c	/^module_exit(pcspkr_exit);$/;"	v
+pcspkr_exit	pcspkr.c	/^static void __exit pcspkr_exit(void)$/;"	f	file:
+pcspkr_init	pcspkr.c	/^module_init(pcspkr_init);$/;"	v
+pcspkr_init	pcspkr.c	/^static int __init pcspkr_init(void)$/;"	f	file:
+pcspkr_platform_driver	pcspkr.c	/^static struct platform_driver pcspkr_platform_driver = {$/;"	v	typeref:struct:platform_driver	file:
+pcspkr_pm_ops	pcspkr.c	/^static const struct dev_pm_ops pcspkr_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+pcspkr_probe	pcspkr.c	/^static int __devinit pcspkr_probe(struct platform_device *dev)$/;"	f	file:
+pcspkr_remove	pcspkr.c	/^static int __devexit pcspkr_remove(struct platform_device *dev)$/;"	f	file:
+pcspkr_shutdown	pcspkr.c	/^static void pcspkr_shutdown(struct platform_device *dev)$/;"	f	file:
+pcspkr_suspend	pcspkr.c	/^static int pcspkr_suspend(struct device *dev)$/;"	f	file:
+pdata	adxl34x.c	/^	struct adxl34x_platform_data pdata;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::adxl34x_platform_data	file:
+pdata	cma3000_d0x.c	/^	const struct cma3000_platform_data *pdata;$/;"	m	struct:cma3000_accl_data	typeref:struct:cma3000_accl_data::cma3000_platform_data	file:
+pdata	rotary_encoder.c	/^	struct rotary_encoder_platform_data *pdata;$/;"	m	struct:rotary_encoder	typeref:struct:rotary_encoder::rotary_encoder_platform_data	file:
+per_cnt	bfin_rotary.c	/^static const u16 per_cnt[] = {$/;"	v	file:
+period	pwm-beeper.c	/^	unsigned long period;$/;"	m	struct:pwm_beeper	file:
+phone	cm109.c	/^static char *phone = "kip1000";$/;"	v	file:
+phys	adxl34x.c	/^	char phys[32];$/;"	m	struct:adxl34x	file:
+phys	ati_remote.c	/^	char phys[NAME_BUFSIZE];$/;"	m	struct:ati_remote	file:
+phys	ati_remote2.c	/^	char phys[64];$/;"	m	struct:ati_remote2	file:
+phys	cm109.c	/^	char phys[64];		\/* physical device path *\/$/;"	m	struct:cm109_dev	file:
+phys	keyspan_remote.c	/^	char				phys[64];$/;"	m	struct:usb_keyspan	file:
+phys	pcf8574_keypad.c	/^	char phys[32];$/;"	m	struct:kp_data	file:
+phys	powermate.c	/^	char phys[64];$/;"	m	struct:powermate_device	file:
+phys	xen-kbdfront.c	/^	char phys[32];$/;"	m	struct:xenkbd_info	file:
+phys	yealink.c	/^	char phys[64];			\/* physical device path *\/$/;"	m	struct:yealink_dev	file:
+pictogram_map	yealink.c	/^		struct pictogram_map {$/;"	s	union:lcd_segment_map::__anon8	file:
+play_work	twl4030-vibra.c	/^	struct work_struct	play_work;$/;"	m	struct:vibra_info	typeref:struct:vibra_info::work_struct	file:
+pm860x_onkey_driver	88pm860x_onkey.c	/^static struct platform_driver pm860x_onkey_driver = {$/;"	v	typeref:struct:platform_driver	file:
+pm860x_onkey_exit	88pm860x_onkey.c	/^module_exit(pm860x_onkey_exit);$/;"	v
+pm860x_onkey_exit	88pm860x_onkey.c	/^static void __exit pm860x_onkey_exit(void)$/;"	f	file:
+pm860x_onkey_handler	88pm860x_onkey.c	/^static irqreturn_t pm860x_onkey_handler(int irq, void *data)$/;"	f	file:
+pm860x_onkey_info	88pm860x_onkey.c	/^struct pm860x_onkey_info {$/;"	s	file:
+pm860x_onkey_init	88pm860x_onkey.c	/^module_init(pm860x_onkey_init);$/;"	v
+pm860x_onkey_init	88pm860x_onkey.c	/^static int __init pm860x_onkey_init(void)$/;"	f	file:
+pm860x_onkey_probe	88pm860x_onkey.c	/^static int __devinit pm860x_onkey_probe(struct platform_device *pdev)$/;"	f	file:
+pm860x_onkey_remove	88pm860x_onkey.c	/^static int __devexit pm860x_onkey_remove(struct platform_device *pdev)$/;"	f	file:
+pm_mutex	cm109.c	/^	struct mutex pm_mutex;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::mutex	file:
+pm_name_powermate	powermate.c	/^static char pm_name_powermate[] = "Griffin PowerMate";$/;"	v	file:
+pm_name_soundknob	powermate.c	/^static char pm_name_soundknob[] = "Griffin SoundKnob";$/;"	v	file:
+pmic8xxx_pwrkey	pmic8xxx-pwrkey.c	/^struct pmic8xxx_pwrkey {$/;"	s	file:
+pmic8xxx_pwrkey_driver	pmic8xxx-pwrkey.c	/^static struct platform_driver pmic8xxx_pwrkey_driver = {$/;"	v	typeref:struct:platform_driver	file:
+pmic8xxx_pwrkey_exit	pmic8xxx-pwrkey.c	/^module_exit(pmic8xxx_pwrkey_exit);$/;"	v
+pmic8xxx_pwrkey_exit	pmic8xxx-pwrkey.c	/^static void __exit pmic8xxx_pwrkey_exit(void)$/;"	f	file:
+pmic8xxx_pwrkey_init	pmic8xxx-pwrkey.c	/^module_init(pmic8xxx_pwrkey_init);$/;"	v
+pmic8xxx_pwrkey_init	pmic8xxx-pwrkey.c	/^static int __init pmic8xxx_pwrkey_init(void)$/;"	f	file:
+pmic8xxx_pwrkey_probe	pmic8xxx-pwrkey.c	/^static int __devinit pmic8xxx_pwrkey_probe(struct platform_device *pdev)$/;"	f	file:
+pmic8xxx_pwrkey_remove	pmic8xxx-pwrkey.c	/^static int __devexit pmic8xxx_pwrkey_remove(struct platform_device *pdev)$/;"	f	file:
+pmic8xxx_pwrkey_resume	pmic8xxx-pwrkey.c	/^static int pmic8xxx_pwrkey_resume(struct device *dev)$/;"	f	file:
+pmic8xxx_pwrkey_suspend	pmic8xxx-pwrkey.c	/^static int pmic8xxx_pwrkey_suspend(struct device *dev)$/;"	f	file:
+poll_bios	wistron_btns.c	/^static void poll_bios(bool discard)$/;"	f	file:
+poll_dev	cobalt_btns.c	/^	struct input_polled_dev *poll_dev;$/;"	m	struct:buttons_dev	typeref:struct:buttons_dev::input_polled_dev	file:
+poll_dev	sgi_btns.c	/^	struct input_polled_dev *poll_dev;$/;"	m	struct:buttons_dev	typeref:struct:buttons_dev::input_polled_dev	file:
+pos	gpio_axis.c	/^	uint32_t pos;$/;"	m	struct:gpio_axis_state	file:
+pos	keyspan_remote.c	/^	int	pos;$/;"	m	struct:bit_tester	file:
+pos	rotary_encoder.c	/^	unsigned int pos;$/;"	m	struct:rotary_encoder	file:
+powerbutton_irq	twl4030-pwrbutton.c	/^static irqreturn_t powerbutton_irq(int irq, void *_pwr)$/;"	f	file:
+powermate_alloc_buffers	powermate.c	/^static int powermate_alloc_buffers(struct usb_device *udev, struct powermate_device *pm)$/;"	f	file:
+powermate_cleanup	powermate.c	/^module_exit(powermate_cleanup);$/;"	v
+powermate_cleanup	powermate.c	/^static void __exit powermate_cleanup(void)$/;"	f	file:
+powermate_config_complete	powermate.c	/^static void powermate_config_complete(struct urb *urb)$/;"	f	file:
+powermate_device	powermate.c	/^struct powermate_device {$/;"	s	file:
+powermate_devices	powermate.c	/^static struct usb_device_id powermate_devices [] = {$/;"	v	typeref:struct:usb_device_id	file:
+powermate_disconnect	powermate.c	/^static void powermate_disconnect(struct usb_interface *intf)$/;"	f	file:
+powermate_driver	powermate.c	/^static struct usb_driver powermate_driver = {$/;"	v	typeref:struct:usb_driver	file:
+powermate_free_buffers	powermate.c	/^static void powermate_free_buffers(struct usb_device *udev, struct powermate_device *pm)$/;"	f	file:
+powermate_init	powermate.c	/^module_init(powermate_init);$/;"	v
+powermate_init	powermate.c	/^static int __init powermate_init(void)$/;"	f	file:
+powermate_input_event	powermate.c	/^static int powermate_input_event(struct input_dev *dev, unsigned int type, unsigned int code, int _value)$/;"	f	file:
+powermate_irq	powermate.c	/^static void powermate_irq(struct urb *urb)$/;"	f	file:
+powermate_probe	powermate.c	/^static int powermate_probe(struct usb_interface *intf, const struct usb_device_id *id)$/;"	f	file:
+powermate_pulse_led	powermate.c	/^static void powermate_pulse_led(struct powermate_device *pm, int static_brightness, int pulse_speed,$/;"	f	file:
+powermate_sync_state	powermate.c	/^static void powermate_sync_state(struct powermate_device *pm)$/;"	f	file:
+pr_fmt	atlas_btns.c	24;"	d	file:
+pr_fmt	xen-kbdfront.c	14;"	d	file:
+pre_highest_stage	ad714x.c	/^	int pre_highest_stage;$/;"	m	struct:ad714x_wheel_drv	file:
+previous_data	ir_input.c	/^    int previous_data;$/;"	m	struct:ir_private	file:
+product	ad714x.c	/^	unsigned product;$/;"	m	struct:ad714x_chip	file:
+ptr	xen-kbdfront.c	/^	struct input_dev *ptr;$/;"	m	struct:xenkbd_info	typeref:struct:xenkbd_info::input_dev	file:
+pulse_asleep	powermate.c	/^	int pulse_asleep;$/;"	m	struct:powermate_device	file:
+pulse_awake	powermate.c	/^	int pulse_awake;$/;"	m	struct:powermate_device	file:
+pulse_speed	powermate.c	/^	int pulse_speed;$/;"	m	struct:powermate_device	file:
+pulse_table	powermate.c	/^	int pulse_table;$/;"	m	struct:powermate_device	file:
+pwm	pwm-beeper.c	/^	struct pwm_device *pwm;$/;"	m	struct:pwm_beeper	typeref:struct:pwm_beeper::pwm_device	file:
+pwm_beeper	pwm-beeper.c	/^struct pwm_beeper {$/;"	s	file:
+pwm_beeper_driver	pwm-beeper.c	/^static struct platform_driver pwm_beeper_driver = {$/;"	v	typeref:struct:platform_driver	file:
+pwm_beeper_event	pwm-beeper.c	/^static int pwm_beeper_event(struct input_dev *input,$/;"	f	file:
+pwm_beeper_exit	pwm-beeper.c	/^module_exit(pwm_beeper_exit);$/;"	v
+pwm_beeper_exit	pwm-beeper.c	/^static void __exit pwm_beeper_exit(void)$/;"	f	file:
+pwm_beeper_init	pwm-beeper.c	/^module_init(pwm_beeper_init);$/;"	v
+pwm_beeper_init	pwm-beeper.c	/^static int __init pwm_beeper_init(void)$/;"	f	file:
+pwm_beeper_probe	pwm-beeper.c	/^static int __devinit pwm_beeper_probe(struct platform_device *pdev)$/;"	f	file:
+pwm_beeper_remove	pwm-beeper.c	/^static int __devexit pwm_beeper_remove(struct platform_device *pdev)$/;"	f	file:
+pwm_beeper_resume	pwm-beeper.c	/^static int pwm_beeper_resume(struct device *dev)$/;"	f	file:
+pwm_beeper_suspend	pwm-beeper.c	/^static int pwm_beeper_suspend(struct device *dev)$/;"	f	file:
+pwr	pmic8xxx-pwrkey.c	/^	struct input_dev *pwr;$/;"	m	struct:pmic8xxx_pwrkey	typeref:struct:pmic8xxx_pwrkey::input_dev	file:
+pwrkey_press_irq	pmic8xxx-pwrkey.c	/^static irqreturn_t pwrkey_press_irq(int irq, void *_pwrkey)$/;"	f	file:
+pwrkey_release_irq	pmic8xxx-pwrkey.c	/^static irqreturn_t pwrkey_release_irq(int irq, void *_pwrkey)$/;"	f	file:
+rb532_button_driver	rb532_button.c	/^static struct platform_driver rb532_button_driver = {$/;"	v	typeref:struct:platform_driver	file:
+rb532_button_exit	rb532_button.c	/^module_exit(rb532_button_exit);$/;"	v
+rb532_button_exit	rb532_button.c	/^static void __exit rb532_button_exit(void)$/;"	f	file:
+rb532_button_init	rb532_button.c	/^module_init(rb532_button_init);$/;"	v
+rb532_button_init	rb532_button.c	/^static int __init rb532_button_init(void)$/;"	f	file:
+rb532_button_poll	rb532_button.c	/^static void rb532_button_poll(struct input_polled_dev *poll_dev)$/;"	f	file:
+rb532_button_pressed	rb532_button.c	/^static bool rb532_button_pressed(void)$/;"	f	file:
+rb532_button_probe	rb532_button.c	/^static int __devinit rb532_button_probe(struct platform_device *pdev)$/;"	f	file:
+rb532_button_remove	rb532_button.c	/^static int __devexit rb532_button_remove(struct platform_device *pdev)$/;"	f	file:
+read	ad714x.c	/^	ad714x_read_t read;$/;"	m	struct:ad714x_chip	file:
+read	adxl34x.h	/^	int (*read)(struct device *, unsigned char);$/;"	m	struct:adxl34x_bus_ops
+read	cma3000_d0x.h	/^	int (*read)(struct device *, u8, char *);$/;"	m	struct:cma3000_bus_ops
+read_block	adxl34x.h	/^	int (*read_block)(struct device *, unsigned char, int, void *);$/;"	m	struct:adxl34x_bus_ops
+read_state	pcf8574_keypad.c	/^static short read_state(struct kp_data *lp)$/;"	f	file:
+read_volumn	silan_keypad.c	/^static int read_volumn(void)$/;"	f	file:
+reg	cobalt_btns.c	/^	void __iomem *reg;$/;"	m	struct:buttons_dev	file:
+registered	keychord.c	/^	int			registered;$/;"	m	struct:keychord_device	file:
+regs	sparcspkr.c	/^	void __iomem	*regs;$/;"	m	struct:bbc_beep_info	file:
+regs	wistron_btns.c	/^struct regs {$/;"	s	file:
+rel_code	bfin_rotary.c	/^	unsigned int rel_code;$/;"	m	struct:bfin_rot	file:
+remove_phantom_keys	gpio_matrix.c	/^static void remove_phantom_keys(struct gpio_kp *kp)$/;"	f	file:
+repeat_count	ati_remote.c	/^	unsigned int repeat_count;$/;"	m	struct:ati_remote	file:
+repeat_delay	ati_remote.c	/^static int repeat_delay = REPEAT_DELAY;$/;"	v	file:
+repeat_filter	ati_remote.c	/^static int repeat_filter = FILTER_TIME;$/;"	v	file:
+report_key	apanel.c	/^static void report_key(struct input_dev *input, unsigned keycode)$/;"	f	file:
+report_key	cm109.c	/^static void report_key(struct cm109_dev *dev, int key)$/;"	f	file:
+report_key	gpio_matrix.c	/^static void report_key(struct gpio_kp *kp, int key_index, int out, int in)$/;"	f	file:
+report_key	yealink.c	/^static void report_key(struct yealink_dev *yld, int key)$/;"	f	file:
+report_key_event	bfin_rotary.c	/^static void report_key_event(struct input_dev *input, int keycode)$/;"	f	file:
+report_rotary_event	bfin_rotary.c	/^static void report_rotary_event(struct bfin_rot *rotary, int delta)$/;"	f	file:
+report_sync	gpio_matrix.c	/^static void report_sync(struct gpio_kp *kp)$/;"	f	file:
+request_id	uinput.c	/^	int			request_id;$/;"	m	struct:uinput_ff_upload_compat	file:
+requires_update	powermate.c	/^	int requires_update; \/\/ physical settings which are out of sync$/;"	m	struct:powermate_device	file:
+resetting	cm109.c	/^	unsigned resetting:1;$/;"	m	struct:cm109_dev	file:
+restore_keys_for_input	gpio_matrix.c	/^static int restore_keys_for_input(struct gpio_kp *kp, int out, int in)$/;"	f	file:
+retval	uinput.c	/^	int			retval;$/;"	m	struct:uinput_ff_upload_compat	file:
+right_ep	ad714x.c	/^	int right_ep;$/;"	m	struct:ad714x_touchpad_drv	file:
+right_ep_val	ad714x.c	/^	int right_ep_val;$/;"	m	struct:ad714x_touchpad_drv	file:
+ringtone	yealink.c	/^	u8	ringtone;$/;"	m	struct:yld_status	file:
+rotary_encoder	rotary_encoder.c	/^struct rotary_encoder {$/;"	s	file:
+rotary_encoder_driver	rotary_encoder.c	/^static struct platform_driver rotary_encoder_driver = {$/;"	v	typeref:struct:platform_driver	file:
+rotary_encoder_exit	rotary_encoder.c	/^module_exit(rotary_encoder_exit);$/;"	v
+rotary_encoder_exit	rotary_encoder.c	/^static void __exit rotary_encoder_exit(void)$/;"	f	file:
+rotary_encoder_get_state	rotary_encoder.c	/^static int rotary_encoder_get_state(struct rotary_encoder_platform_data *pdata)$/;"	f	file:
+rotary_encoder_half_period_irq	rotary_encoder.c	/^static irqreturn_t rotary_encoder_half_period_irq(int irq, void *dev_id)$/;"	f	file:
+rotary_encoder_init	rotary_encoder.c	/^module_init(rotary_encoder_init);$/;"	v
+rotary_encoder_init	rotary_encoder.c	/^static int __init rotary_encoder_init(void)$/;"	f	file:
+rotary_encoder_irq	rotary_encoder.c	/^static irqreturn_t rotary_encoder_irq(int irq, void *dev_id)$/;"	f	file:
+rotary_encoder_probe	rotary_encoder.c	/^static int __devinit rotary_encoder_probe(struct platform_device *pdev)$/;"	f	file:
+rotary_encoder_remove	rotary_encoder.c	/^static int __devexit rotary_encoder_remove(struct platform_device *pdev)$/;"	f	file:
+rotary_encoder_report_event	rotary_encoder.c	/^static void rotary_encoder_report_event(struct rotary_encoder *encoder)$/;"	f	file:
+row1	silan_keypad.c	28;"	d	file:
+row2	silan_keypad.c	29;"	d	file:
+row3	silan_keypad.c	30;"	d	file:
+row4	silan_keypad.c	31;"	d	file:
+s	yealink.c	/^		struct yld_status s;$/;"	m	union:yealink_dev::__anon9	typeref:struct:yealink_dev::__anon9::yld_status	file:
+s	yealink.c	/^		} s[7];$/;"	m	union:lcd_segment_map::__anon8	typeref:struct:lcd_segment_map::__anon8::segment_map	file:
+saved	adxl34x.c	/^	struct axis_triple saved;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::axis_triple	file:
+segment_map	yealink.c	/^		struct segment_map {$/;"	s	union:lcd_segment_map::__anon8	file:
+select_keymap	wistron_btns.c	/^static int __init select_keymap(void)$/;"	f	file:
+send_flags	ati_remote.c	/^	int send_flags;$/;"	m	struct:ati_remote	file:
+sensor_val	ad714x.c	/^	unsigned short sensor_val[STAGE_NUM];$/;"	m	struct:ad714x_chip	file:
+setChar	yealink.c	/^static int setChar(struct yealink_dev *yld, int el, int chr)$/;"	f	file:
+set_icon	yealink.c	/^static ssize_t set_icon(struct device *dev, const char *buf, size_t count,$/;"	f	file:
+set_row_low	silan_keypad.c	/^static void set_row_low(int val1, int val2, int val3, int val4)$/;"	f	file:
+setup_input_dev	wistron_btns.c	/^static int __devinit setup_input_dev(void)$/;"	f	file:
+sgi_buttons_driver	sgi_btns.c	/^static struct platform_driver sgi_buttons_driver = {$/;"	v	typeref:struct:platform_driver	file:
+sgi_buttons_exit	sgi_btns.c	/^module_exit(sgi_buttons_exit);$/;"	v
+sgi_buttons_exit	sgi_btns.c	/^static void __exit sgi_buttons_exit(void)$/;"	f	file:
+sgi_buttons_init	sgi_btns.c	/^module_init(sgi_buttons_init);$/;"	v
+sgi_buttons_init	sgi_btns.c	/^static int __init sgi_buttons_init(void)$/;"	f	file:
+sgi_buttons_probe	sgi_btns.c	/^static int __devinit sgi_buttons_probe(struct platform_device *pdev)$/;"	f	file:
+sgi_buttons_remove	sgi_btns.c	/^static int __devexit sgi_buttons_remove(struct platform_device *pdev)$/;"	f	file:
+sgi_map	sgi_btns.c	/^static const unsigned short sgi_map[] = {$/;"	v	file:
+show_icon	yealink.c	/^static ssize_t show_icon(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+show_line	yealink.c	/^static ssize_t show_line(struct device *dev, char *buf, int a, int b)$/;"	f	file:
+show_line1	yealink.c	/^static ssize_t show_line1(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+show_line2	yealink.c	/^static ssize_t show_line2(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+show_line3	yealink.c	/^static ssize_t show_line3(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+show_map	yealink.c	/^static ssize_t show_map(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+shutdown	cm109.c	/^	unsigned shutdown:1;$/;"	m	struct:cm109_dev	file:
+shutdown	yealink.c	/^	unsigned int shutdown:1;$/;"	m	struct:yealink_dev	file:
+size	yealink.h	/^	u8	size;		\/* 1-11, size of used data bytes. *\/$/;"	m	struct:yld_ctl_packet
+slider	ad714x.c	/^	struct ad714x_slider_drv *slider;$/;"	m	struct:ad714x_driver_data	typeref:struct:ad714x_driver_data::ad714x_slider_drv	file:
+some_keys_pressed	gpio_matrix.c	/^	unsigned int some_keys_pressed:2;$/;"	m	struct:gpio_kp	file:
+sparcspkr_exit	sparcspkr.c	/^module_exit(sparcspkr_exit);$/;"	v
+sparcspkr_exit	sparcspkr.c	/^static void __exit sparcspkr_exit(void)$/;"	f	file:
+sparcspkr_init	sparcspkr.c	/^module_init(sparcspkr_init);$/;"	v
+sparcspkr_init	sparcspkr.c	/^static int __init sparcspkr_init(void)$/;"	f	file:
+sparcspkr_probe	sparcspkr.c	/^static int __devinit sparcspkr_probe(struct device *dev)$/;"	f	file:
+sparcspkr_shutdown	sparcspkr.c	/^static void sparcspkr_shutdown(struct platform_device *dev)$/;"	f	file:
+sparcspkr_state	sparcspkr.c	/^struct sparcspkr_state {$/;"	s	file:
+special_keymap	cm109.c	/^static unsigned short special_keymap(int code)$/;"	f	file:
+speed	twl4030-vibra.c	/^	int			speed;$/;"	m	struct:vibra_info	file:
+stage	keyspan_remote.c	/^	int				stage;$/;"	m	struct:usb_keyspan	file:
+stamode	silan_button.c	/^static int stamode = 4*32+23;$/;"	v	file:
+stamode_isr	silan_button.c	/^static irqreturn_t stamode_isr(int irq, void *dev_id)$/;"	f	file:
+stamode_work	silan_button.c	/^struct delayed_work stamode_work;$/;"	v	typeref:struct:delayed_work
+stamode_work_fn	silan_button.c	/^static void stamode_work_fn(struct work_struct *work)$/;"	f	file:
+stat_ix	yealink.c	/^	int	stat_ix;$/;"	m	struct:yealink_dev	file:
+state	ad714x.c	/^	enum ad714x_device_state state;$/;"	m	struct:ad714x_button_drv	typeref:enum:ad714x_button_drv::ad714x_device_state	file:
+state	ad714x.c	/^	enum ad714x_device_state state;$/;"	m	struct:ad714x_slider_drv	typeref:enum:ad714x_slider_drv::ad714x_device_state	file:
+state	ad714x.c	/^	enum ad714x_device_state state;$/;"	m	struct:ad714x_touchpad_drv	typeref:enum:ad714x_touchpad_drv::ad714x_device_state	file:
+state	ad714x.c	/^	enum ad714x_device_state state;$/;"	m	struct:ad714x_wheel_drv	typeref:enum:ad714x_wheel_drv::ad714x_device_state	file:
+state	gpio_event.c	/^	void *state[0];$/;"	m	struct:gpio_event	file:
+static_brightness	powermate.c	/^	int static_brightness;$/;"	m	struct:powermate_device	file:
+store_line	yealink.c	/^static ssize_t store_line(struct device *dev, const char *buf, size_t count,$/;"	f	file:
+store_line1	yealink.c	/^static ssize_t store_line1(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+store_line2	yealink.c	/^static ssize_t store_line2(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+store_line3	yealink.c	/^static ssize_t store_line3(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+store_map	yealink.c	/^static ssize_t store_map(struct device *dev, struct device_attribute *attr,$/;"	f	file:
+store_ringtone	yealink.c	/^static ssize_t store_ringtone(struct device *dev,$/;"	f	file:
+sum	yealink.h	/^	s8	sum;		\/* negative sum of 15 preceding bytes *\/$/;"	m	struct:yld_ctl_packet
+suspended	adxl34x.c	/^	bool suspended;	\/* P: mutex *\/$/;"	m	struct:adxl34x	file:
+suspended	cma3000_d0x.c	/^	bool suspended;$/;"	m	struct:cma3000_accl_data	file:
+sw	ad714x.c	/^	struct ad714x_driver_data *sw;$/;"	m	struct:ad714x_chip	typeref:struct:ad714x_chip::ad714x_driver_data	file:
+swcal	adxl34x.c	/^	struct axis_triple swcal;$/;"	m	struct:adxl34x	typeref:struct:adxl34x::axis_triple	file:
+system	keyspan_remote.c	/^	u16	system;$/;"	m	struct:keyspan_message	file:
+tail	keychord.c	/^	unsigned char		tail;$/;"	m	struct:keychord_device	file:
+tester	keyspan_remote.c	/^	u32	tester;$/;"	m	struct:bit_tester	file:
+timer	gpio_input.c	/^	struct hrtimer timer;$/;"	m	struct:gpio_input_state	typeref:struct:gpio_input_state::hrtimer	file:
+timer	gpio_matrix.c	/^	struct hrtimer timer;$/;"	m	struct:gpio_kp	typeref:struct:gpio_kp::hrtimer	file:
+toggle	keyspan_remote.c	/^	int				toggle;$/;"	m	struct:usb_keyspan	file:
+toggle	keyspan_remote.c	/^	u8	toggle;$/;"	m	struct:keyspan_message	file:
+top_ep	ad714x.c	/^	int top_ep;$/;"	m	struct:ad714x_touchpad_drv	file:
+top_ep_val	ad714x.c	/^	int top_ep_val;$/;"	m	struct:ad714x_touchpad_drv	file:
+touchpad	ad714x.c	/^	struct ad714x_touchpad_drv *touchpad;$/;"	m	struct:ad714x_driver_data	typeref:struct:ad714x_driver_data::ad714x_touchpad_drv	file:
+touchpad_cal_abs_pos	ad714x.c	/^static void touchpad_cal_abs_pos(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_cal_flt_pos	ad714x.c	/^static void touchpad_cal_flt_pos(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_cal_highest_stage	ad714x.c	/^static void touchpad_cal_highest_stage(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_cal_sensor_val	ad714x.c	/^static void touchpad_cal_sensor_val(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_check_endpoint	ad714x.c	/^static int touchpad_check_endpoint(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_check_second_peak	ad714x.c	/^static int touchpad_check_second_peak(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_use_com_int	ad714x.c	/^static void touchpad_use_com_int(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+touchpad_use_thr_int	ad714x.c	/^static void touchpad_use_thr_int(struct ad714x_chip *ad714x, int idx)$/;"	f	file:
+turnoff	silan_button.c	/^static int turnoff = 4*32+27;$/;"	v	file:
+turnoff_isr	silan_button.c	/^static irqreturn_t turnoff_isr(int irq, void *dev_id)$/;"	f	file:
+turnoff_work	silan_button.c	/^struct delayed_work turnoff_work;$/;"	v	typeref:struct:delayed_work
+turnoff_work_fn	silan_button.c	/^static void turnoff_work_fn(struct work_struct *work)$/;"	f	file:
+twl4030_pwrbutton_driver	twl4030-pwrbutton.c	/^static struct platform_driver twl4030_pwrbutton_driver = {$/;"	v	typeref:struct:platform_driver	file:
+twl4030_pwrbutton_exit	twl4030-pwrbutton.c	/^module_exit(twl4030_pwrbutton_exit);$/;"	v
+twl4030_pwrbutton_exit	twl4030-pwrbutton.c	/^static void __exit twl4030_pwrbutton_exit(void)$/;"	f	file:
+twl4030_pwrbutton_init	twl4030-pwrbutton.c	/^module_init(twl4030_pwrbutton_init);$/;"	v
+twl4030_pwrbutton_init	twl4030-pwrbutton.c	/^static int __init twl4030_pwrbutton_init(void)$/;"	f	file:
+twl4030_pwrbutton_probe	twl4030-pwrbutton.c	/^static int __init twl4030_pwrbutton_probe(struct platform_device *pdev)$/;"	f	file:
+twl4030_pwrbutton_remove	twl4030-pwrbutton.c	/^static int __exit twl4030_pwrbutton_remove(struct platform_device *pdev)$/;"	f	file:
+twl4030_vibra_close	twl4030-vibra.c	/^static void twl4030_vibra_close(struct input_dev *input)$/;"	f	file:
+twl4030_vibra_driver	twl4030-vibra.c	/^static struct platform_driver twl4030_vibra_driver = {$/;"	v	typeref:struct:platform_driver	file:
+twl4030_vibra_exit	twl4030-vibra.c	/^module_exit(twl4030_vibra_exit);$/;"	v
+twl4030_vibra_exit	twl4030-vibra.c	/^static void __exit twl4030_vibra_exit(void)$/;"	f	file:
+twl4030_vibra_init	twl4030-vibra.c	/^module_init(twl4030_vibra_init);$/;"	v
+twl4030_vibra_init	twl4030-vibra.c	/^static int __init twl4030_vibra_init(void)$/;"	f	file:
+twl4030_vibra_open	twl4030-vibra.c	/^static int twl4030_vibra_open(struct input_dev *input)$/;"	f	file:
+twl4030_vibra_probe	twl4030-vibra.c	/^static int __devinit twl4030_vibra_probe(struct platform_device *pdev)$/;"	f	file:
+twl4030_vibra_remove	twl4030-vibra.c	/^static int __devexit twl4030_vibra_remove(struct platform_device *pdev)$/;"	f	file:
+twl4030_vibra_resume	twl4030-vibra.c	/^static int twl4030_vibra_resume(struct device *dev)$/;"	f	file:
+twl4030_vibra_suspend	twl4030-vibra.c	/^static int twl4030_vibra_suspend(struct device *dev)$/;"	f	file:
+type	ati_remote.c	/^	int type;$/;"	m	struct:__anon13	file:
+type	yealink.c	/^	char	type;$/;"	m	struct:lcd_segment_map	file:
+u	sparcspkr.c	/^	} u;$/;"	m	struct:sparcspkr_state	typeref:union:sparcspkr_state::__anon5	file:
+u	yealink.c	/^	} u;$/;"	m	struct:lcd_segment_map	typeref:union:lcd_segment_map::__anon8	file:
+udev	ati_remote.c	/^	struct usb_device *udev;$/;"	m	struct:ati_remote	typeref:struct:ati_remote::usb_device	file:
+udev	ati_remote2.c	/^	struct usb_device *udev;$/;"	m	struct:ati_remote2	typeref:struct:ati_remote2::usb_device	file:
+udev	cm109.c	/^	struct usb_device *udev; \/* usb device *\/$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::usb_device	file:
+udev	keyspan_remote.c	/^	struct usb_device		*udev;$/;"	m	struct:usb_keyspan	typeref:struct:usb_keyspan::usb_device	file:
+udev	powermate.c	/^	struct usb_device *udev;$/;"	m	struct:powermate_device	typeref:struct:powermate_device::usb_device	file:
+udev	yealink.c	/^	struct usb_device *udev;	\/* usb device *\/$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::usb_device	file:
+uinput_allocate_device	uinput.c	/^static int uinput_allocate_device(struct uinput_device *udev)$/;"	f	file:
+uinput_compat_ioctl	uinput.c	/^static long uinput_compat_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+uinput_create_device	uinput.c	/^static int uinput_create_device(struct uinput_device *udev)$/;"	f	file:
+uinput_destroy_device	uinput.c	/^static void uinput_destroy_device(struct uinput_device *udev)$/;"	f	file:
+uinput_dev_erase_effect	uinput.c	/^static int uinput_dev_erase_effect(struct input_dev *dev, int effect_id)$/;"	f	file:
+uinput_dev_event	uinput.c	/^static int uinput_dev_event(struct input_dev *dev, unsigned int type, unsigned int code, int value)$/;"	f	file:
+uinput_dev_playback	uinput.c	/^static int uinput_dev_playback(struct input_dev *dev, int effect_id, int value)$/;"	f	file:
+uinput_dev_set_autocenter	uinput.c	/^static void uinput_dev_set_autocenter(struct input_dev *dev, u16 magnitude)$/;"	f	file:
+uinput_dev_set_gain	uinput.c	/^static void uinput_dev_set_gain(struct input_dev *dev, u16 gain)$/;"	f	file:
+uinput_dev_upload_effect	uinput.c	/^static int uinput_dev_upload_effect(struct input_dev *dev, struct ff_effect *effect, struct ff_effect *old)$/;"	f	file:
+uinput_exit	uinput.c	/^module_exit(uinput_exit);$/;"	v
+uinput_exit	uinput.c	/^static void __exit uinput_exit(void)$/;"	f	file:
+uinput_ff_upload_compat	uinput.c	/^struct uinput_ff_upload_compat {$/;"	s	file:
+uinput_ff_upload_from_user	uinput.c	/^static int uinput_ff_upload_from_user(const char __user *buffer,$/;"	f	file:
+uinput_ff_upload_to_user	uinput.c	/^static int uinput_ff_upload_to_user(char __user *buffer,$/;"	f	file:
+uinput_flush_requests	uinput.c	/^static void uinput_flush_requests(struct uinput_device *udev)$/;"	f	file:
+uinput_fops	uinput.c	/^static const struct file_operations uinput_fops = {$/;"	v	typeref:struct:file_operations	file:
+uinput_init	uinput.c	/^module_init(uinput_init);$/;"	v
+uinput_init	uinput.c	/^static int __init uinput_init(void)$/;"	f	file:
+uinput_inject_event	uinput.c	/^static inline ssize_t uinput_inject_event(struct uinput_device *udev, const char __user *buffer, size_t count)$/;"	f	file:
+uinput_ioctl	uinput.c	/^static long uinput_ioctl(struct file *file, unsigned int cmd, unsigned long arg)$/;"	f	file:
+uinput_ioctl_handler	uinput.c	/^static long uinput_ioctl_handler(struct file *file, unsigned int cmd,$/;"	f	file:
+uinput_misc	uinput.c	/^static struct miscdevice uinput_misc = {$/;"	v	typeref:struct:miscdevice	file:
+uinput_open	uinput.c	/^static int uinput_open(struct inode *inode, struct file *file)$/;"	f	file:
+uinput_poll	uinput.c	/^static unsigned int uinput_poll(struct file *file, poll_table *wait)$/;"	f	file:
+uinput_read	uinput.c	/^static ssize_t uinput_read(struct file *file, char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+uinput_release	uinput.c	/^static int uinput_release(struct inode *inode, struct file *file)$/;"	f	file:
+uinput_request_alloc_id	uinput.c	/^static int uinput_request_alloc_id(struct uinput_device *udev, struct uinput_request *request)$/;"	f	file:
+uinput_request_done	uinput.c	/^static void uinput_request_done(struct uinput_device *udev, struct uinput_request *request)$/;"	f	file:
+uinput_request_find	uinput.c	/^static struct uinput_request *uinput_request_find(struct uinput_device *udev, int id)$/;"	f	file:
+uinput_request_reserve_slot	uinput.c	/^static inline int uinput_request_reserve_slot(struct uinput_device *udev, struct uinput_request *request)$/;"	f	file:
+uinput_request_submit	uinput.c	/^static int uinput_request_submit(struct uinput_device *udev, struct uinput_request *request)$/;"	f	file:
+uinput_set_bit	uinput.c	604;"	d	file:
+uinput_setup_device	uinput.c	/^static int uinput_setup_device(struct uinput_device *udev, const char __user *buffer, size_t count)$/;"	f	file:
+uinput_validate_absbits	uinput.c	/^static int uinput_validate_absbits(struct input_dev *dev)$/;"	f	file:
+uinput_write	uinput.c	/^static ssize_t uinput_write(struct file *file, const char __user *buffer, size_t count, loff_t *ppos)$/;"	f	file:
+unmap_bios	wistron_btns.c	/^static inline void unmap_bios(void)$/;"	f	file:
+up_key	bfin_rotary.c	/^	unsigned int up_key;$/;"	m	struct:bfin_rot	file:
+urb	ati_remote2.c	/^	struct urb *urb[2];$/;"	m	struct:ati_remote2	typeref:struct:ati_remote2::urb	file:
+urb_ctl	cm109.c	/^	struct urb *urb_ctl;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::urb	file:
+urb_ctl	yealink.c	/^	struct urb		*urb_ctl;$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::urb	file:
+urb_ctl_callback	yealink.c	/^static void urb_ctl_callback(struct urb *urb)$/;"	f	file:
+urb_irq	cm109.c	/^	struct urb *urb_irq;$/;"	m	struct:cm109_dev	typeref:struct:cm109_dev::urb	file:
+urb_irq	yealink.c	/^	struct urb		*urb_irq;$/;"	m	struct:yealink_dev	typeref:struct:yealink_dev::urb	file:
+urb_irq_callback	yealink.c	/^static void urb_irq_callback(struct urb *urb)$/;"	f	file:
+usb_cleanup	yealink.c	/^static int usb_cleanup(struct yealink_dev *yld, int err)$/;"	f	file:
+usb_disconnect	yealink.c	/^static void usb_disconnect(struct usb_interface *intf)$/;"	f	file:
+usb_keyspan	keyspan_remote.c	/^struct usb_keyspan {$/;"	s	file:
+usb_keyspan_exit	keyspan_remote.c	/^module_exit(usb_keyspan_exit);$/;"	v
+usb_keyspan_exit	keyspan_remote.c	/^static void __exit usb_keyspan_exit(void)$/;"	f	file:
+usb_keyspan_init	keyspan_remote.c	/^module_init(usb_keyspan_init);$/;"	v
+usb_keyspan_init	keyspan_remote.c	/^static int __init usb_keyspan_init(void)$/;"	f	file:
+usb_probe	yealink.c	/^static int usb_probe(struct usb_interface *intf, const struct usb_device_id *id)$/;"	f	file:
+usb_table	yealink.c	/^static const struct usb_device_id usb_table [] = {$/;"	v	typeref:struct:usb_device_id	file:
+use_irq	gpio_input.c	/^	int use_irq;$/;"	m	struct:gpio_input_state	file:
+use_irq	gpio_matrix.c	/^	unsigned int use_irq:1;$/;"	m	struct:gpio_kp	file:
+value	ati_remote.c	/^	int value;$/;"	m	struct:__anon13	file:
+version	ad714x.c	/^	unsigned version;$/;"	m	struct:ad714x_chip	file:
+vibra_disable	twl4030-vibra.c	/^static void vibra_disable(struct vibra_info *info)$/;"	f	file:
+vibra_disable_leds	twl4030-vibra.c	/^static void vibra_disable_leds(void)$/;"	f	file:
+vibra_enable	twl4030-vibra.c	/^static void vibra_enable(struct vibra_info *info)$/;"	f	file:
+vibra_info	twl4030-vibra.c	/^struct vibra_info {$/;"	s	file:
+vibra_play	twl4030-vibra.c	/^static int vibra_play(struct input_dev *input, void *data,$/;"	f	file:
+vibra_play_work	twl4030-vibra.c	/^static void vibra_play_work(struct work_struct *work)$/;"	f	file:
+volumn1	silan_keypad.c	34;"	d	file:
+volumn2	silan_keypad.c	35;"	d	file:
+volumn3	silan_keypad.c	36;"	d	file:
+volumn4	silan_keypad.c	37;"	d	file:
+wait	ati_remote.c	/^	wait_queue_head_t wait;$/;"	m	struct:ati_remote	file:
+waitq	keychord.c	/^	wait_queue_head_t	waitq;$/;"	m	struct:keychord_device	file:
+wake_lock	gpio_input.c	/^	struct wake_lock wake_lock;$/;"	m	struct:gpio_input_state	typeref:struct:gpio_input_state::wake_lock	file:
+wake_lock	gpio_matrix.c	/^	struct wake_lock wake_lock;$/;"	m	struct:gpio_kp	typeref:struct:gpio_kp::wake_lock	file:
+wb_module_exit	wistron_btns.c	/^module_exit(wb_module_exit);$/;"	v
+wb_module_exit	wistron_btns.c	/^static void __exit wb_module_exit(void)$/;"	f	file:
+wb_module_init	wistron_btns.c	/^module_init(wb_module_init);$/;"	v
+wb_module_init	wistron_btns.c	/^static int __init wb_module_init(void)$/;"	f	file:
+wheel	ad714x.c	/^	struct ad714x_wheel_drv *wheel;$/;"	m	struct:ad714x_driver_data	typeref:struct:ad714x_driver_data::ad714x_wheel_drv	file:
+width	ir_input.c	/^    unsigned int width;$/;"	m	struct:ir_private	file:
+width	ir_input.c	/^static unsigned int width = 0;$/;"	v	file:
+wifi_enabled	wistron_btns.c	/^static bool wifi_enabled;$/;"	v	file:
+wistron_device	wistron_btns.c	/^static struct platform_device *wistron_device;$/;"	v	typeref:struct:platform_device	file:
+wistron_driver	wistron_btns.c	/^static struct platform_driver wistron_driver = {$/;"	v	typeref:struct:platform_driver	file:
+wistron_flush	wistron_btns.c	/^static void wistron_flush(struct input_polled_dev *dev)$/;"	f	file:
+wistron_idev	wistron_btns.c	/^static struct input_polled_dev *wistron_idev;$/;"	v	typeref:struct:input_polled_dev	file:
+wistron_led_init	wistron_btns.c	/^static void __devinit wistron_led_init(struct device *parent)$/;"	f	file:
+wistron_led_remove	wistron_btns.c	/^static void __devexit wistron_led_remove(void)$/;"	f	file:
+wistron_led_resume	wistron_btns.c	/^static inline void wistron_led_resume(void)$/;"	f	file:
+wistron_led_suspend	wistron_btns.c	/^static inline void wistron_led_suspend(void)$/;"	f	file:
+wistron_mail_led	wistron_btns.c	/^static struct led_classdev wistron_mail_led = {$/;"	v	typeref:struct:led_classdev	file:
+wistron_mail_led_set	wistron_btns.c	/^static void wistron_mail_led_set(struct led_classdev *led_cdev,$/;"	f	file:
+wistron_pm_ops	wistron_btns.c	/^static const struct dev_pm_ops wistron_pm_ops = {$/;"	v	typeref:struct:dev_pm_ops	file:
+wistron_poll	wistron_btns.c	/^static void wistron_poll(struct input_polled_dev *dev)$/;"	f	file:
+wistron_probe	wistron_btns.c	/^static int __devinit wistron_probe(struct platform_device *dev)$/;"	f	file:
+wistron_remove	wistron_btns.c	/^static int __devexit wistron_remove(struct platform_device *dev)$/;"	f	file:
+wistron_resume	wistron_btns.c	/^static int wistron_resume(struct device *dev)$/;"	f	file:
+wistron_setup_keymap	wistron_btns.c	/^static int __devinit wistron_setup_keymap(struct input_dev *dev,$/;"	f	file:
+wistron_suspend	wistron_btns.c	/^static int wistron_suspend(struct device *dev)$/;"	f	file:
+wistron_wifi_led	wistron_btns.c	/^static struct led_classdev wistron_wifi_led = {$/;"	v	typeref:struct:led_classdev	file:
+wistron_wifi_led_set	wistron_btns.c	/^static void wistron_wifi_led_set(struct led_classdev *led_cdev,$/;"	f	file:
+wm831x	wm831x-on.c	/^	struct wm831x *wm831x;$/;"	m	struct:wm831x_on	typeref:struct:wm831x_on::wm831x	file:
+wm831x_on	wm831x-on.c	/^struct wm831x_on {$/;"	s	file:
+wm831x_on_driver	wm831x-on.c	/^static struct platform_driver wm831x_on_driver = {$/;"	v	typeref:struct:platform_driver	file:
+wm831x_on_exit	wm831x-on.c	/^module_exit(wm831x_on_exit);$/;"	v
+wm831x_on_exit	wm831x-on.c	/^static void __exit wm831x_on_exit(void)$/;"	f	file:
+wm831x_on_init	wm831x-on.c	/^module_init(wm831x_on_init);$/;"	v
+wm831x_on_init	wm831x-on.c	/^static int __init wm831x_on_init(void)$/;"	f	file:
+wm831x_on_irq	wm831x-on.c	/^static irqreturn_t wm831x_on_irq(int irq, void *data)$/;"	f	file:
+wm831x_on_probe	wm831x-on.c	/^static int __devinit wm831x_on_probe(struct platform_device *pdev)$/;"	f	file:
+wm831x_on_remove	wm831x-on.c	/^static int __devexit wm831x_on_remove(struct platform_device *pdev)$/;"	f	file:
+wm831x_poll_on	wm831x-on.c	/^static void wm831x_poll_on(struct work_struct *work)$/;"	f	file:
+work	wm831x-on.c	/^	struct delayed_work work;$/;"	m	struct:wm831x_on	typeref:struct:wm831x_on::delayed_work	file:
+workqueue	twl4030-vibra.c	/^	struct workqueue_struct *workqueue;$/;"	m	struct:vibra_info	typeref:struct:vibra_info::workqueue_struct	file:
+write	ad714x.c	/^	ad714x_write_t write;$/;"	m	struct:ad714x_chip	file:
+write	adxl34x.h	/^	int (*write)(struct device *, unsigned char, unsigned char);$/;"	m	struct:adxl34x_bus_ops
+write	cma3000_d0x.h	/^	int (*write)(struct device *, u8, u8, char *);$/;"	m	struct:cma3000_bus_ops
+x	adxl34x.c	/^	int x;$/;"	m	struct:axis_triple	file:
+x_abs_pos	ad714x.c	/^	int x_abs_pos;$/;"	m	struct:ad714x_touchpad_drv	file:
+x_flt_pos	ad714x.c	/^	int x_flt_pos;$/;"	m	struct:ad714x_touchpad_drv	file:
+x_highest_stage	ad714x.c	/^	int x_highest_stage;$/;"	m	struct:ad714x_touchpad_drv	file:
+xbdev	xen-kbdfront.c	/^	struct xenbus_device *xbdev;$/;"	m	struct:xenkbd_info	typeref:struct:xenkbd_info::xenbus_device	file:
+xenkbd_backend_changed	xen-kbdfront.c	/^static void xenkbd_backend_changed(struct xenbus_device *dev,$/;"	f	file:
+xenkbd_cleanup	xen-kbdfront.c	/^module_exit(xenkbd_cleanup);$/;"	v
+xenkbd_cleanup	xen-kbdfront.c	/^static void __exit xenkbd_cleanup(void)$/;"	f	file:
+xenkbd_connect_backend	xen-kbdfront.c	/^static int xenkbd_connect_backend(struct xenbus_device *dev,$/;"	f	file:
+xenkbd_disconnect_backend	xen-kbdfront.c	/^static void xenkbd_disconnect_backend(struct xenkbd_info *info)$/;"	f	file:
+xenkbd_driver	xen-kbdfront.c	/^static struct xenbus_driver xenkbd_driver = {$/;"	v	typeref:struct:xenbus_driver	file:
+xenkbd_ids	xen-kbdfront.c	/^static const struct xenbus_device_id xenkbd_ids[] = {$/;"	v	typeref:struct:xenbus_device_id	file:
+xenkbd_info	xen-kbdfront.c	/^struct xenkbd_info {$/;"	s	file:
+xenkbd_init	xen-kbdfront.c	/^module_init(xenkbd_init);$/;"	v
+xenkbd_init	xen-kbdfront.c	/^static int __init xenkbd_init(void)$/;"	f	file:
+xenkbd_probe	xen-kbdfront.c	/^static int __devinit xenkbd_probe(struct xenbus_device *dev,$/;"	f	file:
+xenkbd_remove	xen-kbdfront.c	/^static int xenkbd_remove(struct xenbus_device *dev)$/;"	f	file:
+xenkbd_resume	xen-kbdfront.c	/^static int xenkbd_resume(struct xenbus_device *dev)$/;"	f	file:
+y	adxl34x.c	/^	int y;$/;"	m	struct:axis_triple	file:
+y_abs_pos	ad714x.c	/^	int y_abs_pos;$/;"	m	struct:ad714x_touchpad_drv	file:
+y_flt_pos	ad714x.c	/^	int y_flt_pos;$/;"	m	struct:ad714x_touchpad_drv	file:
+y_highest_stage	ad714x.c	/^	int y_highest_stage;$/;"	m	struct:ad714x_touchpad_drv	file:
+yealink_cmd	yealink.c	/^static int yealink_cmd(struct yealink_dev *yld, struct yld_ctl_packet *p)$/;"	f	file:
+yealink_dev	yealink.c	/^struct yealink_dev {$/;"	s	file:
+yealink_dev_exit	yealink.c	/^module_exit(yealink_dev_exit);$/;"	v
+yealink_dev_exit	yealink.c	/^static void __exit yealink_dev_exit(void)$/;"	f	file:
+yealink_dev_init	yealink.c	/^module_init(yealink_dev_init);$/;"	v
+yealink_dev_init	yealink.c	/^static int __init yealink_dev_init(void)$/;"	f	file:
+yealink_do_idle_tasks	yealink.c	/^static int yealink_do_idle_tasks(struct yealink_dev *yld)$/;"	f	file:
+yealink_driver	yealink.c	/^static struct usb_driver yealink_driver = {$/;"	v	typeref:struct:usb_driver	file:
+yealink_set_ringtone	yealink.c	/^static int yealink_set_ringtone(struct yealink_dev *yld, u8 *buf, size_t size)$/;"	f	file:
+yld_attr_group	yealink.c	/^static struct attribute_group yld_attr_group = {$/;"	v	typeref:struct:attribute_group	file:
+yld_attributes	yealink.c	/^static struct attribute *yld_attributes[] = {$/;"	v	typeref:struct:attribute	file:
+yld_ctl_packet	yealink.h	/^struct yld_ctl_packet {$/;"	s
+yld_status	yealink.c	/^struct yld_status {$/;"	s	file:
+z	adxl34x.c	/^	int z;$/;"	m	struct:axis_triple	file:
