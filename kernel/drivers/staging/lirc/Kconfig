@@ -57,6 +57,12 @@ config LIRC_SERIAL_TRANSMITTER
 	help
 	  Serial Port Transmitter support
 
+config LIRC_SILAN
+	tristate "Silan GPIO Port Receiver"
+	depends on LIRC
+	help
+	  Driver for Silan GPIO Port Receiver
+
 config LIRC_SIR
 	tristate "Built-in SIR IrDA port"
 	depends on LIRC
