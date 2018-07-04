@@ -93,6 +93,11 @@ config USB_RTL8150
 	  To compile this driver as a module, choose M here: the
 	  module will be called rtl8150.
 
+config USB_RTL8152
+	tristate "USB RTL8152 based ethernet device support"
+	select MII
+	default y
+
 config USB_USBNET
 	tristate "Multi-purpose USB Networking Framework"
 	select MII
@@ -131,7 +136,7 @@ config USB_NET_AX8817X
 	tristate "ASIX AX88xxx Based USB 2.0 Ethernet Adapters"
 	depends on USB_USBNET
 	select CRC32
-	default y
+	default n
 	help
 	  This option adds support for ASIX AX88xxx based USB 2.0
 	  10/100 Ethernet adapters.
@@ -153,6 +158,12 @@ config USB_NET_AX8817X
 
 	  This driver creates an interface named "ethX", where X depends on
 	  what other networking devices you have in use.
+
+config USB_NET_AX8877X
+	tristate "ASIX AX8877x Based USB 2.0 Ethernet Adapters"
+	depends on USB_USBNET
+	select CRC32
+	default y
 
 config USB_NET_CDCETHER
 	tristate "CDC Ethernet support (smart devices such as cable modems)"
