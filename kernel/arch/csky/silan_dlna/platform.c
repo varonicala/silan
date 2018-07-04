@@ -272,7 +272,7 @@ static struct platform_device silan_otgusb_device =
     .num_resources  = ARRAY_SIZE(silan_otgusb_resource),
     .resource       = silan_otgusb_resource,
 };
-
+/*
 static struct resource silan_i2c_resource[] = 
 {
     [0] = {
@@ -286,13 +286,13 @@ static struct resource silan_i2c_resource[] =
         .flags  = IORESOURCE_IRQ,
     },    
     [2] = {
-        .start  = 1,
-        .end    = 1,
+        .start  = 8,
+        .end    = 8,
         .flags  = IORESOURCE_DMA,
     },
     [3] = {
-        .start  = 2,
-        .end    = 2,
+        .start  = 7,
+        .end    = 7,
         .flags  = IORESOURCE_DMA,
     },
 };
@@ -304,7 +304,7 @@ static struct platform_device silan_i2c_device =
     .num_resources  = ARRAY_SIZE(silan_i2c_resource),
     .resource       = silan_i2c_resource,
 };
-
+*/
 static struct resource silan_spi_resource[] = {
     [0] = {
         .start = SILAN_SPI_PHY_BASE,
@@ -557,7 +557,7 @@ static struct platform_device silan_wmcodec_device =
     .id                = -1,
 };
 #endif
-
+/*
 static struct i2c_gpio_platform_data i2c_gpio_adapter_data = 
 {
     .sda_pin = 32+12,
@@ -576,7 +576,7 @@ static struct platform_device silan_i2c_gpio =
         .platform_data = &i2c_gpio_adapter_data,
     },
 };
-
+*/
 static struct timed_gpio vibrator = 
 {
     .name    = "vibrator",
@@ -691,11 +691,11 @@ static struct platform_device *silan_devices[] __initdata =
     &silan_uart_device,
     &silan_uart3_device,
     &silan_uart4_device,
-    &silan_phy_device,    
-    &silan_mac_device,    
+//    &silan_phy_device,    
+//    &silan_mac_device,    
     &silan_hostusb_device,
-    &silan_otgusb_device,
-    &silan_i2c_device,
+//    &silan_otgusb_device,
+//    &silan_i2c_device,
     &silan_spi_device,
     &silan_spi_ctrl_device,
     &silan_dsp_device,
@@ -712,18 +712,18 @@ static struct platform_device *silan_devices[] __initdata =
     &silan_spdif_in_device,
     &silan_wmcodec_device,
 #endif
-    &silan_testio_device,
+//    &silan_testio_device,
     &silan_padmux_device,
     //&silan_pwm_device,
     //&silan_backlight,
-    &silan_i2c_gpio,    
-    &silan_timed_gpio,
+//    &silan_i2c_gpio,    
+//    &silan_timed_gpio,
     &silan_rtc_device,
     //&spi_silan_gpio_device,
     &silan_wtg_device,
     &silan_drm_device,
-    &silan_lcd,
-    &silan_ad_keys,
+//    &silan_lcd,
+//    &silan_ad_keys,
 #ifdef CONFIG_SILAN_BLUETOOTH
     &silan_bt,
 #endif

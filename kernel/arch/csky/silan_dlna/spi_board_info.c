@@ -108,6 +108,7 @@ struct spi_board_info silan_spi_board_info[]  __initdata = {
 		.chip_select     = 0,
 		},
 #endif
+#if 0
 	[2] = {
 		.modalias		 = "silan-wmcodec",
 		.platform_data   = NULL,
@@ -118,6 +119,7 @@ struct spi_board_info silan_spi_board_info[]  __initdata = {
 		.chip_select 	 = 3,
 		.bits_per_word	 = 16,
 		},
+#endif
 };
 EXPORT_SYMBOL(silan_spi_board_info);
 

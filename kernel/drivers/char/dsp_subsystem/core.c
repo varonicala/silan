@@ -121,8 +121,8 @@ static int silan_dsp_open(struct inode *inode,struct file *fp)
     {
         dsp_load_firmware();
 #if 0
-        data = readl(SILAN_SYS_REG6);
-        data &= ~(0x8000000);
+        data = readl(SILAN_SYS_REG6); //CTR_REG6 (reset function module 1)
+        data &= ~(0x8000000); //(1<<27) DSP_CRSTN DSP Core clock domain reset, 0 Effectively, you need software release
         writel(data, SILAN_SYS_REG6);
         mdelay(10);
         data |= 0x8000000;
@@ -139,7 +139,7 @@ static int silan_dsp_open(struct inode *inode,struct file *fp)
 
     dsp_info->open = 1;
     if(dsp_info->init == 0){//if you want load dsp only once
-        strcpy(dsp_info->firmware_name, "dsp_firmware.bin");
+        strcpy(dsp_info->firmware_name, DSP_FIRMWARE_NAME);
         silan_dsp_reload();
     }
 

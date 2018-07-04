@@ -85,13 +85,13 @@ static struct resource silan_iis_resource[] = {
 		.flags	= IORESOURCE_MEM,
 	},
 	{
-		.start	= 1,
-		.end	= 1,
+		.start	= 2,
+		.end	= 2,
 		.flags	= IORESOURCE_DMA,
 	},
 	{
-		.start	= 8,
-		.end	= 8,
+		.start	= 1,
+		.end	= 1,
 		.flags	= IORESOURCE_DMA,
 	},
 };

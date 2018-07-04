@@ -8,24 +8,24 @@
 
 static struct pl08x_channel_data pl080_slave_data0[] = {
 	{//0
-		.bus_id = "spdif",
+		.bus_id = "spdif-tx",
 		.min_signal = 14,
 		.max_signal = 14,
 		.muxval = 0x00,
 	},
-	{//8
-		.bus_id = "iis adc",
+	{//1
+		.bus_id = "iis adc sd0",
 		.min_signal = 11,
 		.max_signal = 11,
 		.muxval = 0x00,
 	},
-	{//1
+	{//2
 		.bus_id = "iis dac",
 		.min_signal = 9,
 		.max_signal = 9,
 		.muxval = 0x00,
 	},
-	{//2
+	{//3
 		.bus_id = "uart1-rx",
 		.min_signal = 0,
 		.max_signal = 0,
@@ -43,20 +43,20 @@ static struct pl08x_channel_data pl080_slave_data0[] = {
 		.max_signal = 4,
 		.muxval = 0x00,
 	},
-	{//3
+	{//6
 		.bus_id = "uart1-tx",
 		.min_signal = 1,
 		.max_signal = 1,
 		.muxval = 0x00,
 	},
-	{//6
-		.bus_id = "i2c-rx",
+	{//7
+		.bus_id = "iis adc sd2", // "i2c-rx",
 		.min_signal = 2,
 		.max_signal = 2,
 		.muxval = 0x00,
 	},
-	{//7
-		.bus_id = "i2c-tx",
+	{//8
+		.bus_id = "iis adc sd1", // "i2c-tx",
 		.min_signal = 7,
 		.max_signal = 7,
 		.muxval = 0x00,
@@ -79,7 +79,6 @@ static struct pl08x_channel_data pl080_slave_data0[] = {
 		.max_signal = 15,
 		.muxval = 0x00,
 	},
-
 };
 
 static int pl080_get_signal(struct pl08x_dma_chan *ch)

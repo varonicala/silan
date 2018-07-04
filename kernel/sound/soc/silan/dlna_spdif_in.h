@@ -1,4 +1,3 @@
-
 #ifndef __SILAN_SPDIF_IN_REG_H
 #define __SILAN_SPDIF_IN_REG_H __FILE__
 
