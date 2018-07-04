@@ -500,6 +500,12 @@ config INPUT_SILAN_IR
 	help
 		This driver implements for IR device of silan
 
+config INPUT_SILAN_IR_LG
+	tristate "SILAN REMOTE CONTROLLER LG INPUT DEVICE"
+	depends on INPUT
+	help
+		This driver implements for IR LG device of silan
+
 config INPUT_DLNA_IR
 	tristate "SILAN DLNA REMOTE CONTROLLER INPUT DEVICE"
 	depends on INPUT

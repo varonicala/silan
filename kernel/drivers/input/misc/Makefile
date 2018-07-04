@@ -48,6 +48,7 @@ obj-$(CONFIG_INPUT_WM831X_ON)		+= wm831x-on.o
 obj-$(CONFIG_INPUT_XEN_KBDDEV_FRONTEND)	+= xen-kbdfront.o
 obj-$(CONFIG_INPUT_YEALINK)		+= yealink.o
 obj-$(CONFIG_INPUT_SILAN_IR)	+= ir_input.o
+obj-$(CONFIG_INPUT_SILAN_IR_LG)	+= ir_lg_input.o
 obj-$(CONFIG_INPUT_DLNA_IR)	+= dlna_ir.o
 obj-$(CONFIG_INPUT_VIRTUAL_INPUT) += virtual_input.o
 obj-$(CONFIG_INPUT_SILAN_BUTTON) += silan_button.o
