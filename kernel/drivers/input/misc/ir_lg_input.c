@@ -11,8 +11,9 @@
 #include <linux/input.h>
 #include <linux/init.h>
 
+#define DEBUG_IR_LG_CODE
+//#define DEBUG_IR_LG_STATE
 //#define DEBUG_IR_LG_BUF
-//#define DEBUG_IR_LG_CODE
 
 #define IR_LG_DEV_NAME     "sl-ir-lg"
 
@@ -204,7 +205,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 			priv->state = STATE_HEADER_SPACE;
 		else{
 			priv->state = 0;
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 			printk(IR_LG_DEV_NAME ": [STATE_HEADER_PULSE] w: %d, i: %d\n", width, priv->idx);
 #endif
 		}
@@ -221,7 +222,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 				priv->state = STATE_REPEAT_PULSE;
 			}else{
 				priv->state = 0;
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 				printk(IR_LG_DEV_NAME ": [STATE_HEADER_SPACE] w: %d, i: %d\n", width, priv->idx);
 #endif
 			}
@@ -233,7 +234,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 			priv->state = STATE_REPEAT_SPACE;
 		}else{
 			priv->state = 0;
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 			printk(IR_LG_DEV_NAME ": [STATE_REPEAT_PULSE] w: %d, i: %d\n", width, priv->idx);
 #endif
 		}
@@ -247,7 +248,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 			}
 		}else{
 			priv->state = 0;
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 			printk(IR_LG_DEV_NAME ": [STATE_REPEAT_SPACE] w: %d, i: %d\n", width, priv->idx);
 #endif
 		}
@@ -264,7 +265,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 			}
 		}else{
 			priv->state = 0;
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 			printk(IR_LG_DEV_NAME ": [STATE_DATA_PULSE] w: %d, i: %d\n", width, priv->idx);
 #endif
 		}
@@ -283,7 +284,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 				priv->idx++;
 			}else{
 				priv->state = 0;
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 				printk(IR_LG_DEV_NAME ": [STATE_DATA_SPACE] w: %d, i: %d\n", width, priv->idx);
 #endif
 			}
@@ -291,7 +292,7 @@ static irqreturn_t ir_isr(int irq, void *dev_id)
 		break;
 
 	default:
-#ifdef DEBUG_IR_LG_CODE
+#ifdef DEBUG_IR_LG_STATE
 		printk(IR_LG_DEV_NAME ": [DEFAULT] w: %d, i: %d, 0x%08X\n", width, priv->idx, priv->data);
 #endif
 		break;
@@ -307,7 +308,7 @@ static int __init ir_init(void)
     gpio_request(ir_irq, "silan-gpio-ir-lg");
     gpio_direction_input(ir_irq);
 
-    if(request_irq(gpiobase+ir_irq, ir_isr, 0, "sl_ir_lg", &ir_priv) != 0)
+    if(request_irq(gpiobase+ir_irq, ir_isr, IRQF_TRIGGER_RISING | IRQF_TRIGGER_FALLING, "sl_ir_lg", &ir_priv) != 0)
     {
         printk(KERN_ERR "ir_lg_input.c: Can't allocate irq %d\n", ir_irq);
         return (-EIO);
