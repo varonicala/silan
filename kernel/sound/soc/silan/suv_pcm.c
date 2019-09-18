@@ -134,7 +134,7 @@ static int sl_dma_alloc(struct snd_pcm_substream *substream,struct snd_pcm_hw_pa
 
 	switch(params_format(params)) {
 	case SNDRV_PCM_FORMAT_S16_LE:
-#ifdef CONFIG_SILAN_DLNA
+#ifdef CONFIG_SILAN_SPDIF_IN_DMA_4_BYTES
 		if (prtd->dma_data.peripheral_type == SL_DMATYPE_SPDIF_IN)
 			buswidth = DMA_SLAVE_BUSWIDTH_4_BYTES;
 		else

@@ -75,3 +75,7 @@ config SND_SILAN_SOC
 	help
 	  Say Y or M if you want to add support for codecs attached to
 	  the I2S interface.
+
+config SILAN_SPDIF_IN_DMA_4_BYTES
+	tristate
+	default y

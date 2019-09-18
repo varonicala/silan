@@ -162,13 +162,13 @@ static struct snd_soc_card snd_soc_suv_card[] = {
 		.dai_link = &suv_i2s_wmcodec_dai_link,
 		.num_links = 1,
 	},
-	{	
+	{
 		.name = "SILAN_SPDACODEC",
 		.dai_link = &suv_spd_dai_link,
 		.num_links = 1,
 	},
 #ifdef CONFIG_SILAN_DLNA
-	{	
+	{
 		.name = "SILAN_SPDINACODEC",
 		.dai_link = &suv_spd_in_dai_link,
 		.num_links = 1,

@@ -44,9 +44,9 @@ static struct silan_spdif_info spdif_info;
 static void silan_spdif_reset(void)
 {
     u32 regval;
-    regval = readl(0xba000018);
-    regval &= ~(1<<2);
-    regval &= ~(1<<3);
+    regval = readl(0xba000018); //CTR_REG6
+    regval &= ~(1<<2); //ISPDIF_MRSTN (mclk reset)
+    regval &= ~(1<<3); //ISPDIF_PRSTN (pclk reset)
     writel(regval, 0xba000018);
     regval |= (1<<2);
     regval |= (1<<3);
@@ -260,6 +260,9 @@ static int spdif_trigger(struct snd_pcm_substream *substream, int cmd,
 static int spdif_hw_params(struct snd_pcm_substream *substream, 
 	struct snd_pcm_hw_params *params, struct snd_soc_dai *dai) 
 {
+
+	printk("silan spdif in hw_params: format:%d, rate:%d, channels:%d\n", params_format(params), params_rate(params), params_channels(params));
+
 	return 0;
 }
 
@@ -296,7 +299,7 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 	u32 irq_status, rate;
     u32 regval;
     u32 sys_clk;
-    int range[6];
+    int range[6], rawdata = spdifin_status.rawdata;
 	irq_status = readl(regs + SPDIF_IN_MASKINT);
 	if (!irq_status)
 		return IRQ_NONE;
@@ -312,12 +315,10 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 
 		/* get rate */
 		rate = (readl(regs + SPDIF_IN_FSSTATUS) & SPDIF_IN_RATE_MASK); //thre first read maybe wrong rate
-		printk("silan spdif in int: get rate %d.\n", rate);
 		rate = (readl(regs + SPDIF_IN_FSSTATUS) & SPDIF_IN_RATE_MASK);
 		rate = (readl(regs + SPDIF_IN_FSSTATUS) & SPDIF_IN_RATE_MASK);
 		rate = (readl(regs + SPDIF_IN_FSSTATUS) & SPDIF_IN_RATE_MASK);
-		printk("silan spdif in int: get rate %d.\n", rate);
-		printk("silan spdif in int: LOCK.\n");
+		//printk("silan spdif in int: LOCK: rate %d > %d\n", spdifin_status.rate, rate);
 		spdifin_status.rate = rate;
 		spdifin_status.lock = 1;
 
@@ -325,13 +326,15 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 		spdifin_status.rawdata = (regval >> 2)&0x30000; //
 		regval = readl(regs + SPDIF_IN_PCPD); //PCPD 0x1: ac3,   0xa,0xb,0xc:dts
 		spdifin_status.rawdata |= regval & 0xf;
+		if(rawdata != spdifin_status.rawdata)
+			printk("silan spdif in int: rawdata 2 0x%08x\n", spdifin_status.rawdata);
 	}
 
 	if (irq_status & SPDIF_IN_PARITY_ERR)
 	{
 		writel(SPDIF_IN_PARITY_ERR, regs + SPDIF_IN_INTCLR);
 		spdifin_status.lock = 0;
-		//printk("silan spdif in int: parity error.\n");
+		//printk("silan spdif in int: parity error, UNLOCK\n");
 	}
 
 	if (irq_status & SPDIF_IN_CS_STROBE)
@@ -341,6 +344,8 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 		spdifin_status.rawdata = (regval >> 2)&0x30000;
 		regval = readl(regs + SPDIF_IN_PCPD);
 		spdifin_status.rawdata |= regval & 0xf;
+		if(rawdata != spdifin_status.rawdata)
+			printk("silan spdif in int: strobe rawdata 2 0x%08x\n", spdifin_status.rawdata);
 	}
 
 	if (irq_status & SPDIF_IN_OVER_FLOW)
@@ -353,7 +358,7 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 	{
 
 		writel(SPDIF_IN_UNLOCK, regs + SPDIF_IN_INTCLR);
-		//printk("silan spdif in int: UNLOCK.\n");
+		//printk("silan spdif in int: UNLOCK\n");
 		spdifin_status.lock = 0;
 
     //regval=readl(regs +  SPDIF_IN_SUBFINTRV);
@@ -393,9 +398,9 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 	if (irq_status & SPDIF_IN_UB_DIF)
 	{
 		writel(SPDIF_IN_UB_DIF, regs + SPDIF_IN_INTCLR);
-		printk("silan spdif in int: user data\n");
-		printk("UB: %x %x %x \n", readl(regs + SPDIF_IN_UB_REG0), readl(regs + SPDIF_IN_UB_REG1), readl(regs + SPDIF_IN_UB_REG2));
-		printk("pcm or raw : %x\n", readl(regs + SPDIF_IN_STATUS));
+		printk("silan spdif in int: user data: UB: %x %x %x, pcm or raw: %x\n",
+			readl(regs + SPDIF_IN_UB_REG0), readl(regs + SPDIF_IN_UB_REG1),
+			readl(regs + SPDIF_IN_UB_REG2), readl(regs + SPDIF_IN_STATUS));
 	}
 
 	if (irq_status & SPDIF_IN_PCM_RAW)
@@ -405,6 +410,8 @@ static irqreturn_t silan_spdif_in_int_handler(int irq, void *dev_id)
 		spdifin_status.rawdata = (regval >> 2)&0x30000;
 		regval = readl(regs + SPDIF_IN_PCPD);
 		spdifin_status.rawdata |= regval & 0xf;
+		if(rawdata != spdifin_status.rawdata)
+			printk("silan spdif in int: pcmraw rawdata 2 0x%08x\n", spdifin_status.rawdata);
 	}
 
 	return IRQ_HANDLED;
